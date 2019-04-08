@@ -1,0 +1,689 @@
+base_de_dados,year,seção_id,seção_descrição,divisão_id,divisão_descrição,numero_de_empresas,pessoal_ocupado_total,pessoal_ocupado_assalariados,segmento
+geral,2014,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",1,"Agricultura, pecuária e serviços relacionados",3712.0,313122.0,303566.0,Geral
+geral,2014,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",2,Produção florestal,1231.0,78834.0,76387.0,Geral
+geral,2014,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",3,Pesca e aquicultura,213.0,9188.0,8708.0,Geral
+geral,2014,B,Indústrias extrativas,5,Extração de carvão mineral,14.0,5734.0,5726.0,Geral
+geral,2014,B,Indústrias extrativas,6,Extração de petróleo e gás natural,35.0,3800.0,3745.0,Geral
+geral,2014,B,Indústrias extrativas,7,Extração de minerais metálicos,176.0,87496.0,87168.0,Geral
+geral,2014,B,Indústrias extrativas,8,Extração de minerais não-metálicos,1941.0,78751.0,74977.0,Geral
+geral,2014,B,Indústrias extrativas,9,Atividades de apoio à extração de minerais,119.0,39041.0,38945.0,Geral
+geral,2014,C,Indústrias de transformação,10,Fabricação de produtos alimentícios,12128.0,1655200.0,1634760.0,Geral
+geral,2014,C,Indústrias de transformação,11,Fabricação de bebidas,890.0,171314.0,169858.0,Geral
+geral,2014,C,Indústrias de transformação,12,Fabricação de produtos do fumo,58.0,16937.0,16841.0,Geral
+geral,2014,C,Indústrias de transformação,13,Fabricação de produtos têxteis,3395.0,271921.0,266400.0,Geral
+geral,2014,C,Indústrias de transformação,14,Confecção de artigos do vestuário e acessórios,14805.0,624463.0,601487.0,Geral
+geral,2014,C,Indústrias de transformação,15,"Preparação de couros e fabricação de artefatos de couro, artigos para viagem e calçados",4228.0,362264.0,356157.0,Geral
+geral,2014,C,Indústrias de transformação,16,Fabricação de produtos de madeira,4412.0,176528.0,169472.0,Geral
+geral,2014,C,Indústrias de transformação,17,"Fabricação de celulose, papel e produtos de papel",1901.0,188946.0,185857.0,Geral
+geral,2014,C,Indústrias de transformação,18,Impressão e reprodução de gravações,2310.0,85758.0,82023.0,Geral
+geral,2014,C,Indústrias de transformação,19,"Fabricação de coque, de produtos derivados do petróleo e de biocombustíveis",278.0,184250.0,183788.0,Geral
+geral,2014,C,Indústrias de transformação,20,Fabricação de produtos químicos,3212.0,313392.0,308184.0,Geral
+geral,2014,C,Indústrias de transformação,21,Fabricação de produtos farmoquímicos e farmacêuticos,382.0,113188.0,112628.0,Geral
+geral,2014,C,Indústrias de transformação,22,Fabricação de produtos de borracha e de material plástico,6335.0,416082.0,405751.0,Geral
+geral,2014,C,Indústrias de transformação,23,Fabricação de produtos de minerais não-metálicos,9495.0,440292.0,424398.0,Geral
+geral,2014,C,Indústrias de transformação,24,Metalurgia,1545.0,249405.0,246799.0,Geral
+geral,2014,C,Indústrias de transformação,25,"Fabricação de produtos de metal, exceto máquinas e equipamentos",10036.0,463250.0,446488.0,Geral
+geral,2014,C,Indústrias de transformação,26,"Fabricação de equipamentos de informática, produtos eletrônicos e ópticos",1355.0,162956.0,160794.0,Geral
+geral,2014,C,Indústrias de transformação,27,"Fabricação de máquinas, aparelhos e materiais elétricos",1953.0,251901.0,248738.0,Geral
+geral,2014,C,Indústrias de transformação,28,Fabricação de máquinas e equipamentos,5775.0,411098.0,401390.0,Geral
+geral,2014,C,Indústrias de transformação,29,"Fabricação de veículos automotores, reboques e carrocerias",2470.0,495010.0,491123.0,Geral
+geral,2014,C,Indústrias de transformação,30,"Fabricação de outros equipamentos de transporte, exceto veículos automotores",546.0,130781.0,129985.0,Geral
+geral,2014,C,Indústrias de transformação,31,Fabricação de móveis,5197.0,247399.0,238816.0,Geral
+geral,2014,C,Indústrias de transformação,32,Fabricação de produtos diversos,3049.0,149238.0,144287.0,Geral
+geral,2014,C,Indústrias de transformação,33,"Manutenção, reparação e instalação de máquinas e equipamentos",3504.0,169901.0,164381.0,Geral
+geral,2014,D,Eletricidade e gás,35,"Eletricidade, gás e outras utilidades",473.0,123243.0,122096.0,Geral
+geral,2014,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",36,"Captação, tratamento e distribuição de água",179.0,101244.0,101010.0,Geral
+geral,2014,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",37,Esgoto e atividades relacionadas,212.0,15278.0,14985.0,Geral
+geral,2014,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",38,"Coleta, tratamento e disposição de resíduos; recuperação de materiais",1503.0,229644.0,227410.0,Geral
+geral,2014,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",39,Descontaminação e outros serviços de gestão de resíduos,20.0,1322.0,1287.0,Geral
+geral,2014,F,Construção,41,Construção de edifícios,19429.0,1127017.0,1095784.0,Geral
+geral,2014,F,Construção,42,Obras de infraestrutura,5604.0,987444.0,978383.0,Geral
+geral,2014,F,Construção,43,Serviços especializados para construção,14400.0,618170.0,596374.0,Geral
+geral,2014,G,Comércio; reparação de veículos automotores e motocicletas,45,Comércio e reparação de veículos automotores e motocicletas,17572.0,645538.0,617545.0,Geral
+geral,2014,G,Comércio; reparação de veículos automotores e motocicletas,46,"Comércio por atacado, exceto veículos automotores e motocicletas",26485.0,1420859.0,1379326.0,Geral
+geral,2014,G,Comércio; reparação de veículos automotores e motocicletas,47,Comércio varejista,118595.0,4468958.0,4281435.0,Geral
+geral,2014,H,"Transporte, armazenagem e correio",49,Transporte terrestre,18277.0,1545592.0,1515157.0,Geral
+geral,2014,H,"Transporte, armazenagem e correio",50,Transporte aquaviário,366.0,42755.0,42123.0,Geral
+geral,2014,H,"Transporte, armazenagem e correio",51,Transporte aéreo,159.0,71231.0,70984.0,Geral
+geral,2014,H,"Transporte, armazenagem e correio",52,Armazenamento e atividades auxiliares dos transportes,4578.0,425004.0,417273.0,Geral
+geral,2014,H,"Transporte, armazenagem e correio",53,Correio e outras atividades de entrega,1831.0,181968.0,179274.0,Geral
+geral,2014,I,Alojamento e alimentação,55,Alojamento,8576.0,287929.0,273694.0,Geral
+geral,2014,I,Alojamento e alimentação,56,Alimentação,37452.0,1142252.0,1085108.0,Geral
+geral,2014,J,Informação e comunicação,58,Edição e edição integrada à impressão,1396.0,83696.0,81485.0,Geral
+geral,2014,J,Informação e comunicação,59,"Atividades cinematográficas, produção de vídeos e de programas de televisão; gravação de som e edição de música",481.0,23370.0,22657.0,Geral
+geral,2014,J,Informação e comunicação,60,Atividades de rádio e de televisão,1405.0,80830.0,78899.0,Geral
+geral,2014,J,Informação e comunicação,61,Telecomunicações,1422.0,161136.0,158885.0,Geral
+geral,2014,J,Informação e comunicação,62,Atividades dos serviços de tecnologia da informação,4087.0,338554.0,330662.0,Geral
+geral,2014,J,Informação e comunicação,63,Atividades de prestação de serviços de informação,1259.0,85528.0,83490.0,Geral
+geral,2014,K,"Atividades financeiras, de seguros e serviços relacionados",64,Atividades de serviços financeiros,1829.0,636342.0,628802.0,Geral
+geral,2014,K,"Atividades financeiras, de seguros e serviços relacionados",65,"Seguros, resseguros, previdência complementar e planos de saúde",728.0,204498.0,200557.0,Geral
+geral,2014,K,"Atividades financeiras, de seguros e serviços relacionados",66,"Atividades auxiliares dos serviços financeiros, seguros, previdência complementar e planos de saúde",1475.0,88794.0,85971.0,Geral
+geral,2014,L,Atividades imobiliárias,68,Atividades imobiliárias,2756.0,99088.0,93864.0,Geral
+geral,2014,M,"Atividades profissionais, científicas e técnicas",69,"Atividades jurídicas, de contabilidade e de auditoria",8357.0,225352.0,206536.0,Geral
+geral,2014,M,"Atividades profissionais, científicas e técnicas",70,Atividades de sedes de empresas e de consultoria em gestão empresarial,965.0,67384.0,65373.0,Geral
+geral,2014,M,"Atividades profissionais, científicas e técnicas",71,Serviços de arquitetura e engenharia; testes e análises técnicas,3730.0,243446.0,236524.0,Geral
+geral,2014,M,"Atividades profissionais, científicas e técnicas",72,Pesquisa e desenvolvimento científico,66.0,19508.0,19389.0,Geral
+geral,2014,M,"Atividades profissionais, científicas e técnicas",73,Publicidade e pesquisa de mercado,1608.0,87684.0,85139.0,Geral
+geral,2014,M,"Atividades profissionais, científicas e técnicas",74,"Outras atividades profissionais, científicas e técnicas",1117.0,57925.0,55861.0,Geral
+geral,2014,M,"Atividades profissionais, científicas e técnicas",75,Atividades veterinárias,112.0,2652.0,2369.0,Geral
+geral,2014,N,Atividades administrativas e serviços complementares,77,Aluguéis não-imobiliários e gestão de ativos intangíveis não-financeiros,4978.0,202478.0,194610.0,Geral
+geral,2014,N,Atividades administrativas e serviços complementares,78,"Seleção, agenciamento e locação de mão-de-obra",2656.0,676159.0,672217.0,Geral
+geral,2014,N,Atividades administrativas e serviços complementares,79,"Agências de viagens, operadores turísticos e serviços de reservas",1419.0,52950.0,50394.0,Geral
+geral,2014,N,Atividades administrativas e serviços complementares,80,"Atividades de vigilância, segurança e investigação",3292.0,738683.0,733969.0,Geral
+geral,2014,N,Atividades administrativas e serviços complementares,81,Serviços para edifícios e atividades paisagísticas,7334.0,1089928.0,1079596.0,Geral
+geral,2014,N,Atividades administrativas e serviços complementares,82,"Serviços de escritório, de apoio administrativo e outros serviços prestados às empresas",9922.0,894832.0,879705.0,Geral
+geral,2014,O,"Administração pública, defesa e seguridade social",84,"Administração pública, defesa e seguridade social",86.0,26128.0,26079.0,Geral
+geral,2014,P,Educação,85,Educação,22678.0,855335.0,811410.0,Geral
+geral,2014,Q,Saúde humana e serviços sociais,86,Atividades de atenção à saúde humana,9862.0,651904.0,620119.0,Geral
+geral,2014,Q,Saúde humana e serviços sociais,87,"Atividades de atenção à saúde humana integradas com assistência social, prestadas em residências coletivas e particulares",849.0,25490.0,23892.0,Geral
+geral,2014,Q,Saúde humana e serviços sociais,88,Serviços de assistência social sem alojamento,7.0,218.0,202.0,Geral
+geral,2014,R,"Artes, cultura, esporte e recreação",90,"Atividades artísticas, criativas e de espetáculos",341.0,8100.0,7517.0,Geral
+geral,2014,R,"Artes, cultura, esporte e recreação",91,Atividades ligadas ao patrimônio cultural e ambiental,21.0,865.0,817.0,Geral
+geral,2014,R,"Artes, cultura, esporte e recreação",92,Atividades de exploração de jogos de azar e apostas,5.0,119.0,114.0,Geral
+geral,2014,R,"Artes, cultura, esporte e recreação",93,Atividades esportivas e de recreação e lazer,2947.0,85473.0,80507.0,Geral
+geral,2014,S,Outras atividades de serviços,94,Atividades de organizações associativas,116.0,4952.0,4435.0,Geral
+geral,2014,S,Outras atividades de serviços,95,Reparação e manutenção de equipamentos de informática e comunicação e de objetos pessoais e domésticos,2480.0,80444.0,76495.0,Geral
+geral,2014,S,Outras atividades de serviços,96,Outras atividades de serviços pessoais,4628.0,131064.0,123333.0,Geral
+geral,2014,U,Organismos internacionais e outras instituições extraterritoriais,99,Organismos internacionais e outras instituições extraterritoriais,0.0,0.0,0.0,Geral
+geral,2014,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",1,"Agricultura, pecuária e serviços relacionados",1486.0,96868.0,93955.0,Até 8 anos de idade
+geral,2014,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",2,Produção florestal,640.0,26557.0,25431.0,Até 8 anos de idade
+geral,2014,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",3,Pesca e aquicultura,83.0,2412.0,2237.0,Até 8 anos de idade
+geral,2014,B,Indústrias extrativas,5,Extração de carvão mineral,0.0,0.0,0.0,Até 8 anos de idade
+geral,2014,B,Indústrias extrativas,6,Extração de petróleo e gás natural,18.0,1713.0,1700.0,Até 8 anos de idade
+geral,2014,B,Indústrias extrativas,7,Extração de minerais metálicos,69.0,10385.0,10271.0,Até 8 anos de idade
+geral,2014,B,Indústrias extrativas,8,Extração de minerais não-metálicos,426.0,11474.0,10757.0,Até 8 anos de idade
+geral,2014,B,Indústrias extrativas,9,Atividades de apoio à extração de minerais,61.0,13362.0,13312.0,Até 8 anos de idade
+geral,2014,C,Indústrias de transformação,10,Fabricação de produtos alimentícios,3476.0,205144.0,199702.0,Até 8 anos de idade
+geral,2014,C,Indústrias de transformação,11,Fabricação de bebidas,201.0,12904.0,12616.0,Até 8 anos de idade
+geral,2014,C,Indústrias de transformação,12,Fabricação de produtos do fumo,11.0,583.0,554.0,Até 8 anos de idade
+geral,2014,C,Indústrias de transformação,13,Fabricação de produtos têxteis,1081.0,39150.0,37590.0,Até 8 anos de idade
+geral,2014,C,Indústrias de transformação,14,Confecção de artigos do vestuário e acessórios,6152.0,191981.0,183184.0,Até 8 anos de idade
+geral,2014,C,Indústrias de transformação,15,"Preparação de couros e fabricação de artefatos de couro, artigos para viagem e calçados",1864.0,74113.0,71607.0,Até 8 anos de idade
+geral,2014,C,Indústrias de transformação,16,Fabricação de produtos de madeira,1534.0,41898.0,39728.0,Até 8 anos de idade
+geral,2014,C,Indústrias de transformação,17,"Fabricação de celulose, papel e produtos de papel",541.0,25188.0,24407.0,Até 8 anos de idade
+geral,2014,C,Indústrias de transformação,18,Impressão e reprodução de gravações,662.0,15713.0,14753.0,Até 8 anos de idade
+geral,2014,C,Indústrias de transformação,19,"Fabricação de coque, de produtos derivados do petróleo e de biocombustíveis",78.0,31996.0,31904.0,Até 8 anos de idade
+geral,2014,C,Indústrias de transformação,20,Fabricação de produtos químicos,619.0,27654.0,26704.0,Até 8 anos de idade
+geral,2014,C,Indústrias de transformação,21,Fabricação de produtos farmoquímicos e farmacêuticos,36.0,3947.0,3908.0,Até 8 anos de idade
+geral,2014,C,Indústrias de transformação,22,Fabricação de produtos de borracha e de material plástico,1801.0,66404.0,63691.0,Até 8 anos de idade
+geral,2014,C,Indústrias de transformação,23,Fabricação de produtos de minerais não-metálicos,2981.0,91729.0,87161.0,Até 8 anos de idade
+geral,2014,C,Indústrias de transformação,24,Metalurgia,357.0,16965.0,16454.0,Até 8 anos de idade
+geral,2014,C,Indústrias de transformação,25,"Fabricação de produtos de metal, exceto máquinas e equipamentos",3063.0,108863.0,104178.0,Até 8 anos de idade
+geral,2014,C,Indústrias de transformação,26,"Fabricação de equipamentos de informática, produtos eletrônicos e ópticos",339.0,24941.0,24479.0,Até 8 anos de idade
+geral,2014,C,Indústrias de transformação,27,"Fabricação de máquinas, aparelhos e materiais elétricos",495.0,29530.0,28828.0,Até 8 anos de idade
+geral,2014,C,Indústrias de transformação,28,Fabricação de máquinas e equipamentos,1293.0,41333.0,39385.0,Até 8 anos de idade
+geral,2014,C,Indústrias de transformação,29,"Fabricação de veículos automotores, reboques e carrocerias",586.0,33790.0,32899.0,Até 8 anos de idade
+geral,2014,C,Indústrias de transformação,30,"Fabricação de outros equipamentos de transporte, exceto veículos automotores",171.0,37295.0,37070.0,Até 8 anos de idade
+geral,2014,C,Indústrias de transformação,31,Fabricação de móveis,1679.0,51711.0,49167.0,Até 8 anos de idade
+geral,2014,C,Indústrias de transformação,32,Fabricação de produtos diversos,921.0,24529.0,23151.0,Até 8 anos de idade
+geral,2014,C,Indústrias de transformação,33,"Manutenção, reparação e instalação de máquinas e equipamentos",1849.0,56934.0,54180.0,Até 8 anos de idade
+geral,2014,D,Eletricidade e gás,35,"Eletricidade, gás e outras utilidades",152.0,13157.0,12782.0,Até 8 anos de idade
+geral,2014,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",36,"Captação, tratamento e distribuição de água",66.0,4134.0,4059.0,Até 8 anos de idade
+geral,2014,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",37,Esgoto e atividades relacionadas,72.0,5804.0,5715.0,Até 8 anos de idade
+geral,2014,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",38,"Coleta, tratamento e disposição de resíduos; recuperação de materiais",671.0,42968.0,42002.0,Até 8 anos de idade
+geral,2014,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",39,Descontaminação e outros serviços de gestão de resíduos,8.0,262.0,250.0,Até 8 anos de idade
+geral,2014,F,Construção,41,Construção de edifícios,10498.0,450871.0,435318.0,Até 8 anos de idade
+geral,2014,F,Construção,42,Obras de infraestrutura,2318.0,250204.0,246899.0,Até 8 anos de idade
+geral,2014,F,Construção,43,Serviços especializados para construção,8512.0,266739.0,254679.0,Até 8 anos de idade
+geral,2014,G,Comércio; reparação de veículos automotores e motocicletas,45,Comércio e reparação de veículos automotores e motocicletas,5512.0,148166.0,140085.0,Até 8 anos de idade
+geral,2014,G,Comércio; reparação de veículos automotores e motocicletas,46,"Comércio por atacado, exceto veículos automotores e motocicletas",8973.0,283431.0,270173.0,Até 8 anos de idade
+geral,2014,G,Comércio; reparação de veículos automotores e motocicletas,47,Comércio varejista,43068.0,1064897.0,999807.0,Até 8 anos de idade
+geral,2014,H,"Transporte, armazenagem e correio",49,Transporte terrestre,7107.0,300182.0,289691.0,Até 8 anos de idade
+geral,2014,H,"Transporte, armazenagem e correio",50,Transporte aquaviário,111.0,10918.0,10718.0,Até 8 anos de idade
+geral,2014,H,"Transporte, armazenagem e correio",51,Transporte aéreo,30.0,11516.0,11458.0,Até 8 anos de idade
+geral,2014,H,"Transporte, armazenagem e correio",52,Armazenamento e atividades auxiliares dos transportes,1950.0,104850.0,101921.0,Até 8 anos de idade
+geral,2014,H,"Transporte, armazenagem e correio",53,Correio e outras atividades de entrega,861.0,27208.0,26041.0,Até 8 anos de idade
+geral,2014,I,Alojamento e alimentação,55,Alojamento,2314.0,64132.0,60677.0,Até 8 anos de idade
+geral,2014,I,Alojamento e alimentação,56,Alimentação,18843.0,448682.0,421048.0,Até 8 anos de idade
+geral,2014,J,Informação e comunicação,58,Edição e edição integrada à impressão,298.0,7786.0,7356.0,Até 8 anos de idade
+geral,2014,J,Informação e comunicação,59,"Atividades cinematográficas, produção de vídeos e de programas de televisão; gravação de som e edição de música",186.0,6567.0,6308.0,Até 8 anos de idade
+geral,2014,J,Informação e comunicação,60,Atividades de rádio e de televisão,75.0,4350.0,4240.0,Até 8 anos de idade
+geral,2014,J,Informação e comunicação,61,Telecomunicações,677.0,22455.0,21374.0,Até 8 anos de idade
+geral,2014,J,Informação e comunicação,62,Atividades dos serviços de tecnologia da informação,1417.0,68971.0,66505.0,Até 8 anos de idade
+geral,2014,J,Informação e comunicação,63,Atividades de prestação de serviços de informação,583.0,18964.0,18031.0,Até 8 anos de idade
+geral,2014,K,"Atividades financeiras, de seguros e serviços relacionados",64,Atividades de serviços financeiros,514.0,27572.0,26316.0,Até 8 anos de idade
+geral,2014,K,"Atividades financeiras, de seguros e serviços relacionados",65,"Seguros, resseguros, previdência complementar e planos de saúde",66.0,5174.0,5029.0,Até 8 anos de idade
+geral,2014,K,"Atividades financeiras, de seguros e serviços relacionados",66,"Atividades auxiliares dos serviços financeiros, seguros, previdência complementar e planos de saúde",431.0,18805.0,18004.0,Até 8 anos de idade
+geral,2014,L,Atividades imobiliárias,68,Atividades imobiliárias,919.0,28550.0,27096.0,Até 8 anos de idade
+geral,2014,M,"Atividades profissionais, científicas e técnicas",69,"Atividades jurídicas, de contabilidade e de auditoria",2756.0,58177.0,52962.0,Até 8 anos de idade
+geral,2014,M,"Atividades profissionais, científicas e técnicas",70,Atividades de sedes de empresas e de consultoria em gestão empresarial,439.0,21369.0,20635.0,Até 8 anos de idade
+geral,2014,M,"Atividades profissionais, científicas e técnicas",71,Serviços de arquitetura e engenharia; testes e análises técnicas,1324.0,61528.0,59357.0,Até 8 anos de idade
+geral,2014,M,"Atividades profissionais, científicas e técnicas",72,Pesquisa e desenvolvimento científico,26.0,2495.0,2440.0,Até 8 anos de idade
+geral,2014,M,"Atividades profissionais, científicas e técnicas",73,Publicidade e pesquisa de mercado,751.0,28799.0,27787.0,Até 8 anos de idade
+geral,2014,M,"Atividades profissionais, científicas e técnicas",74,"Outras atividades profissionais, científicas e técnicas",499.0,18293.0,17497.0,Até 8 anos de idade
+geral,2014,M,"Atividades profissionais, científicas e técnicas",75,Atividades veterinárias,42.0,912.0,796.0,Até 8 anos de idade
+geral,2014,N,Atividades administrativas e serviços complementares,77,Aluguéis não-imobiliários e gestão de ativos intangíveis não-financeiros,2120.0,60661.0,57527.0,Até 8 anos de idade
+geral,2014,N,Atividades administrativas e serviços complementares,78,"Seleção, agenciamento e locação de mão-de-obra",1019.0,134612.0,133083.0,Até 8 anos de idade
+geral,2014,N,Atividades administrativas e serviços complementares,79,"Agências de viagens, operadores turísticos e serviços de reservas",474.0,15686.0,14897.0,Até 8 anos de idade
+geral,2014,N,Atividades administrativas e serviços complementares,80,"Atividades de vigilância, segurança e investigação",1756.0,141437.0,139008.0,Até 8 anos de idade
+geral,2014,N,Atividades administrativas e serviços complementares,81,Serviços para edifícios e atividades paisagísticas,4336.0,301534.0,295614.0,Até 8 anos de idade
+geral,2014,N,Atividades administrativas e serviços complementares,82,"Serviços de escritório, de apoio administrativo e outros serviços prestados às empresas",5808.0,292606.0,284291.0,Até 8 anos de idade
+geral,2014,O,"Administração pública, defesa e seguridade social",84,"Administração pública, defesa e seguridade social",20.0,2505.0,2493.0,Até 8 anos de idade
+geral,2014,P,Educação,85,Educação,7168.0,192127.0,179355.0,Até 8 anos de idade
+geral,2014,Q,Saúde humana e serviços sociais,86,Atividades de atenção à saúde humana,1995.0,83452.0,78122.0,Até 8 anos de idade
+geral,2014,Q,Saúde humana e serviços sociais,87,"Atividades de atenção à saúde humana integradas com assistência social, prestadas em residências coletivas e particulares",530.0,-1.0,-1.0,Até 8 anos de idade
+geral,2014,Q,Saúde humana e serviços sociais,88,Serviços de assistência social sem alojamento,2.0,-1.0,-1.0,Até 8 anos de idade
+geral,2014,R,"Artes, cultura, esporte e recreação",90,"Atividades artísticas, criativas e de espetáculos",157.0,3702.0,3437.0,Até 8 anos de idade
+geral,2014,R,"Artes, cultura, esporte e recreação",91,Atividades ligadas ao patrimônio cultural e ambiental,10.0,-1.0,-1.0,Até 8 anos de idade
+geral,2014,R,"Artes, cultura, esporte e recreação",92,Atividades de exploração de jogos de azar e apostas,1.0,-1.0,-1.0,Até 8 anos de idade
+geral,2014,R,"Artes, cultura, esporte e recreação",93,Atividades esportivas e de recreação e lazer,1399.0,32754.0,30496.0,Até 8 anos de idade
+geral,2014,S,Outras atividades de serviços,94,Atividades de organizações associativas,24.0,991.0,904.0,Até 8 anos de idade
+geral,2014,S,Outras atividades de serviços,95,Reparação e manutenção de equipamentos de informática e comunicação e de objetos pessoais e domésticos,998.0,27038.0,25543.0,Até 8 anos de idade
+geral,2014,S,Outras atividades de serviços,96,Outras atividades de serviços pessoais,1962.0,47307.0,44224.0,Até 8 anos de idade
+geral,2014,U,Organismos internacionais e outras instituições extraterritoriais,99,Organismos internacionais e outras instituições extraterritoriais,0.0,0.0,0.0,Até 8 anos de idade
+geral,2015,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",1,"Agricultura, pecuária e serviços relacionados",3729.0,317865.0,308369.0,Geral
+geral,2015,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",2,Produção florestal,1101.0,72373.0,70117.0,Geral
+geral,2015,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",3,Pesca e aquicultura,222.0,9105.0,8614.0,Geral
+geral,2015,B,Indústrias extrativas,5,Extração de carvão mineral,12.0,4729.0,4713.0,Geral
+geral,2015,B,Indústrias extrativas,6,Extração de petróleo e gás natural,33.0,3561.0,3506.0,Geral
+geral,2015,B,Indústrias extrativas,7,Extração de minerais metálicos,161.0,83715.0,83438.0,Geral
+geral,2015,B,Indústrias extrativas,8,Extração de minerais não-metálicos,1816.0,73175.0,69680.0,Geral
+geral,2015,B,Indústrias extrativas,9,Atividades de apoio à extração de minerais,109.0,36692.0,36600.0,Geral
+geral,2015,C,Indústrias de transformação,10,Fabricação de produtos alimentícios,12385.0,1610939.0,1590365.0,Geral
+geral,2015,C,Indústrias de transformação,11,Fabricação de bebidas,936.0,173457.0,171915.0,Geral
+geral,2015,C,Indústrias de transformação,12,Fabricação de produtos do fumo,60.0,17646.0,17569.0,Geral
+geral,2015,C,Indústrias de transformação,13,Fabricação de produtos têxteis,3100.0,238530.0,233465.0,Geral
+geral,2015,C,Indústrias de transformação,14,Confecção de artigos do vestuário e acessórios,13362.0,552435.0,531972.0,Geral
+geral,2015,C,Indústrias de transformação,15,"Preparação de couros e fabricação de artefatos de couro, artigos para viagem e calçados",3659.0,328018.0,322689.0,Geral
+geral,2015,C,Indústrias de transformação,16,Fabricação de produtos de madeira,4057.0,161117.0,154755.0,Geral
+geral,2015,C,Indústrias de transformação,17,"Fabricação de celulose, papel e produtos de papel",1853.0,182365.0,179391.0,Geral
+geral,2015,C,Indústrias de transformação,18,Impressão e reprodução de gravações,2143.0,77377.0,73937.0,Geral
+geral,2015,C,Indústrias de transformação,19,"Fabricação de coque, de produtos derivados do petróleo e de biocombustíveis",287.0,213633.0,213204.0,Geral
+geral,2015,C,Indústrias de transformação,20,Fabricação de produtos químicos,3155.0,293992.0,288938.0,Geral
+geral,2015,C,Indústrias de transformação,21,Fabricação de produtos farmoquímicos e farmacêuticos,374.0,104563.0,104028.0,Geral
+geral,2015,C,Indústrias de transformação,22,Fabricação de produtos de borracha e de material plástico,5975.0,374906.0,365390.0,Geral
+geral,2015,C,Indústrias de transformação,23,Fabricação de produtos de minerais não-metálicos,9046.0,407102.0,392255.0,Geral
+geral,2015,C,Indústrias de transformação,24,Metalurgia,1410.0,216429.0,214049.0,Geral
+geral,2015,C,Indústrias de transformação,25,"Fabricação de produtos de metal, exceto máquinas e equipamentos",9334.0,387899.0,372351.0,Geral
+geral,2015,C,Indústrias de transformação,26,"Fabricação de equipamentos de informática, produtos eletrônicos e ópticos",1249.0,132230.0,130225.0,Geral
+geral,2015,C,Indústrias de transformação,27,"Fabricação de máquinas, aparelhos e materiais elétricos",1843.0,217531.0,214663.0,Geral
+geral,2015,C,Indústrias de transformação,28,Fabricação de máquinas e equipamentos,5328.0,351316.0,342577.0,Geral
+geral,2015,C,Indústrias de transformação,29,"Fabricação de veículos automotores, reboques e carrocerias",2290.0,429845.0,426377.0,Geral
+geral,2015,C,Indústrias de transformação,30,"Fabricação de outros equipamentos de transporte, exceto veículos automotores",502.0,110965.0,110229.0,Geral
+geral,2015,C,Indústrias de transformação,31,Fabricação de móveis,4944.0,219497.0,211311.0,Geral
+geral,2015,C,Indústrias de transformação,32,Fabricação de produtos diversos,2908.0,140632.0,136038.0,Geral
+geral,2015,C,Indústrias de transformação,33,"Manutenção, reparação e instalação de máquinas e equipamentos",3336.0,157864.0,152799.0,Geral
+geral,2015,D,Eletricidade e gás,35,"Eletricidade, gás e outras utilidades",502.0,118836.0,117699.0,Geral
+geral,2015,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",36,"Captação, tratamento e distribuição de água",191.0,101062.0,100815.0,Geral
+geral,2015,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",37,Esgoto e atividades relacionadas,216.0,13187.0,12923.0,Geral
+geral,2015,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",38,"Coleta, tratamento e disposição de resíduos; recuperação de materiais",1449.0,216958.0,214915.0,Geral
+geral,2015,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",39,Descontaminação e outros serviços de gestão de resíduos,21.0,1403.0,1371.0,Geral
+geral,2015,F,Construção,41,Construção de edifícios,17279.0,897367.0,869426.0,Geral
+geral,2015,F,Construção,42,Obras de infraestrutura,5217.0,779844.0,771577.0,Geral
+geral,2015,F,Construção,43,Serviços especializados para construção,13137.0,570663.0,551055.0,Geral
+geral,2015,G,Comércio; reparação de veículos automotores e motocicletas,45,Comércio e reparação de veículos automotores e motocicletas,16861.0,591393.0,564925.0,Geral
+geral,2015,G,Comércio; reparação de veículos automotores e motocicletas,46,"Comércio por atacado, exceto veículos automotores e motocicletas",25668.0,1370497.0,1331196.0,Geral
+geral,2015,G,Comércio; reparação de veículos automotores e motocicletas,47,Comércio varejista,115893.0,4334859.0,4157326.0,Geral
+geral,2015,H,"Transporte, armazenagem e correio",49,Transporte terrestre,17910.0,1494548.0,1465536.0,Geral
+geral,2015,H,"Transporte, armazenagem e correio",50,Transporte aquaviário,378.0,42584.0,42003.0,Geral
+geral,2015,H,"Transporte, armazenagem e correio",51,Transporte aéreo,142.0,67718.0,67495.0,Geral
+geral,2015,H,"Transporte, armazenagem e correio",52,Armazenamento e atividades auxiliares dos transportes,4541.0,401515.0,394086.0,Geral
+geral,2015,H,"Transporte, armazenagem e correio",53,Correio e outras atividades de entrega,1771.0,179107.0,176564.0,Geral
+geral,2015,I,Alojamento e alimentação,55,Alojamento,8630.0,287030.0,273102.0,Geral
+geral,2015,I,Alojamento e alimentação,56,Alimentação,37701.0,1107245.0,1050563.0,Geral
+geral,2015,J,Informação e comunicação,58,Edição e edição integrada à impressão,1267.0,74879.0,72947.0,Geral
+geral,2015,J,Informação e comunicação,59,"Atividades cinematográficas, produção de vídeos e de programas de televisão; gravação de som e edição de música",449.0,23452.0,22863.0,Geral
+geral,2015,J,Informação e comunicação,60,Atividades de rádio e de televisão,1393.0,79533.0,77496.0,Geral
+geral,2015,J,Informação e comunicação,61,Telecomunicações,1575.0,177694.0,175290.0,Geral
+geral,2015,J,Informação e comunicação,62,Atividades dos serviços de tecnologia da informação,4154.0,344851.0,337023.0,Geral
+geral,2015,J,Informação e comunicação,63,Atividades de prestação de serviços de informação,1224.0,114993.0,113084.0,Geral
+geral,2015,K,"Atividades financeiras, de seguros e serviços relacionados",64,Atividades de serviços financeiros,1838.0,620690.0,612771.0,Geral
+geral,2015,K,"Atividades financeiras, de seguros e serviços relacionados",65,"Seguros, resseguros, previdência complementar e planos de saúde",733.0,210965.0,207074.0,Geral
+geral,2015,K,"Atividades financeiras, de seguros e serviços relacionados",66,"Atividades auxiliares dos serviços financeiros, seguros, previdência complementar e planos de saúde",1552.0,84745.0,81870.0,Geral
+geral,2015,L,Atividades imobiliárias,68,Atividades imobiliárias,2783.0,94588.0,89482.0,Geral
+geral,2015,M,"Atividades profissionais, científicas e técnicas",69,"Atividades jurídicas, de contabilidade e de auditoria",8602.0,232356.0,212980.0,Geral
+geral,2015,M,"Atividades profissionais, científicas e técnicas",70,Atividades de sedes de empresas e de consultoria em gestão empresarial,956.0,66440.0,64601.0,Geral
+geral,2015,M,"Atividades profissionais, científicas e técnicas",71,Serviços de arquitetura e engenharia; testes e análises técnicas,3466.0,210784.0,204465.0,Geral
+geral,2015,M,"Atividades profissionais, científicas e técnicas",72,Pesquisa e desenvolvimento científico,70.0,19677.0,19577.0,Geral
+geral,2015,M,"Atividades profissionais, científicas e técnicas",73,Publicidade e pesquisa de mercado,1614.0,80098.0,77587.0,Geral
+geral,2015,M,"Atividades profissionais, científicas e técnicas",74,"Outras atividades profissionais, científicas e técnicas",1111.0,59892.0,57906.0,Geral
+geral,2015,M,"Atividades profissionais, científicas e técnicas",75,Atividades veterinárias,158.0,3308.0,2903.0,Geral
+geral,2015,N,Atividades administrativas e serviços complementares,77,Aluguéis não-imobiliários e gestão de ativos intangíveis não-financeiros,4742.0,187424.0,180191.0,Geral
+geral,2015,N,Atividades administrativas e serviços complementares,78,"Seleção, agenciamento e locação de mão-de-obra",2425.0,629202.0,625694.0,Geral
+geral,2015,N,Atividades administrativas e serviços complementares,79,"Agências de viagens, operadores turísticos e serviços de reservas",1343.0,48929.0,46623.0,Geral
+geral,2015,N,Atividades administrativas e serviços complementares,80,"Atividades de vigilância, segurança e investigação",3291.0,711269.0,706723.0,Geral
+geral,2015,N,Atividades administrativas e serviços complementares,81,Serviços para edifícios e atividades paisagísticas,7766.0,1052277.0,1041798.0,Geral
+geral,2015,N,Atividades administrativas e serviços complementares,82,"Serviços de escritório, de apoio administrativo e outros serviços prestados às empresas",10004.0,835566.0,820510.0,Geral
+geral,2015,O,"Administração pública, defesa e seguridade social",84,"Administração pública, defesa e seguridade social",93.0,33397.0,33342.0,Geral
+geral,2015,P,Educação,85,Educação,23278.0,886193.0,841908.0,Geral
+geral,2015,Q,Saúde humana e serviços sociais,86,Atividades de atenção à saúde humana,10245.0,682064.0,648769.0,Geral
+geral,2015,Q,Saúde humana e serviços sociais,87,"Atividades de atenção à saúde humana integradas com assistência social, prestadas em residências coletivas e particulares",1015.0,30384.0,28478.0,Geral
+geral,2015,Q,Saúde humana e serviços sociais,88,Serviços de assistência social sem alojamento,5.0,139.0,127.0,Geral
+geral,2015,R,"Artes, cultura, esporte e recreação",90,"Atividades artísticas, criativas e de espetáculos",321.0,8013.0,7498.0,Geral
+geral,2015,R,"Artes, cultura, esporte e recreação",91,Atividades ligadas ao patrimônio cultural e ambiental,20.0,894.0,855.0,Geral
+geral,2015,R,"Artes, cultura, esporte e recreação",92,Atividades de exploração de jogos de azar e apostas,4.0,115.0,113.0,Geral
+geral,2015,R,"Artes, cultura, esporte e recreação",93,Atividades esportivas e de recreação e lazer,3153.0,90180.0,85079.0,Geral
+geral,2015,S,Outras atividades de serviços,94,Atividades de organizações associativas,93.0,3890.0,3447.0,Geral
+geral,2015,S,Outras atividades de serviços,95,Reparação e manutenção de equipamentos de informática e comunicação e de objetos pessoais e domésticos,2341.0,72135.0,68516.0,Geral
+geral,2015,S,Outras atividades de serviços,96,Outras atividades de serviços pessoais,4561.0,126844.0,119486.0,Geral
+geral,2015,U,Organismos internacionais e outras instituições extraterritoriais,99,Organismos internacionais e outras instituições extraterritoriais,0.0,0.0,0.0,Geral
+geral,2015,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",1,"Agricultura, pecuária e serviços relacionados",1477.0,86166.0,83319.0,Até 8 anos de idade
+geral,2015,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",2,Produção florestal,520.0,21216.0,20313.0,Até 8 anos de idade
+geral,2015,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",3,Pesca e aquicultura,81.0,2377.0,2204.0,Até 8 anos de idade
+geral,2015,B,Indústrias extrativas,5,Extração de carvão mineral,0.0,0.0,0.0,Até 8 anos de idade
+geral,2015,B,Indústrias extrativas,6,Extração de petróleo e gás natural,15.0,1777.0,1762.0,Até 8 anos de idade
+geral,2015,B,Indústrias extrativas,7,Extração de minerais metálicos,57.0,9980.0,9910.0,Até 8 anos de idade
+geral,2015,B,Indústrias extrativas,8,Extração de minerais não-metálicos,335.0,8959.0,8396.0,Até 8 anos de idade
+geral,2015,B,Indústrias extrativas,9,Atividades de apoio à extração de minerais,43.0,5111.0,5088.0,Até 8 anos de idade
+geral,2015,C,Indústrias de transformação,10,Fabricação de produtos alimentícios,3524.0,160176.0,154723.0,Até 8 anos de idade
+geral,2015,C,Indústrias de transformação,11,Fabricação de bebidas,197.0,12420.0,12144.0,Até 8 anos de idade
+geral,2015,C,Indústrias de transformação,12,Fabricação de produtos do fumo,13.0,733.0,713.0,Até 8 anos de idade
+geral,2015,C,Indústrias de transformação,13,Fabricação de produtos têxteis,889.0,31955.0,30702.0,Até 8 anos de idade
+geral,2015,C,Indústrias de transformação,14,Confecção de artigos do vestuário e acessórios,5142.0,153437.0,146280.0,Até 8 anos de idade
+geral,2015,C,Indústrias de transformação,15,"Preparação de couros e fabricação de artefatos de couro, artigos para viagem e calçados",1526.0,58703.0,56605.0,Até 8 anos de idade
+geral,2015,C,Indústrias de transformação,16,Fabricação de produtos de madeira,1315.0,35317.0,33419.0,Até 8 anos de idade
+geral,2015,C,Indústrias de transformação,17,"Fabricação de celulose, papel e produtos de papel",497.0,22378.0,21704.0,Até 8 anos de idade
+geral,2015,C,Indústrias de transformação,18,Impressão e reprodução de gravações,570.0,13055.0,12227.0,Até 8 anos de idade
+geral,2015,C,Indústrias de transformação,19,"Fabricação de coque, de produtos derivados do petróleo e de biocombustíveis",46.0,10966.0,10920.0,Até 8 anos de idade
+geral,2015,C,Indústrias de transformação,20,Fabricação de produtos químicos,555.0,20535.0,19715.0,Até 8 anos de idade
+geral,2015,C,Indústrias de transformação,21,Fabricação de produtos farmoquímicos e farmacêuticos,35.0,4096.0,4052.0,Até 8 anos de idade
+geral,2015,C,Indústrias de transformação,22,Fabricação de produtos de borracha e de material plástico,1606.0,56281.0,53917.0,Até 8 anos de idade
+geral,2015,C,Indústrias de transformação,23,Fabricação de produtos de minerais não-metálicos,2662.0,76723.0,72724.0,Até 8 anos de idade
+geral,2015,C,Indústrias de transformação,24,Metalurgia,326.0,17895.0,17455.0,Até 8 anos de idade
+geral,2015,C,Indústrias de transformação,25,"Fabricação de produtos de metal, exceto máquinas e equipamentos",2702.0,72182.0,68160.0,Até 8 anos de idade
+geral,2015,C,Indústrias de transformação,26,"Fabricação de equipamentos de informática, produtos eletrônicos e ópticos",261.0,12682.0,12319.0,Até 8 anos de idade
+geral,2015,C,Indústrias de transformação,27,"Fabricação de máquinas, aparelhos e materiais elétricos",428.0,26352.0,25793.0,Até 8 anos de idade
+geral,2015,C,Indústrias de transformação,28,Fabricação de máquinas e equipamentos,1093.0,32436.0,30856.0,Até 8 anos de idade
+geral,2015,C,Indústrias de transformação,29,"Fabricação de veículos automotores, reboques e carrocerias",503.0,30286.0,29569.0,Até 8 anos de idade
+geral,2015,C,Indústrias de transformação,30,"Fabricação de outros equipamentos de transporte, exceto veículos automotores",143.0,30530.0,30338.0,Até 8 anos de idade
+geral,2015,C,Indústrias de transformação,31,Fabricação de móveis,1472.0,42261.0,40004.0,Até 8 anos de idade
+geral,2015,C,Indústrias de transformação,32,Fabricação de produtos diversos,823.0,20748.0,19537.0,Até 8 anos de idade
+geral,2015,C,Indústrias de transformação,33,"Manutenção, reparação e instalação de máquinas e equipamentos",1734.0,50282.0,47823.0,Até 8 anos de idade
+geral,2015,D,Eletricidade e gás,35,"Eletricidade, gás e outras utilidades",151.0,8101.0,7795.0,Até 8 anos de idade
+geral,2015,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",36,"Captação, tratamento e distribuição de água",69.0,4624.0,4557.0,Até 8 anos de idade
+geral,2015,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",37,Esgoto e atividades relacionadas,68.0,4384.0,4314.0,Até 8 anos de idade
+geral,2015,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",38,"Coleta, tratamento e disposição de resíduos; recuperação de materiais",612.0,39204.0,38366.0,Até 8 anos de idade
+geral,2015,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",39,Descontaminação e outros serviços de gestão de resíduos,6.0,249.0,243.0,Até 8 anos de idade
+geral,2015,F,Construção,41,Construção de edifícios,8997.0,340997.0,327693.0,Até 8 anos de idade
+geral,2015,F,Construção,42,Obras de infraestrutura,2079.0,191797.0,188936.0,Até 8 anos de idade
+geral,2015,F,Construção,43,Serviços especializados para construção,7521.0,231433.0,220954.0,Até 8 anos de idade
+geral,2015,G,Comércio; reparação de veículos automotores e motocicletas,45,Comércio e reparação de veículos automotores e motocicletas,4926.0,122522.0,115423.0,Até 8 anos de idade
+geral,2015,G,Comércio; reparação de veículos automotores e motocicletas,46,"Comércio por atacado, exceto veículos automotores e motocicletas",8131.0,253167.0,241770.0,Até 8 anos de idade
+geral,2015,G,Comércio; reparação de veículos automotores e motocicletas,47,Comércio varejista,39918.0,968937.0,911378.0,Até 8 anos de idade
+geral,2015,H,"Transporte, armazenagem e correio",49,Transporte terrestre,6597.0,290227.0,280802.0,Até 8 anos de idade
+geral,2015,H,"Transporte, armazenagem e correio",50,Transporte aquaviário,108.0,8636.0,8488.0,Até 8 anos de idade
+geral,2015,H,"Transporte, armazenagem e correio",51,Transporte aéreo,22.0,11460.0,11419.0,Até 8 anos de idade
+geral,2015,H,"Transporte, armazenagem e correio",52,Armazenamento e atividades auxiliares dos transportes,1882.0,101275.0,98570.0,Até 8 anos de idade
+geral,2015,H,"Transporte, armazenagem e correio",53,Correio e outras atividades de entrega,806.0,22451.0,21401.0,Até 8 anos de idade
+geral,2015,I,Alojamento e alimentação,55,Alojamento,2265.0,65929.0,62635.0,Até 8 anos de idade
+geral,2015,I,Alojamento e alimentação,56,Alimentação,18810.0,439673.0,412602.0,Até 8 anos de idade
+geral,2015,J,Informação e comunicação,58,Edição e edição integrada à impressão,249.0,6587.0,6249.0,Até 8 anos de idade
+geral,2015,J,Informação e comunicação,59,"Atividades cinematográficas, produção de vídeos e de programas de televisão; gravação de som e edição de música",158.0,6882.0,6689.0,Até 8 anos de idade
+geral,2015,J,Informação e comunicação,60,Atividades de rádio e de televisão,76.0,4290.0,4183.0,Até 8 anos de idade
+geral,2015,J,Informação e comunicação,61,Telecomunicações,729.0,22606.0,21494.0,Até 8 anos de idade
+geral,2015,J,Informação e comunicação,62,Atividades dos serviços de tecnologia da informação,1394.0,72637.0,70264.0,Até 8 anos de idade
+geral,2015,J,Informação e comunicação,63,Atividades de prestação de serviços de informação,524.0,18734.0,17926.0,Até 8 anos de idade
+geral,2015,K,"Atividades financeiras, de seguros e serviços relacionados",64,Atividades de serviços financeiros,478.0,22818.0,21657.0,Até 8 anos de idade
+geral,2015,K,"Atividades financeiras, de seguros e serviços relacionados",65,"Seguros, resseguros, previdência complementar e planos de saúde",77.0,4450.0,4305.0,Até 8 anos de idade
+geral,2015,K,"Atividades financeiras, de seguros e serviços relacionados",66,"Atividades auxiliares dos serviços financeiros, seguros, previdência complementar e planos de saúde",426.0,16658.0,15898.0,Até 8 anos de idade
+geral,2015,L,Atividades imobiliárias,68,Atividades imobiliárias,927.0,26436.0,25011.0,Até 8 anos de idade
+geral,2015,M,"Atividades profissionais, científicas e técnicas",69,"Atividades jurídicas, de contabilidade e de auditoria",2651.0,56044.0,51042.0,Até 8 anos de idade
+geral,2015,M,"Atividades profissionais, científicas e técnicas",70,Atividades de sedes de empresas e de consultoria em gestão empresarial,407.0,19777.0,19188.0,Até 8 anos de idade
+geral,2015,M,"Atividades profissionais, científicas e técnicas",71,Serviços de arquitetura e engenharia; testes e análises técnicas,1187.0,48229.0,46334.0,Até 8 anos de idade
+geral,2015,M,"Atividades profissionais, científicas e técnicas",72,Pesquisa e desenvolvimento científico,25.0,2790.0,2746.0,Até 8 anos de idade
+geral,2015,M,"Atividades profissionais, científicas e técnicas",73,Publicidade e pesquisa de mercado,795.0,30392.0,29321.0,Até 8 anos de idade
+geral,2015,M,"Atividades profissionais, científicas e técnicas",74,"Outras atividades profissionais, científicas e técnicas",480.0,17561.0,16780.0,Até 8 anos de idade
+geral,2015,M,"Atividades profissionais, científicas e técnicas",75,Atividades veterinárias,71.0,1385.0,1201.0,Até 8 anos de idade
+geral,2015,N,Atividades administrativas e serviços complementares,77,Aluguéis não-imobiliários e gestão de ativos intangíveis não-financeiros,1921.0,53341.0,50607.0,Até 8 anos de idade
+geral,2015,N,Atividades administrativas e serviços complementares,78,"Seleção, agenciamento e locação de mão-de-obra",865.0,107161.0,105940.0,Até 8 anos de idade
+geral,2015,N,Atividades administrativas e serviços complementares,79,"Agências de viagens, operadores turísticos e serviços de reservas",432.0,14424.0,13741.0,Até 8 anos de idade
+geral,2015,N,Atividades administrativas e serviços complementares,80,"Atividades de vigilância, segurança e investigação",1692.0,129555.0,127284.0,Até 8 anos de idade
+geral,2015,N,Atividades administrativas e serviços complementares,81,Serviços para edifícios e atividades paisagísticas,4620.0,297227.0,291348.0,Até 8 anos de idade
+geral,2015,N,Atividades administrativas e serviços complementares,82,"Serviços de escritório, de apoio administrativo e outros serviços prestados às empresas",5765.0,247062.0,239042.0,Até 8 anos de idade
+geral,2015,O,"Administração pública, defesa e seguridade social",84,"Administração pública, defesa e seguridade social",20.0,3004.0,2982.0,Até 8 anos de idade
+geral,2015,P,Educação,85,Educação,7074.0,188080.0,175842.0,Até 8 anos de idade
+geral,2015,Q,Saúde humana e serviços sociais,86,Atividades de atenção à saúde humana,2076.0,91520.0,85937.0,Até 8 anos de idade
+geral,2015,Q,Saúde humana e serviços sociais,87,"Atividades de atenção à saúde humana integradas com assistência social, prestadas em residências coletivas e particulares",636.0,-1.0,-1.0,Até 8 anos de idade
+geral,2015,Q,Saúde humana e serviços sociais,88,Serviços de assistência social sem alojamento,1.0,-1.0,-1.0,Até 8 anos de idade
+geral,2015,R,"Artes, cultura, esporte e recreação",90,"Atividades artísticas, criativas e de espetáculos",149.0,3824.0,3611.0,Até 8 anos de idade
+geral,2015,R,"Artes, cultura, esporte e recreação",91,Atividades ligadas ao patrimônio cultural e ambiental,9.0,156.0,144.0,Até 8 anos de idade
+geral,2015,R,"Artes, cultura, esporte e recreação",92,Atividades de exploração de jogos de azar e apostas,0.0,0.0,0.0,Até 8 anos de idade
+geral,2015,R,"Artes, cultura, esporte e recreação",93,Atividades esportivas e de recreação e lazer,1531.0,34723.0,32362.0,Até 8 anos de idade
+geral,2015,S,Outras atividades de serviços,94,Atividades de organizações associativas,15.0,673.0,617.0,Até 8 anos de idade
+geral,2015,S,Outras atividades de serviços,95,Reparação e manutenção de equipamentos de informática e comunicação e de objetos pessoais e domésticos,854.0,22581.0,21369.0,Até 8 anos de idade
+geral,2015,S,Outras atividades de serviços,96,Outras atividades de serviços pessoais,1915.0,44978.0,42071.0,Até 8 anos de idade
+geral,2015,U,Organismos internacionais e outras instituições extraterritoriais,99,Organismos internacionais e outras instituições extraterritoriais,0.0,0.0,0.0,Até 8 anos de idade
+altocrescimento,2014,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",1,"Agricultura, pecuária e serviços relacionados",228.0,45258.0,44733.0,Alto Crescimento
+altocrescimento,2014,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",2,Produção florestal,79.0,14655.0,14458.0,Alto Crescimento
+altocrescimento,2014,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",3,Pesca e aquicultura,19.0,2126.0,2079.0,Alto Crescimento
+altocrescimento,2014,B,Indústrias extrativas,5,Extração de carvão mineral,1.0,-1.0,-1.0,Alto Crescimento
+altocrescimento,2014,B,Indústrias extrativas,6,Extração de petróleo e gás natural,4.0,-1.0,-1.0,Alto Crescimento
+altocrescimento,2014,B,Indústrias extrativas,7,Extração de minerais metálicos,23.0,8356.0,8315.0,Alto Crescimento
+altocrescimento,2014,B,Indústrias extrativas,8,Extração de minerais não-metálicos,108.0,6221.0,6041.0,Alto Crescimento
+altocrescimento,2014,B,Indústrias extrativas,9,Atividades de apoio à extração de minerais,19.0,13800.0,13788.0,Alto Crescimento
+altocrescimento,2014,C,Indústrias de transformação,10,Fabricação de produtos alimentícios,903.0,221576.0,220128.0,Alto Crescimento
+altocrescimento,2014,C,Indústrias de transformação,11,Fabricação de bebidas,69.0,52919.0,52840.0,Alto Crescimento
+altocrescimento,2014,C,Indústrias de transformação,12,Fabricação de produtos do fumo,6.0,622.0,612.0,Alto Crescimento
+altocrescimento,2014,C,Indústrias de transformação,13,Fabricação de produtos têxteis,234.0,24230.0,23875.0,Alto Crescimento
+altocrescimento,2014,C,Indústrias de transformação,14,Confecção de artigos do vestuário e acessórios,933.0,82655.0,81346.0,Alto Crescimento
+altocrescimento,2014,C,Indústrias de transformação,15,"Preparação de couros e fabricação de artefatos de couro, artigos para viagem e calçados",358.0,44437.0,43925.0,Alto Crescimento
+altocrescimento,2014,C,Indústrias de transformação,16,Fabricação de produtos de madeira,225.0,16509.0,16171.0,Alto Crescimento
+altocrescimento,2014,C,Indústrias de transformação,17,"Fabricação de celulose, papel e produtos de papel",121.0,16005.0,15841.0,Alto Crescimento
+altocrescimento,2014,C,Indústrias de transformação,18,Impressão e reprodução de gravações,113.0,8264.0,8107.0,Alto Crescimento
+altocrescimento,2014,C,Indústrias de transformação,19,"Fabricação de coque, de produtos derivados do petróleo e de biocombustíveis",24.0,18353.0,18325.0,Alto Crescimento
+altocrescimento,2014,C,Indústrias de transformação,20,Fabricação de produtos químicos,238.0,39597.0,39212.0,Alto Crescimento
+altocrescimento,2014,C,Indústrias de transformação,21,Fabricação de produtos farmoquímicos e farmacêuticos,30.0,12348.0,12312.0,Alto Crescimento
+altocrescimento,2014,C,Indústrias de transformação,22,Fabricação de produtos de borracha e de material plástico,449.0,46469.0,45803.0,Alto Crescimento
+altocrescimento,2014,C,Indústrias de transformação,23,Fabricação de produtos de minerais não-metálicos,488.0,39693.0,38928.0,Alto Crescimento
+altocrescimento,2014,C,Indústrias de transformação,24,Metalurgia,99.0,16393.0,16257.0,Alto Crescimento
+altocrescimento,2014,C,Indústrias de transformação,25,"Fabricação de produtos de metal, exceto máquinas e equipamentos",557.0,44640.0,43820.0,Alto Crescimento
+altocrescimento,2014,C,Indústrias de transformação,26,"Fabricação de equipamentos de informática, produtos eletrônicos e ópticos",97.0,23559.0,23391.0,Alto Crescimento
+altocrescimento,2014,C,Indústrias de transformação,27,"Fabricação de máquinas, aparelhos e materiais elétricos",131.0,31305.0,31097.0,Alto Crescimento
+altocrescimento,2014,C,Indústrias de transformação,28,Fabricação de máquinas e equipamentos,364.0,40044.0,39486.0,Alto Crescimento
+altocrescimento,2014,C,Indústrias de transformação,29,"Fabricação de veículos automotores, reboques e carrocerias",136.0,30164.0,29963.0,Alto Crescimento
+altocrescimento,2014,C,Indústrias de transformação,30,"Fabricação de outros equipamentos de transporte, exceto veículos automotores",44.0,33081.0,33019.0,Alto Crescimento
+altocrescimento,2014,C,Indústrias de transformação,31,Fabricação de móveis,338.0,25640.0,25130.0,Alto Crescimento
+altocrescimento,2014,C,Indústrias de transformação,32,Fabricação de produtos diversos,188.0,14959.0,14687.0,Alto Crescimento
+altocrescimento,2014,C,Indústrias de transformação,33,"Manutenção, reparação e instalação de máquinas e equipamentos",254.0,23137.0,22770.0,Alto Crescimento
+altocrescimento,2014,D,Eletricidade e gás,35,"Eletricidade, gás e outras utilidades",28.0,-1.0,-1.0,Alto Crescimento
+altocrescimento,2014,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",36,"Captação, tratamento e distribuição de água",10.0,-1.0,-1.0,Alto Crescimento
+altocrescimento,2014,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",37,Esgoto e atividades relacionadas,26.0,3926.0,3900.0,Alto Crescimento
+altocrescimento,2014,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",38,"Coleta, tratamento e disposição de resíduos; recuperação de materiais",135.0,46623.0,46435.0,Alto Crescimento
+altocrescimento,2014,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",39,Descontaminação e outros serviços de gestão de resíduos,2.0,-1.0,-1.0,Alto Crescimento
+altocrescimento,2014,F,Construção,41,Construção de edifícios,1950.0,262360.0,259357.0,Alto Crescimento
+altocrescimento,2014,F,Construção,42,Obras de infraestrutura,704.0,268940.0,267810.0,Alto Crescimento
+altocrescimento,2014,F,Construção,43,Serviços especializados para construção,1149.0,111135.0,109442.0,Alto Crescimento
+altocrescimento,2014,G,Comércio; reparação de veículos automotores e motocicletas,45,Comércio e reparação de veículos automotores e motocicletas,708.0,53311.0,52408.0,Alto Crescimento
+altocrescimento,2014,G,Comércio; reparação de veículos automotores e motocicletas,46,"Comércio por atacado, exceto veículos automotores e motocicletas",2119.0,215771.0,212654.0,Alto Crescimento
+altocrescimento,2014,G,Comércio; reparação de veículos automotores e motocicletas,47,Comércio varejista,5437.0,506822.0,499152.0,Alto Crescimento
+altocrescimento,2014,H,"Transporte, armazenagem e correio",49,Transporte terrestre,1658.0,220999.0,218189.0,Alto Crescimento
+altocrescimento,2014,H,"Transporte, armazenagem e correio",50,Transporte aquaviário,43.0,5922.0,5868.0,Alto Crescimento
+altocrescimento,2014,H,"Transporte, armazenagem e correio",51,Transporte aéreo,12.0,11519.0,11493.0,Alto Crescimento
+altocrescimento,2014,H,"Transporte, armazenagem e correio",52,Armazenamento e atividades auxiliares dos transportes,384.0,60768.0,60085.0,Alto Crescimento
+altocrescimento,2014,H,"Transporte, armazenagem e correio",53,Correio e outras atividades de entrega,121.0,10067.0,9909.0,Alto Crescimento
+altocrescimento,2014,I,Alojamento e alimentação,55,Alojamento,266.0,22482.0,22055.0,Alto Crescimento
+altocrescimento,2014,I,Alojamento e alimentação,56,Alimentação,1457.0,142125.0,140027.0,Alto Crescimento
+altocrescimento,2014,J,Informação e comunicação,58,Edição e edição integrada à impressão,53.0,6181.0,6095.0,Alto Crescimento
+altocrescimento,2014,J,Informação e comunicação,59,"Atividades cinematográficas, produção de vídeos e de programas de televisão; gravação de som e edição de música",20.0,3014.0,2978.0,Alto Crescimento
+altocrescimento,2014,J,Informação e comunicação,60,Atividades de rádio e de televisão,39.0,5975.0,5932.0,Alto Crescimento
+altocrescimento,2014,J,Informação e comunicação,61,Telecomunicações,173.0,40421.0,40122.0,Alto Crescimento
+altocrescimento,2014,J,Informação e comunicação,62,Atividades dos serviços de tecnologia da informação,505.0,71698.0,70716.0,Alto Crescimento
+altocrescimento,2014,J,Informação e comunicação,63,Atividades de prestação de serviços de informação,100.0,12753.0,12586.0,Alto Crescimento
+altocrescimento,2014,K,"Atividades financeiras, de seguros e serviços relacionados",64,Atividades de serviços financeiros,205.0,27329.0,26160.0,Alto Crescimento
+altocrescimento,2014,K,"Atividades financeiras, de seguros e serviços relacionados",65,"Seguros, resseguros, previdência complementar e planos de saúde",60.0,24365.0,24019.0,Alto Crescimento
+altocrescimento,2014,K,"Atividades financeiras, de seguros e serviços relacionados",66,"Atividades auxiliares dos serviços financeiros, seguros, previdência complementar e planos de saúde",106.0,13021.0,12767.0,Alto Crescimento
+altocrescimento,2014,L,Atividades imobiliárias,68,Atividades imobiliárias,149.0,11856.0,11557.0,Alto Crescimento
+altocrescimento,2014,M,"Atividades profissionais, científicas e técnicas",69,"Atividades jurídicas, de contabilidade e de auditoria",395.0,20957.0,19999.0,Alto Crescimento
+altocrescimento,2014,M,"Atividades profissionais, científicas e técnicas",70,Atividades de sedes de empresas e de consultoria em gestão empresarial,93.0,19545.0,19327.0,Alto Crescimento
+altocrescimento,2014,M,"Atividades profissionais, científicas e técnicas",71,Serviços de arquitetura e engenharia; testes e análises técnicas,384.0,47639.0,46884.0,Alto Crescimento
+altocrescimento,2014,M,"Atividades profissionais, científicas e técnicas",72,Pesquisa e desenvolvimento científico,3.0,261.0,256.0,Alto Crescimento
+altocrescimento,2014,M,"Atividades profissionais, científicas e técnicas",73,Publicidade e pesquisa de mercado,105.0,11815.0,11631.0,Alto Crescimento
+altocrescimento,2014,M,"Atividades profissionais, científicas e técnicas",74,"Outras atividades profissionais, científicas e técnicas",81.0,9100.0,8942.0,Alto Crescimento
+altocrescimento,2014,M,"Atividades profissionais, científicas e técnicas",75,Atividades veterinárias,6.0,394.0,386.0,Alto Crescimento
+altocrescimento,2014,N,Atividades administrativas e serviços complementares,77,Aluguéis não-imobiliários e gestão de ativos intangíveis não-financeiros,428.0,42584.0,41929.0,Alto Crescimento
+altocrescimento,2014,N,Atividades administrativas e serviços complementares,78,"Seleção, agenciamento e locação de mão-de-obra",379.0,203079.0,202537.0,Alto Crescimento
+altocrescimento,2014,N,Atividades administrativas e serviços complementares,79,"Agências de viagens, operadores turísticos e serviços de reservas",98.0,6875.0,6702.0,Alto Crescimento
+altocrescimento,2014,N,Atividades administrativas e serviços complementares,80,"Atividades de vigilância, segurança e investigação",475.0,213068.0,212428.0,Alto Crescimento
+altocrescimento,2014,N,Atividades administrativas e serviços complementares,81,Serviços para edifícios e atividades paisagísticas,965.0,254326.0,253009.0,Alto Crescimento
+altocrescimento,2014,N,Atividades administrativas e serviços complementares,82,"Serviços de escritório, de apoio administrativo e outros serviços prestados às empresas",769.0,308070.0,306951.0,Alto Crescimento
+altocrescimento,2014,O,"Administração pública, defesa e seguridade social",84,"Administração pública, defesa e seguridade social",2.0,-1.0,-1.0,Alto Crescimento
+altocrescimento,2014,P,Educação,85,Educação,1330.0,87103.0,84534.0,Alto Crescimento
+altocrescimento,2014,Q,Saúde humana e serviços sociais,86,Atividades de atenção à saúde humana,615.0,73564.0,71388.0,Alto Crescimento
+altocrescimento,2014,Q,Saúde humana e serviços sociais,87,"Atividades de atenção à saúde humana integradas com assistência social, prestadas em residências coletivas e particulares",49.0,-1.0,-1.0,Alto Crescimento
+altocrescimento,2014,Q,Saúde humana e serviços sociais,88,Serviços de assistência social sem alojamento,1.0,-1.0,-1.0,Alto Crescimento
+altocrescimento,2014,R,"Artes, cultura, esporte e recreação",90,"Atividades artísticas, criativas e de espetáculos",10.0,453.0,431.0,Alto Crescimento
+altocrescimento,2014,R,"Artes, cultura, esporte e recreação",91,Atividades ligadas ao patrimônio cultural e ambiental,3.0,131.0,125.0,Alto Crescimento
+altocrescimento,2014,R,"Artes, cultura, esporte e recreação",92,Atividades de exploração de jogos de azar e apostas,0.0,0.0,0.0,Alto Crescimento
+altocrescimento,2014,R,"Artes, cultura, esporte e recreação",93,Atividades esportivas e de recreação e lazer,136.0,9566.0,9371.0,Alto Crescimento
+altocrescimento,2014,S,Outras atividades de serviços,94,Atividades de organizações associativas,8.0,458.0,415.0,Alto Crescimento
+altocrescimento,2014,S,Outras atividades de serviços,95,Reparação e manutenção de equipamentos de informática e comunicação e de objetos pessoais e domésticos,173.0,16202.0,15955.0,Alto Crescimento
+altocrescimento,2014,S,Outras atividades de serviços,96,Outras atividades de serviços pessoais,216.0,16614.0,16282.0,Alto Crescimento
+altocrescimento,2014,U,Organismos internacionais e outras instituições extraterritoriais,99,Organismos internacionais e outras instituições extraterritoriais,0.0,0.0,0.0,Alto Crescimento
+altocrescimento,2014,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",1,"Agricultura, pecuária e serviços relacionados",111.0,26852.0,26649.0,Gazela
+altocrescimento,2014,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",2,Produção florestal,33.0,4398.0,4327.0,Gazela
+altocrescimento,2014,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",3,Pesca e aquicultura,6.0,408.0,395.0,Gazela
+altocrescimento,2014,B,Indústrias extrativas,5,Extração de carvão mineral,0.0,0.0,0.0,Gazela
+altocrescimento,2014,B,Indústrias extrativas,6,Extração de petróleo e gás natural,3.0,197.0,197.0,Gazela
+altocrescimento,2014,B,Indústrias extrativas,7,Extração de minerais metálicos,12.0,2625.0,2608.0,Gazela
+altocrescimento,2014,B,Indústrias extrativas,8,Extração de minerais não-metálicos,23.0,1117.0,1064.0,Gazela
+altocrescimento,2014,B,Indústrias extrativas,9,Atividades de apoio à extração de minerais,12.0,8676.0,8666.0,Gazela
+altocrescimento,2014,C,Indústrias de transformação,10,Fabricação de produtos alimentícios,282.0,34686.0,34287.0,Gazela
+altocrescimento,2014,C,Indústrias de transformação,11,Fabricação de bebidas,18.0,2033.0,2013.0,Gazela
+altocrescimento,2014,C,Indústrias de transformação,12,Fabricação de produtos do fumo,2.0,-1.0,-1.0,Gazela
+altocrescimento,2014,C,Indústrias de transformação,13,Fabricação de produtos têxteis,98.0,6797.0,6669.0,Gazela
+altocrescimento,2014,C,Indústrias de transformação,14,Confecção de artigos do vestuário e acessórios,443.0,31467.0,30900.0,Gazela
+altocrescimento,2014,C,Indústrias de transformação,15,"Preparação de couros e fabricação de artefatos de couro, artigos para viagem e calçados",165.0,13593.0,13381.0,Gazela
+altocrescimento,2014,C,Indústrias de transformação,16,Fabricação de produtos de madeira,85.0,4501.0,4384.0,Gazela
+altocrescimento,2014,C,Indústrias de transformação,17,"Fabricação de celulose, papel e produtos de papel",39.0,2715.0,2669.0,Gazela
+altocrescimento,2014,C,Indústrias de transformação,18,Impressão e reprodução de gravações,39.0,2249.0,2193.0,Gazela
+altocrescimento,2014,C,Indústrias de transformação,19,"Fabricação de coque, de produtos derivados do petróleo e de biocombustíveis",9.0,9847.0,9837.0,Gazela
+altocrescimento,2014,C,Indústrias de transformação,20,Fabricação de produtos químicos,61.0,7161.0,7074.0,Gazela
+altocrescimento,2014,C,Indústrias de transformação,21,Fabricação de produtos farmoquímicos e farmacêuticos,3.0,-1.0,-1.0,Gazela
+altocrescimento,2014,C,Indústrias de transformação,22,Fabricação de produtos de borracha e de material plástico,175.0,13038.0,12766.0,Gazela
+altocrescimento,2014,C,Indústrias de transformação,23,Fabricação de produtos de minerais não-metálicos,201.0,11672.0,11381.0,Gazela
+altocrescimento,2014,C,Indústrias de transformação,24,Metalurgia,35.0,2762.0,2721.0,Gazela
+altocrescimento,2014,C,Indústrias de transformação,25,"Fabricação de produtos de metal, exceto máquinas e equipamentos",215.0,15486.0,15204.0,Gazela
+altocrescimento,2014,C,Indústrias de transformação,26,"Fabricação de equipamentos de informática, produtos eletrônicos e ópticos",37.0,7416.0,7361.0,Gazela
+altocrescimento,2014,C,Indústrias de transformação,27,"Fabricação de máquinas, aparelhos e materiais elétricos",44.0,9311.0,9238.0,Gazela
+altocrescimento,2014,C,Indústrias de transformação,28,Fabricação de máquinas e equipamentos,91.0,6604.0,6463.0,Gazela
+altocrescimento,2014,C,Indústrias de transformação,29,"Fabricação de veículos automotores, reboques e carrocerias",44.0,8718.0,8628.0,Gazela
+altocrescimento,2014,C,Indústrias de transformação,30,"Fabricação de outros equipamentos de transporte, exceto veículos automotores",21.0,25253.0,25221.0,Gazela
+altocrescimento,2014,C,Indústrias de transformação,31,Fabricação de móveis,134.0,6924.0,6731.0,Gazela
+altocrescimento,2014,C,Indústrias de transformação,32,Fabricação de produtos diversos,72.0,3756.0,3653.0,Gazela
+altocrescimento,2014,C,Indústrias de transformação,33,"Manutenção, reparação e instalação de máquinas e equipamentos",127.0,7319.0,7132.0,Gazela
+altocrescimento,2014,D,Eletricidade e gás,35,"Eletricidade, gás e outras utilidades",16.0,2295.0,2248.0,Gazela
+altocrescimento,2014,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",36,"Captação, tratamento e distribuição de água",3.0,446.0,444.0,Gazela
+altocrescimento,2014,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",37,Esgoto e atividades relacionadas,4.0,959.0,959.0,Gazela
+altocrescimento,2014,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",38,"Coleta, tratamento e disposição de resíduos; recuperação de materiais",55.0,4879.0,4799.0,Gazela
+altocrescimento,2014,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",39,Descontaminação e outros serviços de gestão de resíduos,0.0,0.0,0.0,Gazela
+altocrescimento,2014,F,Construção,41,Construção de edifícios,824.0,75428.0,74264.0,Gazela
+altocrescimento,2014,F,Construção,42,Obras de infraestrutura,213.0,80043.0,79745.0,Gazela
+altocrescimento,2014,F,Construção,43,Serviços especializados para construção,553.0,40130.0,39332.0,Gazela
+altocrescimento,2014,G,Comércio; reparação de veículos automotores e motocicletas,45,Comércio e reparação de veículos automotores e motocicletas,283.0,18691.0,18355.0,Gazela
+altocrescimento,2014,G,Comércio; reparação de veículos automotores e motocicletas,46,"Comércio por atacado, exceto veículos automotores e motocicletas",732.0,51258.0,50282.0,Gazela
+altocrescimento,2014,G,Comércio; reparação de veículos automotores e motocicletas,47,Comércio varejista,2098.0,136221.0,133363.0,Gazela
+altocrescimento,2014,H,"Transporte, armazenagem e correio",49,Transporte terrestre,589.0,55422.0,54534.0,Gazela
+altocrescimento,2014,H,"Transporte, armazenagem e correio",50,Transporte aquaviário,15.0,2412.0,2394.0,Gazela
+altocrescimento,2014,H,"Transporte, armazenagem e correio",51,Transporte aéreo,4.0,10731.0,10723.0,Gazela
+altocrescimento,2014,H,"Transporte, armazenagem e correio",52,Armazenamento e atividades auxiliares dos transportes,175.0,20229.0,19976.0,Gazela
+altocrescimento,2014,H,"Transporte, armazenagem e correio",53,Correio e outras atividades de entrega,75.0,5624.0,5527.0,Gazela
+altocrescimento,2014,I,Alojamento e alimentação,55,Alojamento,84.0,6308.0,6193.0,Gazela
+altocrescimento,2014,I,Alojamento e alimentação,56,Alimentação,758.0,55018.0,53979.0,Gazela
+altocrescimento,2014,J,Informação e comunicação,58,Edição e edição integrada à impressão,14.0,1148.0,1132.0,Gazela
+altocrescimento,2014,J,Informação e comunicação,59,"Atividades cinematográficas, produção de vídeos e de programas de televisão; gravação de som e edição de música",7.0,1737.0,1730.0,Gazela
+altocrescimento,2014,J,Informação e comunicação,60,Atividades de rádio e de televisão,4.0,2716.0,2711.0,Gazela
+altocrescimento,2014,J,Informação e comunicação,61,Telecomunicações,65.0,5920.0,5812.0,Gazela
+altocrescimento,2014,J,Informação e comunicação,62,Atividades dos serviços de tecnologia da informação,162.0,17666.0,17379.0,Gazela
+altocrescimento,2014,J,Informação e comunicação,63,Atividades de prestação de serviços de informação,41.0,2699.0,2623.0,Gazela
+altocrescimento,2014,K,"Atividades financeiras, de seguros e serviços relacionados",64,Atividades de serviços financeiros,51.0,5551.0,5368.0,Gazela
+altocrescimento,2014,K,"Atividades financeiras, de seguros e serviços relacionados",65,"Seguros, resseguros, previdência complementar e planos de saúde",6.0,368.0,354.0,Gazela
+altocrescimento,2014,K,"Atividades financeiras, de seguros e serviços relacionados",66,"Atividades auxiliares dos serviços financeiros, seguros, previdência complementar e planos de saúde",41.0,4149.0,4042.0,Gazela
+altocrescimento,2014,L,Atividades imobiliárias,68,Atividades imobiliárias,49.0,3457.0,3367.0,Gazela
+altocrescimento,2014,M,"Atividades profissionais, científicas e técnicas",69,"Atividades jurídicas, de contabilidade e de auditoria",117.0,4472.0,4225.0,Gazela
+altocrescimento,2014,M,"Atividades profissionais, científicas e técnicas",70,Atividades de sedes de empresas e de consultoria em gestão empresarial,41.0,6107.0,6037.0,Gazela
+altocrescimento,2014,M,"Atividades profissionais, científicas e técnicas",71,Serviços de arquitetura e engenharia; testes e análises técnicas,127.0,13150.0,12919.0,Gazela
+altocrescimento,2014,M,"Atividades profissionais, científicas e técnicas",72,Pesquisa e desenvolvimento científico,1.0,-1.0,-1.0,Gazela
+altocrescimento,2014,M,"Atividades profissionais, científicas e técnicas",73,Publicidade e pesquisa de mercado,54.0,4382.0,4304.0,Gazela
+altocrescimento,2014,M,"Atividades profissionais, científicas e técnicas",74,"Outras atividades profissionais, científicas e técnicas",27.0,4703.0,4656.0,Gazela
+altocrescimento,2014,M,"Atividades profissionais, científicas e técnicas",75,Atividades veterinárias,2.0,-1.0,-1.0,Gazela
+altocrescimento,2014,N,Atividades administrativas e serviços complementares,77,Aluguéis não-imobiliários e gestão de ativos intangíveis não-financeiros,172.0,11269.0,11009.0,Gazela
+altocrescimento,2014,N,Atividades administrativas e serviços complementares,78,"Seleção, agenciamento e locação de mão-de-obra",149.0,51409.0,51185.0,Gazela
+altocrescimento,2014,N,Atividades administrativas e serviços complementares,79,"Agências de viagens, operadores turísticos e serviços de reservas",35.0,2327.0,2270.0,Gazela
+altocrescimento,2014,N,Atividades administrativas e serviços complementares,80,"Atividades de vigilância, segurança e investigação",275.0,52601.0,52253.0,Gazela
+altocrescimento,2014,N,Atividades administrativas e serviços complementares,81,Serviços para edifícios e atividades paisagísticas,568.0,97076.0,96300.0,Gazela
+altocrescimento,2014,N,Atividades administrativas e serviços complementares,82,"Serviços de escritório, de apoio administrativo e outros serviços prestados às empresas",437.0,99761.0,99169.0,Gazela
+altocrescimento,2014,O,"Administração pública, defesa e seguridade social",84,"Administração pública, defesa e seguridade social",1.0,-1.0,-1.0,Gazela
+altocrescimento,2014,P,Educação,85,Educação,468.0,23925.0,23046.0,Gazela
+altocrescimento,2014,Q,Saúde humana e serviços sociais,86,Atividades de atenção à saúde humana,139.0,11542.0,11118.0,Gazela
+altocrescimento,2014,Q,Saúde humana e serviços sociais,87,"Atividades de atenção à saúde humana integradas com assistência social, prestadas em residências coletivas e particulares",23.0,1539.0,1462.0,Gazela
+altocrescimento,2014,Q,Saúde humana e serviços sociais,88,Serviços de assistência social sem alojamento,0.0,0.0,0.0,Gazela
+altocrescimento,2014,R,"Artes, cultura, esporte e recreação",90,"Atividades artísticas, criativas e de espetáculos",4.0,141.0,132.0,Gazela
+altocrescimento,2014,R,"Artes, cultura, esporte e recreação",91,Atividades ligadas ao patrimônio cultural e ambiental,2.0,-1.0,-1.0,Gazela
+altocrescimento,2014,R,"Artes, cultura, esporte e recreação",92,Atividades de exploração de jogos de azar e apostas,0.0,0.0,0.0,Gazela
+altocrescimento,2014,R,"Artes, cultura, esporte e recreação",93,Atividades esportivas e de recreação e lazer,64.0,3821.0,3763.0,Gazela
+altocrescimento,2014,S,Outras atividades de serviços,94,Atividades de organizações associativas,4.0,148.0,132.0,Gazela
+altocrescimento,2014,S,Outras atividades de serviços,95,Reparação e manutenção de equipamentos de informática e comunicação e de objetos pessoais e domésticos,69.0,5164.0,5063.0,Gazela
+altocrescimento,2014,S,Outras atividades de serviços,96,Outras atividades de serviços pessoais,105.0,7129.0,6985.0,Gazela
+altocrescimento,2014,U,Organismos internacionais e outras instituições extraterritoriais,99,Organismos internacionais e outras instituições extraterritoriais,0.0,0.0,0.0,Gazela
+altocrescimento,2015,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",1,"Agricultura, pecuária e serviços relacionados",265.0,36581.0,35978.0,Alto Crescimento
+altocrescimento,2015,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",2,Produção florestal,57.0,11508.0,11354.0,Alto Crescimento
+altocrescimento,2015,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",3,Pesca e aquicultura,25.0,2778.0,2705.0,Alto Crescimento
+altocrescimento,2015,B,Indústrias extrativas,5,Extração de carvão mineral,0.0,0.0,0.0,Alto Crescimento
+altocrescimento,2015,B,Indústrias extrativas,6,Extração de petróleo e gás natural,2.0,-1.0,-1.0,Alto Crescimento
+altocrescimento,2015,B,Indústrias extrativas,7,Extração de minerais metálicos,19.0,-1.0,-1.0,Alto Crescimento
+altocrescimento,2015,B,Indústrias extrativas,8,Extração de minerais não-metálicos,85.0,6401.0,6232.0,Alto Crescimento
+altocrescimento,2015,B,Indústrias extrativas,9,Atividades de apoio à extração de minerais,21.0,9884.0,9857.0,Alto Crescimento
+altocrescimento,2015,C,Indústrias de transformação,10,Fabricação de produtos alimentícios,816.0,271082.0,269793.0,Alto Crescimento
+altocrescimento,2015,C,Indústrias de transformação,11,Fabricação de bebidas,68.0,45249.0,45139.0,Alto Crescimento
+altocrescimento,2015,C,Indústrias de transformação,12,Fabricação de produtos do fumo,2.0,-1.0,-1.0,Alto Crescimento
+altocrescimento,2015,C,Indústrias de transformação,13,Fabricação de produtos têxteis,148.0,17005.0,16780.0,Alto Crescimento
+altocrescimento,2015,C,Indústrias de transformação,14,Confecção de artigos do vestuário e acessórios,661.0,56072.0,55204.0,Alto Crescimento
+altocrescimento,2015,C,Indústrias de transformação,15,"Preparação de couros e fabricação de artefatos de couro, artigos para viagem e calçados",272.0,33665.0,33294.0,Alto Crescimento
+altocrescimento,2015,C,Indústrias de transformação,16,Fabricação de produtos de madeira,196.0,12458.0,12167.0,Alto Crescimento
+altocrescimento,2015,C,Indústrias de transformação,17,"Fabricação de celulose, papel e produtos de papel",88.0,22399.0,22278.0,Alto Crescimento
+altocrescimento,2015,C,Indústrias de transformação,18,Impressão e reprodução de gravações,65.0,-1.0,-1.0,Alto Crescimento
+altocrescimento,2015,C,Indústrias de transformação,19,"Fabricação de coque, de produtos derivados do petróleo e de biocombustíveis",22.0,13057.0,13037.0,Alto Crescimento
+altocrescimento,2015,C,Indústrias de transformação,20,Fabricação de produtos químicos,179.0,36021.0,35754.0,Alto Crescimento
+altocrescimento,2015,C,Indústrias de transformação,21,Fabricação de produtos farmoquímicos e farmacêuticos,30.0,6751.0,6693.0,Alto Crescimento
+altocrescimento,2015,C,Indústrias de transformação,22,Fabricação de produtos de borracha e de material plástico,324.0,30332.0,29914.0,Alto Crescimento
+altocrescimento,2015,C,Indústrias de transformação,23,Fabricação de produtos de minerais não-metálicos,352.0,31651.0,31097.0,Alto Crescimento
+altocrescimento,2015,C,Indústrias de transformação,24,Metalurgia,55.0,9780.0,9718.0,Alto Crescimento
+altocrescimento,2015,C,Indústrias de transformação,25,"Fabricação de produtos de metal, exceto máquinas e equipamentos",400.0,27412.0,26810.0,Alto Crescimento
+altocrescimento,2015,C,Indústrias de transformação,26,"Fabricação de equipamentos de informática, produtos eletrônicos e ópticos",68.0,18885.0,18781.0,Alto Crescimento
+altocrescimento,2015,C,Indústrias de transformação,27,"Fabricação de máquinas, aparelhos e materiais elétricos",107.0,17904.0,17741.0,Alto Crescimento
+altocrescimento,2015,C,Indústrias de transformação,28,Fabricação de máquinas e equipamentos,258.0,23766.0,23381.0,Alto Crescimento
+altocrescimento,2015,C,Indústrias de transformação,29,"Fabricação de veículos automotores, reboques e carrocerias",100.0,19477.0,19344.0,Alto Crescimento
+altocrescimento,2015,C,Indústrias de transformação,30,"Fabricação de outros equipamentos de transporte, exceto veículos automotores",31.0,12264.0,12218.0,Alto Crescimento
+altocrescimento,2015,C,Indústrias de transformação,31,Fabricação de móveis,255.0,18168.0,17788.0,Alto Crescimento
+altocrescimento,2015,C,Indústrias de transformação,32,Fabricação de produtos diversos,114.0,8901.0,8717.0,Alto Crescimento
+altocrescimento,2015,C,Indústrias de transformação,33,"Manutenção, reparação e instalação de máquinas e equipamentos",213.0,19476.0,19198.0,Alto Crescimento
+altocrescimento,2015,D,Eletricidade e gás,35,"Eletricidade, gás e outras utilidades",32.0,-1.0,-1.0,Alto Crescimento
+altocrescimento,2015,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",36,"Captação, tratamento e distribuição de água",7.0,308.0,303.0,Alto Crescimento
+altocrescimento,2015,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",37,Esgoto e atividades relacionadas,17.0,2279.0,2260.0,Alto Crescimento
+altocrescimento,2015,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",38,"Coleta, tratamento e disposição de resíduos; recuperação de materiais",114.0,25113.0,24968.0,Alto Crescimento
+altocrescimento,2015,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",39,Descontaminação e outros serviços de gestão de resíduos,3.0,186.0,185.0,Alto Crescimento
+altocrescimento,2015,F,Construção,41,Construção de edifícios,1416.0,172241.0,170045.0,Alto Crescimento
+altocrescimento,2015,F,Construção,42,Obras de infraestrutura,538.0,128499.0,127657.0,Alto Crescimento
+altocrescimento,2015,F,Construção,43,Serviços especializados para construção,944.0,94199.0,92817.0,Alto Crescimento
+altocrescimento,2015,G,Comércio; reparação de veículos automotores e motocicletas,45,Comércio e reparação de veículos automotores e motocicletas,579.0,40847.0,40131.0,Alto Crescimento
+altocrescimento,2015,G,Comércio; reparação de veículos automotores e motocicletas,46,"Comércio por atacado, exceto veículos automotores e motocicletas",1719.0,175992.0,173646.0,Alto Crescimento
+altocrescimento,2015,G,Comércio; reparação de veículos automotores e motocicletas,47,Comércio varejista,4541.0,390209.0,384256.0,Alto Crescimento
+altocrescimento,2015,H,"Transporte, armazenagem e correio",49,Transporte terrestre,1434.0,165075.0,162724.0,Alto Crescimento
+altocrescimento,2015,H,"Transporte, armazenagem e correio",50,Transporte aquaviário,36.0,3788.0,3747.0,Alto Crescimento
+altocrescimento,2015,H,"Transporte, armazenagem e correio",51,Transporte aéreo,12.0,11440.0,11421.0,Alto Crescimento
+altocrescimento,2015,H,"Transporte, armazenagem e correio",52,Armazenamento e atividades auxiliares dos transportes,302.0,51957.0,51529.0,Alto Crescimento
+altocrescimento,2015,H,"Transporte, armazenagem e correio",53,Correio e outras atividades de entrega,94.0,6923.0,6798.0,Alto Crescimento
+altocrescimento,2015,I,Alojamento e alimentação,55,Alojamento,233.0,21586.0,21219.0,Alto Crescimento
+altocrescimento,2015,I,Alojamento e alimentação,56,Alimentação,1197.0,91835.0,90171.0,Alto Crescimento
+altocrescimento,2015,J,Informação e comunicação,58,Edição e edição integrada à impressão,44.0,6945.0,6876.0,Alto Crescimento
+altocrescimento,2015,J,Informação e comunicação,59,"Atividades cinematográficas, produção de vídeos e de programas de televisão; gravação de som e edição de música",23.0,3792.0,3758.0,Alto Crescimento
+altocrescimento,2015,J,Informação e comunicação,60,Atividades de rádio e de televisão,30.0,2956.0,2921.0,Alto Crescimento
+altocrescimento,2015,J,Informação e comunicação,61,Telecomunicações,211.0,70759.0,70423.0,Alto Crescimento
+altocrescimento,2015,J,Informação e comunicação,62,Atividades dos serviços de tecnologia da informação,457.0,73505.0,72681.0,Alto Crescimento
+altocrescimento,2015,J,Informação e comunicação,63,Atividades de prestação de serviços de informação,81.0,7473.0,7348.0,Alto Crescimento
+altocrescimento,2015,K,"Atividades financeiras, de seguros e serviços relacionados",64,Atividades de serviços financeiros,200.0,23641.0,22476.0,Alto Crescimento
+altocrescimento,2015,K,"Atividades financeiras, de seguros e serviços relacionados",65,"Seguros, resseguros, previdência complementar e planos de saúde",50.0,20867.0,20642.0,Alto Crescimento
+altocrescimento,2015,K,"Atividades financeiras, de seguros e serviços relacionados",66,"Atividades auxiliares dos serviços financeiros, seguros, previdência complementar e planos de saúde",95.0,11983.0,11789.0,Alto Crescimento
+altocrescimento,2015,L,Atividades imobiliárias,68,Atividades imobiliárias,114.0,8777.0,8595.0,Alto Crescimento
+altocrescimento,2015,M,"Atividades profissionais, científicas e técnicas",69,"Atividades jurídicas, de contabilidade e de auditoria",279.0,16081.0,15403.0,Alto Crescimento
+altocrescimento,2015,M,"Atividades profissionais, científicas e técnicas",70,Atividades de sedes de empresas e de consultoria em gestão empresarial,85.0,13324.0,13174.0,Alto Crescimento
+altocrescimento,2015,M,"Atividades profissionais, científicas e técnicas",71,Serviços de arquitetura e engenharia; testes e análises técnicas,284.0,38438.0,37937.0,Alto Crescimento
+altocrescimento,2015,M,"Atividades profissionais, científicas e técnicas",72,Pesquisa e desenvolvimento científico,4.0,131.0,127.0,Alto Crescimento
+altocrescimento,2015,M,"Atividades profissionais, científicas e técnicas",73,Publicidade e pesquisa de mercado,79.0,9638.0,9513.0,Alto Crescimento
+altocrescimento,2015,M,"Atividades profissionais, científicas e técnicas",74,"Outras atividades profissionais, científicas e técnicas",77.0,12267.0,12118.0,Alto Crescimento
+altocrescimento,2015,M,"Atividades profissionais, científicas e técnicas",75,Atividades veterinárias,8.0,226.0,212.0,Alto Crescimento
+altocrescimento,2015,N,Atividades administrativas e serviços complementares,77,Aluguéis não-imobiliários e gestão de ativos intangíveis não-financeiros,323.0,35994.0,35549.0,Alto Crescimento
+altocrescimento,2015,N,Atividades administrativas e serviços complementares,78,"Seleção, agenciamento e locação de mão-de-obra",332.0,172030.0,171574.0,Alto Crescimento
+altocrescimento,2015,N,Atividades administrativas e serviços complementares,79,"Agências de viagens, operadores turísticos e serviços de reservas",73.0,4550.0,4417.0,Alto Crescimento
+altocrescimento,2015,N,Atividades administrativas e serviços complementares,80,"Atividades de vigilância, segurança e investigação",412.0,136817.0,136309.0,Alto Crescimento
+altocrescimento,2015,N,Atividades administrativas e serviços complementares,81,Serviços para edifícios e atividades paisagísticas,926.0,220661.0,219430.0,Alto Crescimento
+altocrescimento,2015,N,Atividades administrativas e serviços complementares,82,"Serviços de escritório, de apoio administrativo e outros serviços prestados às empresas",692.0,226907.0,225924.0,Alto Crescimento
+altocrescimento,2015,O,"Administração pública, defesa e seguridade social",84,"Administração pública, defesa e seguridade social",2.0,-1.0,-1.0,Alto Crescimento
+altocrescimento,2015,P,Educação,85,Educação,1336.0,77615.0,74994.0,Alto Crescimento
+altocrescimento,2015,Q,Saúde humana e serviços sociais,86,Atividades de atenção à saúde humana,524.0,81001.0,79230.0,Alto Crescimento
+altocrescimento,2015,Q,Saúde humana e serviços sociais,87,"Atividades de atenção à saúde humana integradas com assistência social, prestadas em residências coletivas e particulares",72.0,4966.0,4761.0,Alto Crescimento
+altocrescimento,2015,Q,Saúde humana e serviços sociais,88,Serviços de assistência social sem alojamento,0.0,0.0,0.0,Alto Crescimento
+altocrescimento,2015,R,"Artes, cultura, esporte e recreação",90,"Atividades artísticas, criativas e de espetáculos",7.0,489.0,469.0,Alto Crescimento
+altocrescimento,2015,R,"Artes, cultura, esporte e recreação",91,Atividades ligadas ao patrimônio cultural e ambiental,3.0,259.0,253.0,Alto Crescimento
+altocrescimento,2015,R,"Artes, cultura, esporte e recreação",92,Atividades de exploração de jogos de azar e apostas,0.0,0.0,0.0,Alto Crescimento
+altocrescimento,2015,R,"Artes, cultura, esporte e recreação",93,Atividades esportivas e de recreação e lazer,122.0,9028.0,8860.0,Alto Crescimento
+altocrescimento,2015,S,Outras atividades de serviços,94,Atividades de organizações associativas,6.0,336.0,291.0,Alto Crescimento
+altocrescimento,2015,S,Outras atividades de serviços,95,Reparação e manutenção de equipamentos de informática e comunicação e de objetos pessoais e domésticos,145.0,13737.0,13550.0,Alto Crescimento
+altocrescimento,2015,S,Outras atividades de serviços,96,Outras atividades de serviços pessoais,184.0,13744.0,13498.0,Alto Crescimento
+altocrescimento,2015,U,Organismos internacionais e outras instituições extraterritoriais,99,Organismos internacionais e outras instituições extraterritoriais,0.0,0.0,0.0,Alto Crescimento
+altocrescimento,2015,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",1,"Agricultura, pecuária e serviços relacionados",128.0,14189.0,13956.0,Gazela
+altocrescimento,2015,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",2,Produção florestal,20.0,1524.0,1474.0,Gazela
+altocrescimento,2015,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",3,Pesca e aquicultura,11.0,784.0,749.0,Gazela
+altocrescimento,2015,B,Indústrias extrativas,5,Extração de carvão mineral,0.0,0.0,0.0,Gazela
+altocrescimento,2015,B,Indústrias extrativas,6,Extração de petróleo e gás natural,1.0,-1.0,-1.0,Gazela
+altocrescimento,2015,B,Indústrias extrativas,7,Extração de minerais metálicos,5.0,-1.0,-1.0,Gazela
+altocrescimento,2015,B,Indústrias extrativas,8,Extração de minerais não-metálicos,17.0,935.0,902.0,Gazela
+altocrescimento,2015,B,Indústrias extrativas,9,Atividades de apoio à extração de minerais,9.0,1585.0,1584.0,Gazela
+altocrescimento,2015,C,Indústrias de transformação,10,Fabricação de produtos alimentícios,272.0,34584.0,34174.0,Gazela
+altocrescimento,2015,C,Indústrias de transformação,11,Fabricação de bebidas,16.0,4841.0,4824.0,Gazela
+altocrescimento,2015,C,Indústrias de transformação,12,Fabricação de produtos do fumo,1.0,-1.0,-1.0,Gazela
+altocrescimento,2015,C,Indústrias de transformação,13,Fabricação de produtos têxteis,53.0,5145.0,5087.0,Gazela
+altocrescimento,2015,C,Indústrias de transformação,14,Confecção de artigos do vestuário e acessórios,329.0,20756.0,20336.0,Gazela
+altocrescimento,2015,C,Indústrias de transformação,15,"Preparação de couros e fabricação de artefatos de couro, artigos para viagem e calçados",122.0,10439.0,10290.0,Gazela
+altocrescimento,2015,C,Indústrias de transformação,16,Fabricação de produtos de madeira,71.0,3645.0,3541.0,Gazela
+altocrescimento,2015,C,Indústrias de transformação,17,"Fabricação de celulose, papel e produtos de papel",32.0,1684.0,1640.0,Gazela
+altocrescimento,2015,C,Indústrias de transformação,18,Impressão e reprodução de gravações,27.0,-1.0,-1.0,Gazela
+altocrescimento,2015,C,Indústrias de transformação,19,"Fabricação de coque, de produtos derivados do petróleo e de biocombustíveis",5.0,1547.0,1544.0,Gazela
+altocrescimento,2015,C,Indústrias de transformação,20,Fabricação de produtos químicos,45.0,3008.0,2948.0,Gazela
+altocrescimento,2015,C,Indústrias de transformação,21,Fabricação de produtos farmoquímicos e farmacêuticos,4.0,1814.0,1812.0,Gazela
+altocrescimento,2015,C,Indústrias de transformação,22,Fabricação de produtos de borracha e de material plástico,127.0,11128.0,10958.0,Gazela
+altocrescimento,2015,C,Indústrias de transformação,23,Fabricação de produtos de minerais não-metálicos,151.0,10065.0,9851.0,Gazela
+altocrescimento,2015,C,Indústrias de transformação,24,Metalurgia,26.0,4572.0,4548.0,Gazela
+altocrescimento,2015,C,Indústrias de transformação,25,"Fabricação de produtos de metal, exceto máquinas e equipamentos",180.0,10318.0,10065.0,Gazela
+altocrescimento,2015,C,Indústrias de transformação,26,"Fabricação de equipamentos de informática, produtos eletrônicos e ópticos",26.0,2394.0,2361.0,Gazela
+altocrescimento,2015,C,Indústrias de transformação,27,"Fabricação de máquinas, aparelhos e materiais elétricos",44.0,5997.0,5939.0,Gazela
+altocrescimento,2015,C,Indústrias de transformação,28,Fabricação de máquinas e equipamentos,81.0,6068.0,5954.0,Gazela
+altocrescimento,2015,C,Indústrias de transformação,29,"Fabricação de veículos automotores, reboques e carrocerias",34.0,3717.0,3675.0,Gazela
+altocrescimento,2015,C,Indústrias de transformação,30,"Fabricação de outros equipamentos de transporte, exceto veículos automotores",17.0,7996.0,7970.0,Gazela
+altocrescimento,2015,C,Indústrias de transformação,31,Fabricação de móveis,107.0,5878.0,5725.0,Gazela
+altocrescimento,2015,C,Indústrias de transformação,32,Fabricação de produtos diversos,37.0,2222.0,2157.0,Gazela
+altocrescimento,2015,C,Indústrias de transformação,33,"Manutenção, reparação e instalação de máquinas e equipamentos",107.0,6715.0,6580.0,Gazela
+altocrescimento,2015,D,Eletricidade e gás,35,"Eletricidade, gás e outras utilidades",14.0,-1.0,-1.0,Gazela
+altocrescimento,2015,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",36,"Captação, tratamento e distribuição de água",3.0,-1.0,-1.0,Gazela
+altocrescimento,2015,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",37,Esgoto e atividades relacionadas,5.0,834.0,831.0,Gazela
+altocrescimento,2015,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",38,"Coleta, tratamento e disposição de resíduos; recuperação de materiais",44.0,5403.0,5354.0,Gazela
+altocrescimento,2015,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",39,Descontaminação e outros serviços de gestão de resíduos,1.0,-1.0,-1.0,Gazela
+altocrescimento,2015,F,Construção,41,Construção de edifícios,627.0,50917.0,50002.0,Gazela
+altocrescimento,2015,F,Construção,42,Obras de infraestrutura,172.0,46857.0,46635.0,Gazela
+altocrescimento,2015,F,Construção,43,Serviços especializados para construção,468.0,35438.0,34779.0,Gazela
+altocrescimento,2015,G,Comércio; reparação de veículos automotores e motocicletas,45,Comércio e reparação de veículos automotores e motocicletas,246.0,15366.0,15112.0,Gazela
+altocrescimento,2015,G,Comércio; reparação de veículos automotores e motocicletas,46,"Comércio por atacado, exceto veículos automotores e motocicletas",619.0,43559.0,42759.0,Gazela
+altocrescimento,2015,G,Comércio; reparação de veículos automotores e motocicletas,47,Comércio varejista,1680.0,110025.0,108003.0,Gazela
+altocrescimento,2015,H,"Transporte, armazenagem e correio",49,Transporte terrestre,497.0,39008.0,38280.0,Gazela
+altocrescimento,2015,H,"Transporte, armazenagem e correio",50,Transporte aquaviário,9.0,904.0,896.0,Gazela
+altocrescimento,2015,H,"Transporte, armazenagem e correio",51,Transporte aéreo,5.0,10861.0,10851.0,Gazela
+altocrescimento,2015,H,"Transporte, armazenagem e correio",52,Armazenamento e atividades auxiliares dos transportes,140.0,17831.0,17689.0,Gazela
+altocrescimento,2015,H,"Transporte, armazenagem e correio",53,Correio e outras atividades de entrega,57.0,3481.0,3409.0,Gazela
+altocrescimento,2015,I,Alojamento e alimentação,55,Alojamento,76.0,10090.0,9964.0,Gazela
+altocrescimento,2015,I,Alojamento e alimentação,56,Alimentação,625.0,45528.0,44666.0,Gazela
+altocrescimento,2015,J,Informação e comunicação,58,Edição e edição integrada à impressão,9.0,549.0,539.0,Gazela
+altocrescimento,2015,J,Informação e comunicação,59,"Atividades cinematográficas, produção de vídeos e de programas de televisão; gravação de som e edição de música",10.0,3041.0,3033.0,Gazela
+altocrescimento,2015,J,Informação e comunicação,60,Atividades de rádio e de televisão,3.0,154.0,151.0,Gazela
+altocrescimento,2015,J,Informação e comunicação,61,Telecomunicações,88.0,4867.0,4723.0,Gazela
+altocrescimento,2015,J,Informação e comunicação,62,Atividades dos serviços de tecnologia da informação,161.0,20932.0,20705.0,Gazela
+altocrescimento,2015,J,Informação e comunicação,63,Atividades de prestação de serviços de informação,36.0,2988.0,2922.0,Gazela
+altocrescimento,2015,K,"Atividades financeiras, de seguros e serviços relacionados",64,Atividades de serviços financeiros,44.0,3243.0,3040.0,Gazela
+altocrescimento,2015,K,"Atividades financeiras, de seguros e serviços relacionados",65,"Seguros, resseguros, previdência complementar e planos de saúde",10.0,586.0,564.0,Gazela
+altocrescimento,2015,K,"Atividades financeiras, de seguros e serviços relacionados",66,"Atividades auxiliares dos serviços financeiros, seguros, previdência complementar e planos de saúde",38.0,3340.0,3251.0,Gazela
+altocrescimento,2015,L,Atividades imobiliárias,68,Atividades imobiliárias,40.0,2437.0,2377.0,Gazela
+altocrescimento,2015,M,"Atividades profissionais, científicas e técnicas",69,"Atividades jurídicas, de contabilidade e de auditoria",100.0,4443.0,4234.0,Gazela
+altocrescimento,2015,M,"Atividades profissionais, científicas e técnicas",70,Atividades de sedes de empresas e de consultoria em gestão empresarial,38.0,3545.0,3493.0,Gazela
+altocrescimento,2015,M,"Atividades profissionais, científicas e técnicas",71,Serviços de arquitetura e engenharia; testes e análises técnicas,79.0,8791.0,8647.0,Gazela
+altocrescimento,2015,M,"Atividades profissionais, científicas e técnicas",72,Pesquisa e desenvolvimento científico,3.0,97.0,94.0,Gazela
+altocrescimento,2015,M,"Atividades profissionais, científicas e técnicas",73,Publicidade e pesquisa de mercado,44.0,4114.0,4041.0,Gazela
+altocrescimento,2015,M,"Atividades profissionais, científicas e técnicas",74,"Outras atividades profissionais, científicas e técnicas",33.0,3937.0,3888.0,Gazela
+altocrescimento,2015,M,"Atividades profissionais, científicas e técnicas",75,Atividades veterinárias,5.0,141.0,134.0,Gazela
+altocrescimento,2015,N,Atividades administrativas e serviços complementares,77,Aluguéis não-imobiliários e gestão de ativos intangíveis não-financeiros,125.0,8619.0,8435.0,Gazela
+altocrescimento,2015,N,Atividades administrativas e serviços complementares,78,"Seleção, agenciamento e locação de mão-de-obra",122.0,42963.0,42802.0,Gazela
+altocrescimento,2015,N,Atividades administrativas e serviços complementares,79,"Agências de viagens, operadores turísticos e serviços de reservas",26.0,1559.0,1517.0,Gazela
+altocrescimento,2015,N,Atividades administrativas e serviços complementares,80,"Atividades de vigilância, segurança e investigação",250.0,50979.0,50672.0,Gazela
+altocrescimento,2015,N,Atividades administrativas e serviços complementares,81,Serviços para edifícios e atividades paisagísticas,547.0,88574.0,87880.0,Gazela
+altocrescimento,2015,N,Atividades administrativas e serviços complementares,82,"Serviços de escritório, de apoio administrativo e outros serviços prestados às empresas",418.0,59219.0,58663.0,Gazela
+altocrescimento,2015,O,"Administração pública, defesa e seguridade social",84,"Administração pública, defesa e seguridade social",2.0,-1.0,-1.0,Gazela
+altocrescimento,2015,P,Educação,85,Educação,466.0,21717.0,20869.0,Gazela
+altocrescimento,2015,Q,Saúde humana e serviços sociais,86,Atividades de atenção à saúde humana,141.0,29952.0,29538.0,Gazela
+altocrescimento,2015,Q,Saúde humana e serviços sociais,87,"Atividades de atenção à saúde humana integradas com assistência social, prestadas em residências coletivas e particulares",42.0,2785.0,2685.0,Gazela
+altocrescimento,2015,Q,Saúde humana e serviços sociais,88,Serviços de assistência social sem alojamento,0.0,0.0,0.0,Gazela
+altocrescimento,2015,R,"Artes, cultura, esporte e recreação",90,"Atividades artísticas, criativas e de espetáculos",3.0,-1.0,-1.0,Gazela
+altocrescimento,2015,R,"Artes, cultura, esporte e recreação",91,Atividades ligadas ao patrimônio cultural e ambiental,1.0,-1.0,-1.0,Gazela
+altocrescimento,2015,R,"Artes, cultura, esporte e recreação",92,Atividades de exploração de jogos de azar e apostas,0.0,0.0,0.0,Gazela
+altocrescimento,2015,R,"Artes, cultura, esporte e recreação",93,Atividades esportivas e de recreação e lazer,58.0,3513.0,3441.0,Gazela
+altocrescimento,2015,S,Outras atividades de serviços,94,Atividades de organizações associativas,3.0,211.0,196.0,Gazela
+altocrescimento,2015,S,Outras atividades de serviços,95,Reparação e manutenção de equipamentos de informática e comunicação e de objetos pessoais e domésticos,70.0,3469.0,3392.0,Gazela
+altocrescimento,2015,S,Outras atividades de serviços,96,Outras atividades de serviços pessoais,95.0,5849.0,5729.0,Gazela
+altocrescimento,2015,U,Organismos internacionais e outras instituições extraterritoriais,99,Organismos internacionais e outras instituições extraterritoriais,0.0,0.0,0.0,Gazela

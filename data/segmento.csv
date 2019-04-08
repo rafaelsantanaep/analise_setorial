@@ -1,345 +1,174 @@
-level_0,seção_id,seção_descrição,divisão_id,divisão_descrição,numero_de_empresas,pessoal_ocupado_total,pessoal_ocupado_assalariados,segmento
-2014,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",1,"Agricultura, pecuária e serviços relacionados",3712,313122,303566,Mais de 8 anos de idade
-2014,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",2,Produção florestal,1231,78834,76387,Mais de 8 anos de idade
-2014,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",3,Pesca e aquicultura,213,9188,8708,Mais de 8 anos de idade
-2014,B,Indústrias extrativas,5,Extração de carvão mineral,14,5734,5726,Mais de 8 anos de idade
-2014,B,Indústrias extrativas,6,Extração de petróleo e gás natural,35,3800,3745,Mais de 8 anos de idade
-2014,B,Indústrias extrativas,7,Extração de minerais metálicos,176,87496,87168,Mais de 8 anos de idade
-2014,B,Indústrias extrativas,8,Extração de minerais não-metálicos,1941,78751,74977,Mais de 8 anos de idade
-2014,B,Indústrias extrativas,9,Atividades de apoio à extração de minerais,119,39041,38945,Mais de 8 anos de idade
-2014,C,Indústrias de transformação,10,Fabricação de produtos alimentícios,12128,1655200,1634760,Mais de 8 anos de idade
-2014,C,Indústrias de transformação,11,Fabricação de bebidas,890,171314,169858,Mais de 8 anos de idade
-2014,C,Indústrias de transformação,12,Fabricação de produtos do fumo,58,16937,16841,Mais de 8 anos de idade
-2014,C,Indústrias de transformação,13,Fabricação de produtos têxteis,3395,271921,266400,Mais de 8 anos de idade
-2014,C,Indústrias de transformação,14,Confecção de artigos do vestuário e acessórios,14805,624463,601487,Mais de 8 anos de idade
-2014,C,Indústrias de transformação,15,"Preparação de couros e fabricação de artefatos de couro, artigos para viagem e calçados",4228,362264,356157,Mais de 8 anos de idade
-2014,C,Indústrias de transformação,16,Fabricação de produtos de madeira,4412,176528,169472,Mais de 8 anos de idade
-2014,C,Indústrias de transformação,17,"Fabricação de celulose, papel e produtos de papel",1901,188946,185857,Mais de 8 anos de idade
-2014,C,Indústrias de transformação,18,Impressão e reprodução de gravações,2310,85758,82023,Mais de 8 anos de idade
-2014,C,Indústrias de transformação,19,"Fabricação de coque, de produtos derivados do petróleo e de biocombustíveis",278,184250,183788,Mais de 8 anos de idade
-2014,C,Indústrias de transformação,20,Fabricação de produtos químicos,3212,313392,308184,Mais de 8 anos de idade
-2014,C,Indústrias de transformação,21,Fabricação de produtos farmoquímicos e farmacêuticos,382,113188,112628,Mais de 8 anos de idade
-2014,C,Indústrias de transformação,22,Fabricação de produtos de borracha e de material plástico,6335,416082,405751,Mais de 8 anos de idade
-2014,C,Indústrias de transformação,23,Fabricação de produtos de minerais não-metálicos,9495,440292,424398,Mais de 8 anos de idade
-2014,C,Indústrias de transformação,24,Metalurgia,1545,249405,246799,Mais de 8 anos de idade
-2014,C,Indústrias de transformação,25,"Fabricação de produtos de metal, exceto máquinas e equipamentos",10036,463250,446488,Mais de 8 anos de idade
-2014,C,Indústrias de transformação,26,"Fabricação de equipamentos de informática, produtos eletrônicos e ópticos",1355,162956,160794,Mais de 8 anos de idade
-2014,C,Indústrias de transformação,27,"Fabricação de máquinas, aparelhos e materiais elétricos",1953,251901,248738,Mais de 8 anos de idade
-2014,C,Indústrias de transformação,28,Fabricação de máquinas e equipamentos,5775,411098,401390,Mais de 8 anos de idade
-2014,C,Indústrias de transformação,29,"Fabricação de veículos automotores, reboques e carrocerias",2470,495010,491123,Mais de 8 anos de idade
-2014,C,Indústrias de transformação,30,"Fabricação de outros equipamentos de transporte, exceto veículos automotores",546,130781,129985,Mais de 8 anos de idade
-2014,C,Indústrias de transformação,31,Fabricação de móveis,5197,247399,238816,Mais de 8 anos de idade
-2014,C,Indústrias de transformação,32,Fabricação de produtos diversos,3049,149238,144287,Mais de 8 anos de idade
-2014,C,Indústrias de transformação,33,"Manutenção, reparação e instalação de máquinas e equipamentos",3504,169901,164381,Mais de 8 anos de idade
-2014,D,Eletricidade e gás,35,"Eletricidade, gás e outras utilidades",473,123243,122096,Mais de 8 anos de idade
-2014,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",36,"Captação, tratamento e distribuição de água",179,101244,101010,Mais de 8 anos de idade
-2014,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",37,Esgoto e atividades relacionadas,212,15278,14985,Mais de 8 anos de idade
-2014,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",38,"Coleta, tratamento e disposição de resíduos; recuperação de materiais",1503,229644,227410,Mais de 8 anos de idade
-2014,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",39,Descontaminação e outros serviços de gestão de resíduos,20,1322,1287,Mais de 8 anos de idade
-2014,F,Construção,41,Construção de edifícios,19429,1127017,1095784,Mais de 8 anos de idade
-2014,F,Construção,42,Obras de infraestrutura,5604,987444,978383,Mais de 8 anos de idade
-2014,F,Construção,43,Serviços especializados para construção,14400,618170,596374,Mais de 8 anos de idade
-2014,G,Comércio; reparação de veículos automotores e motocicletas,45,Comércio e reparação de veículos automotores e motocicletas,17572,645538,617545,Mais de 8 anos de idade
-2014,G,Comércio; reparação de veículos automotores e motocicletas,46,"Comércio por atacado, exceto veículos automotores e motocicletas",26485,1420859,1379326,Mais de 8 anos de idade
-2014,G,Comércio; reparação de veículos automotores e motocicletas,47,Comércio varejista,118595,4468958,4281435,Mais de 8 anos de idade
-2014,H,"Transporte, armazenagem e correio",49,Transporte terrestre,18277,1545592,1515157,Mais de 8 anos de idade
-2014,H,"Transporte, armazenagem e correio",50,Transporte aquaviário,366,42755,42123,Mais de 8 anos de idade
-2014,H,"Transporte, armazenagem e correio",51,Transporte aéreo,159,71231,70984,Mais de 8 anos de idade
-2014,H,"Transporte, armazenagem e correio",52,Armazenamento e atividades auxiliares dos transportes,4578,425004,417273,Mais de 8 anos de idade
-2014,H,"Transporte, armazenagem e correio",53,Correio e outras atividades de entrega,1831,181968,179274,Mais de 8 anos de idade
-2014,I,Alojamento e alimentação,55,Alojamento,8576,287929,273694,Mais de 8 anos de idade
-2014,I,Alojamento e alimentação,56,Alimentação,37452,1142252,1085108,Mais de 8 anos de idade
-2014,J,Informação e comunicação,58,Edição e edição integrada à impressão,1396,83696,81485,Mais de 8 anos de idade
-2014,J,Informação e comunicação,59,"Atividades cinematográficas, produção de vídeos e de programas de televisão; gravação de som e edição de música",481,23370,22657,Mais de 8 anos de idade
-2014,J,Informação e comunicação,60,Atividades de rádio e de televisão,1405,80830,78899,Mais de 8 anos de idade
-2014,J,Informação e comunicação,61,Telecomunicações,1422,161136,158885,Mais de 8 anos de idade
-2014,J,Informação e comunicação,62,Atividades dos serviços de tecnologia da informação,4087,338554,330662,Mais de 8 anos de idade
-2014,J,Informação e comunicação,63,Atividades de prestação de serviços de informação,1259,85528,83490,Mais de 8 anos de idade
-2014,K,"Atividades financeiras, de seguros e serviços relacionados",64,Atividades de serviços financeiros,1829,636342,628802,Mais de 8 anos de idade
-2014,K,"Atividades financeiras, de seguros e serviços relacionados",65,"Seguros, resseguros, previdência complementar e planos de saúde",728,204498,200557,Mais de 8 anos de idade
-2014,K,"Atividades financeiras, de seguros e serviços relacionados",66,"Atividades auxiliares dos serviços financeiros, seguros, previdência complementar e planos de saúde",1475,88794,85971,Mais de 8 anos de idade
-2014,L,Atividades imobiliárias,68,Atividades imobiliárias,2756,99088,93864,Mais de 8 anos de idade
-2014,M,"Atividades profissionais, científicas e técnicas",69,"Atividades jurídicas, de contabilidade e de auditoria",8357,225352,206536,Mais de 8 anos de idade
-2014,M,"Atividades profissionais, científicas e técnicas",70,Atividades de sedes de empresas e de consultoria em gestão empresarial,965,67384,65373,Mais de 8 anos de idade
-2014,M,"Atividades profissionais, científicas e técnicas",71,Serviços de arquitetura e engenharia; testes e análises técnicas,3730,243446,236524,Mais de 8 anos de idade
-2014,M,"Atividades profissionais, científicas e técnicas",72,Pesquisa e desenvolvimento científico,66,19508,19389,Mais de 8 anos de idade
-2014,M,"Atividades profissionais, científicas e técnicas",73,Publicidade e pesquisa de mercado,1608,87684,85139,Mais de 8 anos de idade
-2014,M,"Atividades profissionais, científicas e técnicas",74,"Outras atividades profissionais, científicas e técnicas",1117,57925,55861,Mais de 8 anos de idade
-2014,M,"Atividades profissionais, científicas e técnicas",75,Atividades veterinárias,112,2652,2369,Mais de 8 anos de idade
-2014,N,Atividades administrativas e serviços complementares,77,Aluguéis não-imobiliários e gestão de ativos intangíveis não-financeiros,4978,202478,194610,Mais de 8 anos de idade
-2014,N,Atividades administrativas e serviços complementares,78,"Seleção, agenciamento e locação de mão-de-obra",2656,676159,672217,Mais de 8 anos de idade
-2014,N,Atividades administrativas e serviços complementares,79,"Agências de viagens, operadores turísticos e serviços de reservas",1419,52950,50394,Mais de 8 anos de idade
-2014,N,Atividades administrativas e serviços complementares,80,"Atividades de vigilância, segurança e investigação",3292,738683,733969,Mais de 8 anos de idade
-2014,N,Atividades administrativas e serviços complementares,81,Serviços para edifícios e atividades paisagísticas,7334,1089928,1079596,Mais de 8 anos de idade
-2014,N,Atividades administrativas e serviços complementares,82,"Serviços de escritório, de apoio administrativo e outros serviços prestados às empresas",9922,894832,879705,Mais de 8 anos de idade
-2014,O,"Administração pública, defesa e seguridade social",84,"Administração pública, defesa e seguridade social",86,26128,26079,Mais de 8 anos de idade
-2014,P,Educação,85,Educação,22678,855335,811410,Mais de 8 anos de idade
-2014,Q,Saúde humana e serviços sociais,86,Atividades de atenção à saúde humana,9862,651904,620119,Mais de 8 anos de idade
-2014,Q,Saúde humana e serviços sociais,87,"Atividades de atenção à saúde humana integradas com assistência social, prestadas em residências coletivas e particulares",849,25490,23892,Mais de 8 anos de idade
-2014,Q,Saúde humana e serviços sociais,88,Serviços de assistência social sem alojamento,7,218,202,Mais de 8 anos de idade
-2014,R,"Artes, cultura, esporte e recreação",90,"Atividades artísticas, criativas e de espetáculos",341,8100,7517,Mais de 8 anos de idade
-2014,R,"Artes, cultura, esporte e recreação",91,Atividades ligadas ao patrimônio cultural e ambiental,21,865,817,Mais de 8 anos de idade
-2014,R,"Artes, cultura, esporte e recreação",92,Atividades de exploração de jogos de azar e apostas,5,119,114,Mais de 8 anos de idade
-2014,R,"Artes, cultura, esporte e recreação",93,Atividades esportivas e de recreação e lazer,2947,85473,80507,Mais de 8 anos de idade
-2014,S,Outras atividades de serviços,94,Atividades de organizações associativas,116,4952,4435,Mais de 8 anos de idade
-2014,S,Outras atividades de serviços,95,Reparação e manutenção de equipamentos de informática e comunicação e de objetos pessoais e domésticos,2480,80444,76495,Mais de 8 anos de idade
-2014,S,Outras atividades de serviços,96,Outras atividades de serviços pessoais,4628,131064,123333,Mais de 8 anos de idade
-2014,U,Organismos internacionais e outras instituições extraterritoriais,99,Organismos internacionais e outras instituições extraterritoriais,-1,-1,-1,Mais de 8 anos de idade
-2014,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",1,"Agricultura, pecuária e serviços relacionados",1486,96868,93955,Até 8 anos de idade
-2014,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",2,Produção florestal,640,26557,25431,Até 8 anos de idade
-2014,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",3,Pesca e aquicultura,83,2412,2237,Até 8 anos de idade
-2014,B,Indústrias extrativas,5,Extração de carvão mineral,-1,-1,-1,Até 8 anos de idade
-2014,B,Indústrias extrativas,6,Extração de petróleo e gás natural,18,1713,1700,Até 8 anos de idade
-2014,B,Indústrias extrativas,7,Extração de minerais metálicos,69,10385,10271,Até 8 anos de idade
-2014,B,Indústrias extrativas,8,Extração de minerais não-metálicos,426,11474,10757,Até 8 anos de idade
-2014,B,Indústrias extrativas,9,Atividades de apoio à extração de minerais,61,13362,13312,Até 8 anos de idade
-2014,C,Indústrias de transformação,10,Fabricação de produtos alimentícios,3476,205144,199702,Até 8 anos de idade
-2014,C,Indústrias de transformação,11,Fabricação de bebidas,201,12904,12616,Até 8 anos de idade
-2014,C,Indústrias de transformação,12,Fabricação de produtos do fumo,11,583,554,Até 8 anos de idade
-2014,C,Indústrias de transformação,13,Fabricação de produtos têxteis,1081,39150,37590,Até 8 anos de idade
-2014,C,Indústrias de transformação,14,Confecção de artigos do vestuário e acessórios,6152,191981,183184,Até 8 anos de idade
-2014,C,Indústrias de transformação,15,"Preparação de couros e fabricação de artefatos de couro, artigos para viagem e calçados",1864,74113,71607,Até 8 anos de idade
-2014,C,Indústrias de transformação,16,Fabricação de produtos de madeira,1534,41898,39728,Até 8 anos de idade
-2014,C,Indústrias de transformação,17,"Fabricação de celulose, papel e produtos de papel",541,25188,24407,Até 8 anos de idade
-2014,C,Indústrias de transformação,18,Impressão e reprodução de gravações,662,15713,14753,Até 8 anos de idade
-2014,C,Indústrias de transformação,19,"Fabricação de coque, de produtos derivados do petróleo e de biocombustíveis",78,31996,31904,Até 8 anos de idade
-2014,C,Indústrias de transformação,20,Fabricação de produtos químicos,619,27654,26704,Até 8 anos de idade
-2014,C,Indústrias de transformação,21,Fabricação de produtos farmoquímicos e farmacêuticos,36,3947,3908,Até 8 anos de idade
-2014,C,Indústrias de transformação,22,Fabricação de produtos de borracha e de material plástico,1801,66404,63691,Até 8 anos de idade
-2014,C,Indústrias de transformação,23,Fabricação de produtos de minerais não-metálicos,2981,91729,87161,Até 8 anos de idade
-2014,C,Indústrias de transformação,24,Metalurgia,357,16965,16454,Até 8 anos de idade
-2014,C,Indústrias de transformação,25,"Fabricação de produtos de metal, exceto máquinas e equipamentos",3063,108863,104178,Até 8 anos de idade
-2014,C,Indústrias de transformação,26,"Fabricação de equipamentos de informática, produtos eletrônicos e ópticos",339,24941,24479,Até 8 anos de idade
-2014,C,Indústrias de transformação,27,"Fabricação de máquinas, aparelhos e materiais elétricos",495,29530,28828,Até 8 anos de idade
-2014,C,Indústrias de transformação,28,Fabricação de máquinas e equipamentos,1293,41333,39385,Até 8 anos de idade
-2014,C,Indústrias de transformação,29,"Fabricação de veículos automotores, reboques e carrocerias",586,33790,32899,Até 8 anos de idade
-2014,C,Indústrias de transformação,30,"Fabricação de outros equipamentos de transporte, exceto veículos automotores",171,37295,37070,Até 8 anos de idade
-2014,C,Indústrias de transformação,31,Fabricação de móveis,1679,51711,49167,Até 8 anos de idade
-2014,C,Indústrias de transformação,32,Fabricação de produtos diversos,921,24529,23151,Até 8 anos de idade
-2014,C,Indústrias de transformação,33,"Manutenção, reparação e instalação de máquinas e equipamentos",1849,56934,54180,Até 8 anos de idade
-2014,D,Eletricidade e gás,35,"Eletricidade, gás e outras utilidades",152,13157,12782,Até 8 anos de idade
-2014,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",36,"Captação, tratamento e distribuição de água",66,4134,4059,Até 8 anos de idade
-2014,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",37,Esgoto e atividades relacionadas,72,5804,5715,Até 8 anos de idade
-2014,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",38,"Coleta, tratamento e disposição de resíduos; recuperação de materiais",671,42968,42002,Até 8 anos de idade
-2014,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",39,Descontaminação e outros serviços de gestão de resíduos,8,262,250,Até 8 anos de idade
-2014,F,Construção,41,Construção de edifícios,10498,450871,435318,Até 8 anos de idade
-2014,F,Construção,42,Obras de infraestrutura,2318,250204,246899,Até 8 anos de idade
-2014,F,Construção,43,Serviços especializados para construção,8512,266739,254679,Até 8 anos de idade
-2014,G,Comércio; reparação de veículos automotores e motocicletas,45,Comércio e reparação de veículos automotores e motocicletas,5512,148166,140085,Até 8 anos de idade
-2014,G,Comércio; reparação de veículos automotores e motocicletas,46,"Comércio por atacado, exceto veículos automotores e motocicletas",8973,283431,270173,Até 8 anos de idade
-2014,G,Comércio; reparação de veículos automotores e motocicletas,47,Comércio varejista,43068,1064897,999807,Até 8 anos de idade
-2014,H,"Transporte, armazenagem e correio",49,Transporte terrestre,7107,300182,289691,Até 8 anos de idade
-2014,H,"Transporte, armazenagem e correio",50,Transporte aquaviário,111,10918,10718,Até 8 anos de idade
-2014,H,"Transporte, armazenagem e correio",51,Transporte aéreo,30,11516,11458,Até 8 anos de idade
-2014,H,"Transporte, armazenagem e correio",52,Armazenamento e atividades auxiliares dos transportes,1950,104850,101921,Até 8 anos de idade
-2014,H,"Transporte, armazenagem e correio",53,Correio e outras atividades de entrega,861,27208,26041,Até 8 anos de idade
-2014,I,Alojamento e alimentação,55,Alojamento,2314,64132,60677,Até 8 anos de idade
-2014,I,Alojamento e alimentação,56,Alimentação,18843,448682,421048,Até 8 anos de idade
-2014,J,Informação e comunicação,58,Edição e edição integrada à impressão,298,7786,7356,Até 8 anos de idade
-2014,J,Informação e comunicação,59,"Atividades cinematográficas, produção de vídeos e de programas de televisão; gravação de som e edição de música",186,6567,6308,Até 8 anos de idade
-2014,J,Informação e comunicação,60,Atividades de rádio e de televisão,75,4350,4240,Até 8 anos de idade
-2014,J,Informação e comunicação,61,Telecomunicações,677,22455,21374,Até 8 anos de idade
-2014,J,Informação e comunicação,62,Atividades dos serviços de tecnologia da informação,1417,68971,66505,Até 8 anos de idade
-2014,J,Informação e comunicação,63,Atividades de prestação de serviços de informação,583,18964,18031,Até 8 anos de idade
-2014,K,"Atividades financeiras, de seguros e serviços relacionados",64,Atividades de serviços financeiros,514,27572,26316,Até 8 anos de idade
-2014,K,"Atividades financeiras, de seguros e serviços relacionados",65,"Seguros, resseguros, previdência complementar e planos de saúde",66,5174,5029,Até 8 anos de idade
-2014,K,"Atividades financeiras, de seguros e serviços relacionados",66,"Atividades auxiliares dos serviços financeiros, seguros, previdência complementar e planos de saúde",431,18805,18004,Até 8 anos de idade
-2014,L,Atividades imobiliárias,68,Atividades imobiliárias,919,28550,27096,Até 8 anos de idade
-2014,M,"Atividades profissionais, científicas e técnicas",69,"Atividades jurídicas, de contabilidade e de auditoria",2756,58177,52962,Até 8 anos de idade
-2014,M,"Atividades profissionais, científicas e técnicas",70,Atividades de sedes de empresas e de consultoria em gestão empresarial,439,21369,20635,Até 8 anos de idade
-2014,M,"Atividades profissionais, científicas e técnicas",71,Serviços de arquitetura e engenharia; testes e análises técnicas,1324,61528,59357,Até 8 anos de idade
-2014,M,"Atividades profissionais, científicas e técnicas",72,Pesquisa e desenvolvimento científico,26,2495,2440,Até 8 anos de idade
-2014,M,"Atividades profissionais, científicas e técnicas",73,Publicidade e pesquisa de mercado,751,28799,27787,Até 8 anos de idade
-2014,M,"Atividades profissionais, científicas e técnicas",74,"Outras atividades profissionais, científicas e técnicas",499,18293,17497,Até 8 anos de idade
-2014,M,"Atividades profissionais, científicas e técnicas",75,Atividades veterinárias,42,912,796,Até 8 anos de idade
-2014,N,Atividades administrativas e serviços complementares,77,Aluguéis não-imobiliários e gestão de ativos intangíveis não-financeiros,2120,60661,57527,Até 8 anos de idade
-2014,N,Atividades administrativas e serviços complementares,78,"Seleção, agenciamento e locação de mão-de-obra",1019,134612,133083,Até 8 anos de idade
-2014,N,Atividades administrativas e serviços complementares,79,"Agências de viagens, operadores turísticos e serviços de reservas",474,15686,14897,Até 8 anos de idade
-2014,N,Atividades administrativas e serviços complementares,80,"Atividades de vigilância, segurança e investigação",1756,141437,139008,Até 8 anos de idade
-2014,N,Atividades administrativas e serviços complementares,81,Serviços para edifícios e atividades paisagísticas,4336,301534,295614,Até 8 anos de idade
-2014,N,Atividades administrativas e serviços complementares,82,"Serviços de escritório, de apoio administrativo e outros serviços prestados às empresas",5808,292606,284291,Até 8 anos de idade
-2014,O,"Administração pública, defesa e seguridade social",84,"Administração pública, defesa e seguridade social",20,2505,2493,Até 8 anos de idade
-2014,P,Educação,85,Educação,7168,192127,179355,Até 8 anos de idade
-2014,Q,Saúde humana e serviços sociais,86,Atividades de atenção à saúde humana,1995,83452,78122,Até 8 anos de idade
-2014,Q,Saúde humana e serviços sociais,87,"Atividades de atenção à saúde humana integradas com assistência social, prestadas em residências coletivas e particulares",530,-1,-1,Até 8 anos de idade
-2014,Q,Saúde humana e serviços sociais,88,Serviços de assistência social sem alojamento,2,-1,-1,Até 8 anos de idade
-2014,R,"Artes, cultura, esporte e recreação",90,"Atividades artísticas, criativas e de espetáculos",157,3702,3437,Até 8 anos de idade
-2014,R,"Artes, cultura, esporte e recreação",91,Atividades ligadas ao patrimônio cultural e ambiental,10,-1,-1,Até 8 anos de idade
-2014,R,"Artes, cultura, esporte e recreação",92,Atividades de exploração de jogos de azar e apostas,1,-1,-1,Até 8 anos de idade
-2014,R,"Artes, cultura, esporte e recreação",93,Atividades esportivas e de recreação e lazer,1399,32754,30496,Até 8 anos de idade
-2014,S,Outras atividades de serviços,94,Atividades de organizações associativas,24,991,904,Até 8 anos de idade
-2014,S,Outras atividades de serviços,95,Reparação e manutenção de equipamentos de informática e comunicação e de objetos pessoais e domésticos,998,27038,25543,Até 8 anos de idade
-2014,S,Outras atividades de serviços,96,Outras atividades de serviços pessoais,1962,47307,44224,Até 8 anos de idade
-2014,U,Organismos internacionais e outras instituições extraterritoriais,99,Organismos internacionais e outras instituições extraterritoriais,-1,-1,-1,Até 8 anos de idade
-2015,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",1,"Agricultura, pecuária e serviços relacionados",3729,317865,308369,Mais de 8 anos de idade
-2015,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",2,Produção florestal,1101,72373,70117,Mais de 8 anos de idade
-2015,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",3,Pesca e aquicultura,222,9105,8614,Mais de 8 anos de idade
-2015,B,Indústrias extrativas,5,Extração de carvão mineral,12,4729,4713,Mais de 8 anos de idade
-2015,B,Indústrias extrativas,6,Extração de petróleo e gás natural,33,3561,3506,Mais de 8 anos de idade
-2015,B,Indústrias extrativas,7,Extração de minerais metálicos,161,83715,83438,Mais de 8 anos de idade
-2015,B,Indústrias extrativas,8,Extração de minerais não-metálicos,1816,73175,69680,Mais de 8 anos de idade
-2015,B,Indústrias extrativas,9,Atividades de apoio à extração de minerais,109,36692,36600,Mais de 8 anos de idade
-2015,C,Indústrias de transformação,10,Fabricação de produtos alimentícios,12385,1610939,1590365,Mais de 8 anos de idade
-2015,C,Indústrias de transformação,11,Fabricação de bebidas,936,173457,171915,Mais de 8 anos de idade
-2015,C,Indústrias de transformação,12,Fabricação de produtos do fumo,60,17646,17569,Mais de 8 anos de idade
-2015,C,Indústrias de transformação,13,Fabricação de produtos têxteis,3100,238530,233465,Mais de 8 anos de idade
-2015,C,Indústrias de transformação,14,Confecção de artigos do vestuário e acessórios,13362,552435,531972,Mais de 8 anos de idade
-2015,C,Indústrias de transformação,15,"Preparação de couros e fabricação de artefatos de couro, artigos para viagem e calçados",3659,328018,322689,Mais de 8 anos de idade
-2015,C,Indústrias de transformação,16,Fabricação de produtos de madeira,4057,161117,154755,Mais de 8 anos de idade
-2015,C,Indústrias de transformação,17,"Fabricação de celulose, papel e produtos de papel",1853,182365,179391,Mais de 8 anos de idade
-2015,C,Indústrias de transformação,18,Impressão e reprodução de gravações,2143,77377,73937,Mais de 8 anos de idade
-2015,C,Indústrias de transformação,19,"Fabricação de coque, de produtos derivados do petróleo e de biocombustíveis",287,213633,213204,Mais de 8 anos de idade
-2015,C,Indústrias de transformação,20,Fabricação de produtos químicos,3155,293992,288938,Mais de 8 anos de idade
-2015,C,Indústrias de transformação,21,Fabricação de produtos farmoquímicos e farmacêuticos,374,104563,104028,Mais de 8 anos de idade
-2015,C,Indústrias de transformação,22,Fabricação de produtos de borracha e de material plástico,5975,374906,365390,Mais de 8 anos de idade
-2015,C,Indústrias de transformação,23,Fabricação de produtos de minerais não-metálicos,9046,407102,392255,Mais de 8 anos de idade
-2015,C,Indústrias de transformação,24,Metalurgia,1410,216429,214049,Mais de 8 anos de idade
-2015,C,Indústrias de transformação,25,"Fabricação de produtos de metal, exceto máquinas e equipamentos",9334,387899,372351,Mais de 8 anos de idade
-2015,C,Indústrias de transformação,26,"Fabricação de equipamentos de informática, produtos eletrônicos e ópticos",1249,132230,130225,Mais de 8 anos de idade
-2015,C,Indústrias de transformação,27,"Fabricação de máquinas, aparelhos e materiais elétricos",1843,217531,214663,Mais de 8 anos de idade
-2015,C,Indústrias de transformação,28,Fabricação de máquinas e equipamentos,5328,351316,342577,Mais de 8 anos de idade
-2015,C,Indústrias de transformação,29,"Fabricação de veículos automotores, reboques e carrocerias",2290,429845,426377,Mais de 8 anos de idade
-2015,C,Indústrias de transformação,30,"Fabricação de outros equipamentos de transporte, exceto veículos automotores",502,110965,110229,Mais de 8 anos de idade
-2015,C,Indústrias de transformação,31,Fabricação de móveis,4944,219497,211311,Mais de 8 anos de idade
-2015,C,Indústrias de transformação,32,Fabricação de produtos diversos,2908,140632,136038,Mais de 8 anos de idade
-2015,C,Indústrias de transformação,33,"Manutenção, reparação e instalação de máquinas e equipamentos",3336,157864,152799,Mais de 8 anos de idade
-2015,D,Eletricidade e gás,35,"Eletricidade, gás e outras utilidades",502,118836,117699,Mais de 8 anos de idade
-2015,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",36,"Captação, tratamento e distribuição de água",191,101062,100815,Mais de 8 anos de idade
-2015,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",37,Esgoto e atividades relacionadas,216,13187,12923,Mais de 8 anos de idade
-2015,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",38,"Coleta, tratamento e disposição de resíduos; recuperação de materiais",1449,216958,214915,Mais de 8 anos de idade
-2015,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",39,Descontaminação e outros serviços de gestão de resíduos,21,1403,1371,Mais de 8 anos de idade
-2015,F,Construção,41,Construção de edifícios,17279,897367,869426,Mais de 8 anos de idade
-2015,F,Construção,42,Obras de infraestrutura,5217,779844,771577,Mais de 8 anos de idade
-2015,F,Construção,43,Serviços especializados para construção,13137,570663,551055,Mais de 8 anos de idade
-2015,G,Comércio; reparação de veículos automotores e motocicletas,45,Comércio e reparação de veículos automotores e motocicletas,16861,591393,564925,Mais de 8 anos de idade
-2015,G,Comércio; reparação de veículos automotores e motocicletas,46,"Comércio por atacado, exceto veículos automotores e motocicletas",25668,1370497,1331196,Mais de 8 anos de idade
-2015,G,Comércio; reparação de veículos automotores e motocicletas,47,Comércio varejista,115893,4334859,4157326,Mais de 8 anos de idade
-2015,H,"Transporte, armazenagem e correio",49,Transporte terrestre,17910,1494548,1465536,Mais de 8 anos de idade
-2015,H,"Transporte, armazenagem e correio",50,Transporte aquaviário,378,42584,42003,Mais de 8 anos de idade
-2015,H,"Transporte, armazenagem e correio",51,Transporte aéreo,142,67718,67495,Mais de 8 anos de idade
-2015,H,"Transporte, armazenagem e correio",52,Armazenamento e atividades auxiliares dos transportes,4541,401515,394086,Mais de 8 anos de idade
-2015,H,"Transporte, armazenagem e correio",53,Correio e outras atividades de entrega,1771,179107,176564,Mais de 8 anos de idade
-2015,I,Alojamento e alimentação,55,Alojamento,8630,287030,273102,Mais de 8 anos de idade
-2015,I,Alojamento e alimentação,56,Alimentação,37701,1107245,1050563,Mais de 8 anos de idade
-2015,J,Informação e comunicação,58,Edição e edição integrada à impressão,1267,74879,72947,Mais de 8 anos de idade
-2015,J,Informação e comunicação,59,"Atividades cinematográficas, produção de vídeos e de programas de televisão; gravação de som e edição de música",449,23452,22863,Mais de 8 anos de idade
-2015,J,Informação e comunicação,60,Atividades de rádio e de televisão,1393,79533,77496,Mais de 8 anos de idade
-2015,J,Informação e comunicação,61,Telecomunicações,1575,177694,175290,Mais de 8 anos de idade
-2015,J,Informação e comunicação,62,Atividades dos serviços de tecnologia da informação,4154,344851,337023,Mais de 8 anos de idade
-2015,J,Informação e comunicação,63,Atividades de prestação de serviços de informação,1224,114993,113084,Mais de 8 anos de idade
-2015,K,"Atividades financeiras, de seguros e serviços relacionados",64,Atividades de serviços financeiros,1838,620690,612771,Mais de 8 anos de idade
-2015,K,"Atividades financeiras, de seguros e serviços relacionados",65,"Seguros, resseguros, previdência complementar e planos de saúde",733,210965,207074,Mais de 8 anos de idade
-2015,K,"Atividades financeiras, de seguros e serviços relacionados",66,"Atividades auxiliares dos serviços financeiros, seguros, previdência complementar e planos de saúde",1552,84745,81870,Mais de 8 anos de idade
-2015,L,Atividades imobiliárias,68,Atividades imobiliárias,2783,94588,89482,Mais de 8 anos de idade
-2015,M,"Atividades profissionais, científicas e técnicas",69,"Atividades jurídicas, de contabilidade e de auditoria",8602,232356,212980,Mais de 8 anos de idade
-2015,M,"Atividades profissionais, científicas e técnicas",70,Atividades de sedes de empresas e de consultoria em gestão empresarial,956,66440,64601,Mais de 8 anos de idade
-2015,M,"Atividades profissionais, científicas e técnicas",71,Serviços de arquitetura e engenharia; testes e análises técnicas,3466,210784,204465,Mais de 8 anos de idade
-2015,M,"Atividades profissionais, científicas e técnicas",72,Pesquisa e desenvolvimento científico,70,19677,19577,Mais de 8 anos de idade
-2015,M,"Atividades profissionais, científicas e técnicas",73,Publicidade e pesquisa de mercado,1614,80098,77587,Mais de 8 anos de idade
-2015,M,"Atividades profissionais, científicas e técnicas",74,"Outras atividades profissionais, científicas e técnicas",1111,59892,57906,Mais de 8 anos de idade
-2015,M,"Atividades profissionais, científicas e técnicas",75,Atividades veterinárias,158,3308,2903,Mais de 8 anos de idade
-2015,N,Atividades administrativas e serviços complementares,77,Aluguéis não-imobiliários e gestão de ativos intangíveis não-financeiros,4742,187424,180191,Mais de 8 anos de idade
-2015,N,Atividades administrativas e serviços complementares,78,"Seleção, agenciamento e locação de mão-de-obra",2425,629202,625694,Mais de 8 anos de idade
-2015,N,Atividades administrativas e serviços complementares,79,"Agências de viagens, operadores turísticos e serviços de reservas",1343,48929,46623,Mais de 8 anos de idade
-2015,N,Atividades administrativas e serviços complementares,80,"Atividades de vigilância, segurança e investigação",3291,711269,706723,Mais de 8 anos de idade
-2015,N,Atividades administrativas e serviços complementares,81,Serviços para edifícios e atividades paisagísticas,7766,1052277,1041798,Mais de 8 anos de idade
-2015,N,Atividades administrativas e serviços complementares,82,"Serviços de escritório, de apoio administrativo e outros serviços prestados às empresas",10004,835566,820510,Mais de 8 anos de idade
-2015,O,"Administração pública, defesa e seguridade social",84,"Administração pública, defesa e seguridade social",93,33397,33342,Mais de 8 anos de idade
-2015,P,Educação,85,Educação,23278,886193,841908,Mais de 8 anos de idade
-2015,Q,Saúde humana e serviços sociais,86,Atividades de atenção à saúde humana,10245,682064,648769,Mais de 8 anos de idade
-2015,Q,Saúde humana e serviços sociais,87,"Atividades de atenção à saúde humana integradas com assistência social, prestadas em residências coletivas e particulares",1015,30384,28478,Mais de 8 anos de idade
-2015,Q,Saúde humana e serviços sociais,88,Serviços de assistência social sem alojamento,5,139,127,Mais de 8 anos de idade
-2015,R,"Artes, cultura, esporte e recreação",90,"Atividades artísticas, criativas e de espetáculos",321,8013,7498,Mais de 8 anos de idade
-2015,R,"Artes, cultura, esporte e recreação",91,Atividades ligadas ao patrimônio cultural e ambiental,20,894,855,Mais de 8 anos de idade
-2015,R,"Artes, cultura, esporte e recreação",92,Atividades de exploração de jogos de azar e apostas,4,115,113,Mais de 8 anos de idade
-2015,R,"Artes, cultura, esporte e recreação",93,Atividades esportivas e de recreação e lazer,3153,90180,85079,Mais de 8 anos de idade
-2015,S,Outras atividades de serviços,94,Atividades de organizações associativas,93,3890,3447,Mais de 8 anos de idade
-2015,S,Outras atividades de serviços,95,Reparação e manutenção de equipamentos de informática e comunicação e de objetos pessoais e domésticos,2341,72135,68516,Mais de 8 anos de idade
-2015,S,Outras atividades de serviços,96,Outras atividades de serviços pessoais,4561,126844,119486,Mais de 8 anos de idade
-2015,U,Organismos internacionais e outras instituições extraterritoriais,99,Organismos internacionais e outras instituições extraterritoriais,-1,-1,-1,Mais de 8 anos de idade
-2015,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",1,"Agricultura, pecuária e serviços relacionados",1477,86166,83319,Até 8 anos de idade
-2015,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",2,Produção florestal,520,21216,20313,Até 8 anos de idade
-2015,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",3,Pesca e aquicultura,81,2377,2204,Até 8 anos de idade
-2015,B,Indústrias extrativas,5,Extração de carvão mineral,-1,-1,-1,Até 8 anos de idade
-2015,B,Indústrias extrativas,6,Extração de petróleo e gás natural,15,1777,1762,Até 8 anos de idade
-2015,B,Indústrias extrativas,7,Extração de minerais metálicos,57,9980,9910,Até 8 anos de idade
-2015,B,Indústrias extrativas,8,Extração de minerais não-metálicos,335,8959,8396,Até 8 anos de idade
-2015,B,Indústrias extrativas,9,Atividades de apoio à extração de minerais,43,5111,5088,Até 8 anos de idade
-2015,C,Indústrias de transformação,10,Fabricação de produtos alimentícios,3524,160176,154723,Até 8 anos de idade
-2015,C,Indústrias de transformação,11,Fabricação de bebidas,197,12420,12144,Até 8 anos de idade
-2015,C,Indústrias de transformação,12,Fabricação de produtos do fumo,13,733,713,Até 8 anos de idade
-2015,C,Indústrias de transformação,13,Fabricação de produtos têxteis,889,31955,30702,Até 8 anos de idade
-2015,C,Indústrias de transformação,14,Confecção de artigos do vestuário e acessórios,5142,153437,146280,Até 8 anos de idade
-2015,C,Indústrias de transformação,15,"Preparação de couros e fabricação de artefatos de couro, artigos para viagem e calçados",1526,58703,56605,Até 8 anos de idade
-2015,C,Indústrias de transformação,16,Fabricação de produtos de madeira,1315,35317,33419,Até 8 anos de idade
-2015,C,Indústrias de transformação,17,"Fabricação de celulose, papel e produtos de papel",497,22378,21704,Até 8 anos de idade
-2015,C,Indústrias de transformação,18,Impressão e reprodução de gravações,570,13055,12227,Até 8 anos de idade
-2015,C,Indústrias de transformação,19,"Fabricação de coque, de produtos derivados do petróleo e de biocombustíveis",46,10966,10920,Até 8 anos de idade
-2015,C,Indústrias de transformação,20,Fabricação de produtos químicos,555,20535,19715,Até 8 anos de idade
-2015,C,Indústrias de transformação,21,Fabricação de produtos farmoquímicos e farmacêuticos,35,4096,4052,Até 8 anos de idade
-2015,C,Indústrias de transformação,22,Fabricação de produtos de borracha e de material plástico,1606,56281,53917,Até 8 anos de idade
-2015,C,Indústrias de transformação,23,Fabricação de produtos de minerais não-metálicos,2662,76723,72724,Até 8 anos de idade
-2015,C,Indústrias de transformação,24,Metalurgia,326,17895,17455,Até 8 anos de idade
-2015,C,Indústrias de transformação,25,"Fabricação de produtos de metal, exceto máquinas e equipamentos",2702,72182,68160,Até 8 anos de idade
-2015,C,Indústrias de transformação,26,"Fabricação de equipamentos de informática, produtos eletrônicos e ópticos",261,12682,12319,Até 8 anos de idade
-2015,C,Indústrias de transformação,27,"Fabricação de máquinas, aparelhos e materiais elétricos",428,26352,25793,Até 8 anos de idade
-2015,C,Indústrias de transformação,28,Fabricação de máquinas e equipamentos,1093,32436,30856,Até 8 anos de idade
-2015,C,Indústrias de transformação,29,"Fabricação de veículos automotores, reboques e carrocerias",503,30286,29569,Até 8 anos de idade
-2015,C,Indústrias de transformação,30,"Fabricação de outros equipamentos de transporte, exceto veículos automotores",143,30530,30338,Até 8 anos de idade
-2015,C,Indústrias de transformação,31,Fabricação de móveis,1472,42261,40004,Até 8 anos de idade
-2015,C,Indústrias de transformação,32,Fabricação de produtos diversos,823,20748,19537,Até 8 anos de idade
-2015,C,Indústrias de transformação,33,"Manutenção, reparação e instalação de máquinas e equipamentos",1734,50282,47823,Até 8 anos de idade
-2015,D,Eletricidade e gás,35,"Eletricidade, gás e outras utilidades",151,8101,7795,Até 8 anos de idade
-2015,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",36,"Captação, tratamento e distribuição de água",69,4624,4557,Até 8 anos de idade
-2015,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",37,Esgoto e atividades relacionadas,68,4384,4314,Até 8 anos de idade
-2015,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",38,"Coleta, tratamento e disposição de resíduos; recuperação de materiais",612,39204,38366,Até 8 anos de idade
-2015,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",39,Descontaminação e outros serviços de gestão de resíduos,6,249,243,Até 8 anos de idade
-2015,F,Construção,41,Construção de edifícios,8997,340997,327693,Até 8 anos de idade
-2015,F,Construção,42,Obras de infraestrutura,2079,191797,188936,Até 8 anos de idade
-2015,F,Construção,43,Serviços especializados para construção,7521,231433,220954,Até 8 anos de idade
-2015,G,Comércio; reparação de veículos automotores e motocicletas,45,Comércio e reparação de veículos automotores e motocicletas,4926,122522,115423,Até 8 anos de idade
-2015,G,Comércio; reparação de veículos automotores e motocicletas,46,"Comércio por atacado, exceto veículos automotores e motocicletas",8131,253167,241770,Até 8 anos de idade
-2015,G,Comércio; reparação de veículos automotores e motocicletas,47,Comércio varejista,39918,968937,911378,Até 8 anos de idade
-2015,H,"Transporte, armazenagem e correio",49,Transporte terrestre,6597,290227,280802,Até 8 anos de idade
-2015,H,"Transporte, armazenagem e correio",50,Transporte aquaviário,108,8636,8488,Até 8 anos de idade
-2015,H,"Transporte, armazenagem e correio",51,Transporte aéreo,22,11460,11419,Até 8 anos de idade
-2015,H,"Transporte, armazenagem e correio",52,Armazenamento e atividades auxiliares dos transportes,1882,101275,98570,Até 8 anos de idade
-2015,H,"Transporte, armazenagem e correio",53,Correio e outras atividades de entrega,806,22451,21401,Até 8 anos de idade
-2015,I,Alojamento e alimentação,55,Alojamento,2265,65929,62635,Até 8 anos de idade
-2015,I,Alojamento e alimentação,56,Alimentação,18810,439673,412602,Até 8 anos de idade
-2015,J,Informação e comunicação,58,Edição e edição integrada à impressão,249,6587,6249,Até 8 anos de idade
-2015,J,Informação e comunicação,59,"Atividades cinematográficas, produção de vídeos e de programas de televisão; gravação de som e edição de música",158,6882,6689,Até 8 anos de idade
-2015,J,Informação e comunicação,60,Atividades de rádio e de televisão,76,4290,4183,Até 8 anos de idade
-2015,J,Informação e comunicação,61,Telecomunicações,729,22606,21494,Até 8 anos de idade
-2015,J,Informação e comunicação,62,Atividades dos serviços de tecnologia da informação,1394,72637,70264,Até 8 anos de idade
-2015,J,Informação e comunicação,63,Atividades de prestação de serviços de informação,524,18734,17926,Até 8 anos de idade
-2015,K,"Atividades financeiras, de seguros e serviços relacionados",64,Atividades de serviços financeiros,478,22818,21657,Até 8 anos de idade
-2015,K,"Atividades financeiras, de seguros e serviços relacionados",65,"Seguros, resseguros, previdência complementar e planos de saúde",77,4450,4305,Até 8 anos de idade
-2015,K,"Atividades financeiras, de seguros e serviços relacionados",66,"Atividades auxiliares dos serviços financeiros, seguros, previdência complementar e planos de saúde",426,16658,15898,Até 8 anos de idade
-2015,L,Atividades imobiliárias,68,Atividades imobiliárias,927,26436,25011,Até 8 anos de idade
-2015,M,"Atividades profissionais, científicas e técnicas",69,"Atividades jurídicas, de contabilidade e de auditoria",2651,56044,51042,Até 8 anos de idade
-2015,M,"Atividades profissionais, científicas e técnicas",70,Atividades de sedes de empresas e de consultoria em gestão empresarial,407,19777,19188,Até 8 anos de idade
-2015,M,"Atividades profissionais, científicas e técnicas",71,Serviços de arquitetura e engenharia; testes e análises técnicas,1187,48229,46334,Até 8 anos de idade
-2015,M,"Atividades profissionais, científicas e técnicas",72,Pesquisa e desenvolvimento científico,25,2790,2746,Até 8 anos de idade
-2015,M,"Atividades profissionais, científicas e técnicas",73,Publicidade e pesquisa de mercado,795,30392,29321,Até 8 anos de idade
-2015,M,"Atividades profissionais, científicas e técnicas",74,"Outras atividades profissionais, científicas e técnicas",480,17561,16780,Até 8 anos de idade
-2015,M,"Atividades profissionais, científicas e técnicas",75,Atividades veterinárias,71,1385,1201,Até 8 anos de idade
-2015,N,Atividades administrativas e serviços complementares,77,Aluguéis não-imobiliários e gestão de ativos intangíveis não-financeiros,1921,53341,50607,Até 8 anos de idade
-2015,N,Atividades administrativas e serviços complementares,78,"Seleção, agenciamento e locação de mão-de-obra",865,107161,105940,Até 8 anos de idade
-2015,N,Atividades administrativas e serviços complementares,79,"Agências de viagens, operadores turísticos e serviços de reservas",432,14424,13741,Até 8 anos de idade
-2015,N,Atividades administrativas e serviços complementares,80,"Atividades de vigilância, segurança e investigação",1692,129555,127284,Até 8 anos de idade
-2015,N,Atividades administrativas e serviços complementares,81,Serviços para edifícios e atividades paisagísticas,4620,297227,291348,Até 8 anos de idade
-2015,N,Atividades administrativas e serviços complementares,82,"Serviços de escritório, de apoio administrativo e outros serviços prestados às empresas",5765,247062,239042,Até 8 anos de idade
-2015,O,"Administração pública, defesa e seguridade social",84,"Administração pública, defesa e seguridade social",20,3004,2982,Até 8 anos de idade
-2015,P,Educação,85,Educação,7074,188080,175842,Até 8 anos de idade
-2015,Q,Saúde humana e serviços sociais,86,Atividades de atenção à saúde humana,2076,91520,85937,Até 8 anos de idade
-2015,Q,Saúde humana e serviços sociais,87,"Atividades de atenção à saúde humana integradas com assistência social, prestadas em residências coletivas e particulares",636,-1,-1,Até 8 anos de idade
-2015,Q,Saúde humana e serviços sociais,88,Serviços de assistência social sem alojamento,1,-1,-1,Até 8 anos de idade
-2015,R,"Artes, cultura, esporte e recreação",90,"Atividades artísticas, criativas e de espetáculos",149,3824,3611,Até 8 anos de idade
-2015,R,"Artes, cultura, esporte e recreação",91,Atividades ligadas ao patrimônio cultural e ambiental,9,156,144,Até 8 anos de idade
-2015,R,"Artes, cultura, esporte e recreação",92,Atividades de exploração de jogos de azar e apostas,-1,-1,-1,Até 8 anos de idade
-2015,R,"Artes, cultura, esporte e recreação",93,Atividades esportivas e de recreação e lazer,1531,34723,32362,Até 8 anos de idade
-2015,S,Outras atividades de serviços,94,Atividades de organizações associativas,15,673,617,Até 8 anos de idade
-2015,S,Outras atividades de serviços,95,Reparação e manutenção de equipamentos de informática e comunicação e de objetos pessoais e domésticos,854,22581,21369,Até 8 anos de idade
-2015,S,Outras atividades de serviços,96,Outras atividades de serviços pessoais,1915,44978,42071,Até 8 anos de idade
-2015,U,Organismos internacionais e outras instituições extraterritoriais,99,Organismos internacionais e outras instituições extraterritoriais,-1,-1,-1,Até 8 anos de idade
+year,seção_id,seção_descrição,divisão_id,divisão_descrição,numero_de_empresas,numero_de_empresas,pessoal_ocupado_assalariados,pessoal_ocupado_assalariados,pessoal_ocupado_total,pessoal_ocupado_total
+,,,,,Até 8 anos de idade,Mais de 8 anos de idade,Até 8 anos de idade,Mais de 8 anos de idade,Até 8 anos de idade,Mais de 8 anos de idade
+2014,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",1,"Agricultura, pecuária e serviços relacionados",1486,3712,93955,303566,96868,313122
+2014,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",2,Produção florestal,640,1231,25431,76387,26557,78834
+2014,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",3,Pesca e aquicultura,83,213,2237,8708,2412,9188
+2014,B,Indústrias extrativas,5,Extração de carvão mineral,-1,14,-1,5726,-1,5734
+2014,B,Indústrias extrativas,6,Extração de petróleo e gás natural,18,35,1700,3745,1713,3800
+2014,B,Indústrias extrativas,7,Extração de minerais metálicos,69,176,10271,87168,10385,87496
+2014,B,Indústrias extrativas,8,Extração de minerais não-metálicos,426,1941,10757,74977,11474,78751
+2014,B,Indústrias extrativas,9,Atividades de apoio à extração de minerais,61,119,13312,38945,13362,39041
+2014,C,Indústrias de transformação,10,Fabricação de produtos alimentícios,3476,12128,199702,1634760,205144,1655200
+2014,C,Indústrias de transformação,11,Fabricação de bebidas,201,890,12616,169858,12904,171314
+2014,C,Indústrias de transformação,12,Fabricação de produtos do fumo,11,58,554,16841,583,16937
+2014,C,Indústrias de transformação,13,Fabricação de produtos têxteis,1081,3395,37590,266400,39150,271921
+2014,C,Indústrias de transformação,14,Confecção de artigos do vestuário e acessórios,6152,14805,183184,601487,191981,624463
+2014,C,Indústrias de transformação,15,"Preparação de couros e fabricação de artefatos de couro, artigos para viagem e calçados",1864,4228,71607,356157,74113,362264
+2014,C,Indústrias de transformação,16,Fabricação de produtos de madeira,1534,4412,39728,169472,41898,176528
+2014,C,Indústrias de transformação,17,"Fabricação de celulose, papel e produtos de papel",541,1901,24407,185857,25188,188946
+2014,C,Indústrias de transformação,18,Impressão e reprodução de gravações,662,2310,14753,82023,15713,85758
+2014,C,Indústrias de transformação,19,"Fabricação de coque, de produtos derivados do petróleo e de biocombustíveis",78,278,31904,183788,31996,184250
+2014,C,Indústrias de transformação,20,Fabricação de produtos químicos,619,3212,26704,308184,27654,313392
+2014,C,Indústrias de transformação,21,Fabricação de produtos farmoquímicos e farmacêuticos,36,382,3908,112628,3947,113188
+2014,C,Indústrias de transformação,22,Fabricação de produtos de borracha e de material plástico,1801,6335,63691,405751,66404,416082
+2014,C,Indústrias de transformação,23,Fabricação de produtos de minerais não-metálicos,2981,9495,87161,424398,91729,440292
+2014,C,Indústrias de transformação,24,Metalurgia,357,1545,16454,246799,16965,249405
+2014,C,Indústrias de transformação,25,"Fabricação de produtos de metal, exceto máquinas e equipamentos",3063,10036,104178,446488,108863,463250
+2014,C,Indústrias de transformação,26,"Fabricação de equipamentos de informática, produtos eletrônicos e ópticos",339,1355,24479,160794,24941,162956
+2014,C,Indústrias de transformação,27,"Fabricação de máquinas, aparelhos e materiais elétricos",495,1953,28828,248738,29530,251901
+2014,C,Indústrias de transformação,28,Fabricação de máquinas e equipamentos,1293,5775,39385,401390,41333,411098
+2014,C,Indústrias de transformação,29,"Fabricação de veículos automotores, reboques e carrocerias",586,2470,32899,491123,33790,495010
+2014,C,Indústrias de transformação,30,"Fabricação de outros equipamentos de transporte, exceto veículos automotores",171,546,37070,129985,37295,130781
+2014,C,Indústrias de transformação,31,Fabricação de móveis,1679,5197,49167,238816,51711,247399
+2014,C,Indústrias de transformação,32,Fabricação de produtos diversos,921,3049,23151,144287,24529,149238
+2014,C,Indústrias de transformação,33,"Manutenção, reparação e instalação de máquinas e equipamentos",1849,3504,54180,164381,56934,169901
+2014,D,Eletricidade e gás,35,"Eletricidade, gás e outras utilidades",152,473,12782,122096,13157,123243
+2014,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",36,"Captação, tratamento e distribuição de água",66,179,4059,101010,4134,101244
+2014,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",37,Esgoto e atividades relacionadas,72,212,5715,14985,5804,15278
+2014,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",38,"Coleta, tratamento e disposição de resíduos; recuperação de materiais",671,1503,42002,227410,42968,229644
+2014,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",39,Descontaminação e outros serviços de gestão de resíduos,8,20,250,1287,262,1322
+2014,F,Construção,41,Construção de edifícios,10498,19429,435318,1095784,450871,1127017
+2014,F,Construção,42,Obras de infraestrutura,2318,5604,246899,978383,250204,987444
+2014,F,Construção,43,Serviços especializados para construção,8512,14400,254679,596374,266739,618170
+2014,G,Comércio; reparação de veículos automotores e motocicletas,45,Comércio e reparação de veículos automotores e motocicletas,5512,17572,140085,617545,148166,645538
+2014,G,Comércio; reparação de veículos automotores e motocicletas,46,"Comércio por atacado, exceto veículos automotores e motocicletas",8973,26485,270173,1379326,283431,1420859
+2014,G,Comércio; reparação de veículos automotores e motocicletas,47,Comércio varejista,43068,118595,999807,4281435,1064897,4468958
+2014,H,"Transporte, armazenagem e correio",49,Transporte terrestre,7107,18277,289691,1515157,300182,1545592
+2014,H,"Transporte, armazenagem e correio",50,Transporte aquaviário,111,366,10718,42123,10918,42755
+2014,H,"Transporte, armazenagem e correio",51,Transporte aéreo,30,159,11458,70984,11516,71231
+2014,H,"Transporte, armazenagem e correio",52,Armazenamento e atividades auxiliares dos transportes,1950,4578,101921,417273,104850,425004
+2014,H,"Transporte, armazenagem e correio",53,Correio e outras atividades de entrega,861,1831,26041,179274,27208,181968
+2014,I,Alojamento e alimentação,55,Alojamento,2314,8576,60677,273694,64132,287929
+2014,I,Alojamento e alimentação,56,Alimentação,18843,37452,421048,1085108,448682,1142252
+2014,J,Informação e comunicação,58,Edição e edição integrada à impressão,298,1396,7356,81485,7786,83696
+2014,J,Informação e comunicação,59,"Atividades cinematográficas, produção de vídeos e de programas de televisão; gravação de som e edição de música",186,481,6308,22657,6567,23370
+2014,J,Informação e comunicação,60,Atividades de rádio e de televisão,75,1405,4240,78899,4350,80830
+2014,J,Informação e comunicação,61,Telecomunicações,677,1422,21374,158885,22455,161136
+2014,J,Informação e comunicação,62,Atividades dos serviços de tecnologia da informação,1417,4087,66505,330662,68971,338554
+2014,J,Informação e comunicação,63,Atividades de prestação de serviços de informação,583,1259,18031,83490,18964,85528
+2014,K,"Atividades financeiras, de seguros e serviços relacionados",64,Atividades de serviços financeiros,514,1829,26316,628802,27572,636342
+2014,K,"Atividades financeiras, de seguros e serviços relacionados",65,"Seguros, resseguros, previdência complementar e planos de saúde",66,728,5029,200557,5174,204498
+2014,K,"Atividades financeiras, de seguros e serviços relacionados",66,"Atividades auxiliares dos serviços financeiros, seguros, previdência complementar e planos de saúde",431,1475,18004,85971,18805,88794
+2014,L,Atividades imobiliárias,68,Atividades imobiliárias,919,2756,27096,93864,28550,99088
+2014,M,"Atividades profissionais, científicas e técnicas",69,"Atividades jurídicas, de contabilidade e de auditoria",2756,8357,52962,206536,58177,225352
+2014,M,"Atividades profissionais, científicas e técnicas",70,Atividades de sedes de empresas e de consultoria em gestão empresarial,439,965,20635,65373,21369,67384
+2014,M,"Atividades profissionais, científicas e técnicas",71,Serviços de arquitetura e engenharia; testes e análises técnicas,1324,3730,59357,236524,61528,243446
+2014,M,"Atividades profissionais, científicas e técnicas",72,Pesquisa e desenvolvimento científico,26,66,2440,19389,2495,19508
+2014,M,"Atividades profissionais, científicas e técnicas",73,Publicidade e pesquisa de mercado,751,1608,27787,85139,28799,87684
+2014,M,"Atividades profissionais, científicas e técnicas",74,"Outras atividades profissionais, científicas e técnicas",499,1117,17497,55861,18293,57925
+2014,M,"Atividades profissionais, científicas e técnicas",75,Atividades veterinárias,42,112,796,2369,912,2652
+2014,N,Atividades administrativas e serviços complementares,77,Aluguéis não-imobiliários e gestão de ativos intangíveis não-financeiros,2120,4978,57527,194610,60661,202478
+2014,N,Atividades administrativas e serviços complementares,78,"Seleção, agenciamento e locação de mão-de-obra",1019,2656,133083,672217,134612,676159
+2014,N,Atividades administrativas e serviços complementares,79,"Agências de viagens, operadores turísticos e serviços de reservas",474,1419,14897,50394,15686,52950
+2014,N,Atividades administrativas e serviços complementares,80,"Atividades de vigilância, segurança e investigação",1756,3292,139008,733969,141437,738683
+2014,N,Atividades administrativas e serviços complementares,81,Serviços para edifícios e atividades paisagísticas,4336,7334,295614,1079596,301534,1089928
+2014,N,Atividades administrativas e serviços complementares,82,"Serviços de escritório, de apoio administrativo e outros serviços prestados às empresas",5808,9922,284291,879705,292606,894832
+2014,O,"Administração pública, defesa e seguridade social",84,"Administração pública, defesa e seguridade social",20,86,2493,26079,2505,26128
+2014,P,Educação,85,Educação,7168,22678,179355,811410,192127,855335
+2014,Q,Saúde humana e serviços sociais,86,Atividades de atenção à saúde humana,1995,9862,78122,620119,83452,651904
+2014,Q,Saúde humana e serviços sociais,87,"Atividades de atenção à saúde humana integradas com assistência social, prestadas em residências coletivas e particulares",530,849,-1,23892,-1,25490
+2014,Q,Saúde humana e serviços sociais,88,Serviços de assistência social sem alojamento,2,7,-1,202,-1,218
+2014,R,"Artes, cultura, esporte e recreação",90,"Atividades artísticas, criativas e de espetáculos",157,341,3437,7517,3702,8100
+2014,R,"Artes, cultura, esporte e recreação",91,Atividades ligadas ao patrimônio cultural e ambiental,10,21,-1,817,-1,865
+2014,R,"Artes, cultura, esporte e recreação",92,Atividades de exploração de jogos de azar e apostas,1,5,-1,114,-1,119
+2014,R,"Artes, cultura, esporte e recreação",93,Atividades esportivas e de recreação e lazer,1399,2947,30496,80507,32754,85473
+2014,S,Outras atividades de serviços,94,Atividades de organizações associativas,24,116,904,4435,991,4952
+2014,S,Outras atividades de serviços,95,Reparação e manutenção de equipamentos de informática e comunicação e de objetos pessoais e domésticos,998,2480,25543,76495,27038,80444
+2014,S,Outras atividades de serviços,96,Outras atividades de serviços pessoais,1962,4628,44224,123333,47307,131064
+2014,U,Organismos internacionais e outras instituições extraterritoriais,99,Organismos internacionais e outras instituições extraterritoriais,-1,-1,-1,-1,-1,-1
+2015,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",1,"Agricultura, pecuária e serviços relacionados",1477,3729,83319,308369,86166,317865
+2015,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",2,Produção florestal,520,1101,20313,70117,21216,72373
+2015,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",3,Pesca e aquicultura,81,222,2204,8614,2377,9105
+2015,B,Indústrias extrativas,5,Extração de carvão mineral,-1,12,-1,4713,-1,4729
+2015,B,Indústrias extrativas,6,Extração de petróleo e gás natural,15,33,1762,3506,1777,3561
+2015,B,Indústrias extrativas,7,Extração de minerais metálicos,57,161,9910,83438,9980,83715
+2015,B,Indústrias extrativas,8,Extração de minerais não-metálicos,335,1816,8396,69680,8959,73175
+2015,B,Indústrias extrativas,9,Atividades de apoio à extração de minerais,43,109,5088,36600,5111,36692
+2015,C,Indústrias de transformação,10,Fabricação de produtos alimentícios,3524,12385,154723,1590365,160176,1610939
+2015,C,Indústrias de transformação,11,Fabricação de bebidas,197,936,12144,171915,12420,173457
+2015,C,Indústrias de transformação,12,Fabricação de produtos do fumo,13,60,713,17569,733,17646
+2015,C,Indústrias de transformação,13,Fabricação de produtos têxteis,889,3100,30702,233465,31955,238530
+2015,C,Indústrias de transformação,14,Confecção de artigos do vestuário e acessórios,5142,13362,146280,531972,153437,552435
+2015,C,Indústrias de transformação,15,"Preparação de couros e fabricação de artefatos de couro, artigos para viagem e calçados",1526,3659,56605,322689,58703,328018
+2015,C,Indústrias de transformação,16,Fabricação de produtos de madeira,1315,4057,33419,154755,35317,161117
+2015,C,Indústrias de transformação,17,"Fabricação de celulose, papel e produtos de papel",497,1853,21704,179391,22378,182365
+2015,C,Indústrias de transformação,18,Impressão e reprodução de gravações,570,2143,12227,73937,13055,77377
+2015,C,Indústrias de transformação,19,"Fabricação de coque, de produtos derivados do petróleo e de biocombustíveis",46,287,10920,213204,10966,213633
+2015,C,Indústrias de transformação,20,Fabricação de produtos químicos,555,3155,19715,288938,20535,293992
+2015,C,Indústrias de transformação,21,Fabricação de produtos farmoquímicos e farmacêuticos,35,374,4052,104028,4096,104563
+2015,C,Indústrias de transformação,22,Fabricação de produtos de borracha e de material plástico,1606,5975,53917,365390,56281,374906
+2015,C,Indústrias de transformação,23,Fabricação de produtos de minerais não-metálicos,2662,9046,72724,392255,76723,407102
+2015,C,Indústrias de transformação,24,Metalurgia,326,1410,17455,214049,17895,216429
+2015,C,Indústrias de transformação,25,"Fabricação de produtos de metal, exceto máquinas e equipamentos",2702,9334,68160,372351,72182,387899
+2015,C,Indústrias de transformação,26,"Fabricação de equipamentos de informática, produtos eletrônicos e ópticos",261,1249,12319,130225,12682,132230
+2015,C,Indústrias de transformação,27,"Fabricação de máquinas, aparelhos e materiais elétricos",428,1843,25793,214663,26352,217531
+2015,C,Indústrias de transformação,28,Fabricação de máquinas e equipamentos,1093,5328,30856,342577,32436,351316
+2015,C,Indústrias de transformação,29,"Fabricação de veículos automotores, reboques e carrocerias",503,2290,29569,426377,30286,429845
+2015,C,Indústrias de transformação,30,"Fabricação de outros equipamentos de transporte, exceto veículos automotores",143,502,30338,110229,30530,110965
+2015,C,Indústrias de transformação,31,Fabricação de móveis,1472,4944,40004,211311,42261,219497
+2015,C,Indústrias de transformação,32,Fabricação de produtos diversos,823,2908,19537,136038,20748,140632
+2015,C,Indústrias de transformação,33,"Manutenção, reparação e instalação de máquinas e equipamentos",1734,3336,47823,152799,50282,157864
+2015,D,Eletricidade e gás,35,"Eletricidade, gás e outras utilidades",151,502,7795,117699,8101,118836
+2015,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",36,"Captação, tratamento e distribuição de água",69,191,4557,100815,4624,101062
+2015,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",37,Esgoto e atividades relacionadas,68,216,4314,12923,4384,13187
+2015,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",38,"Coleta, tratamento e disposição de resíduos; recuperação de materiais",612,1449,38366,214915,39204,216958
+2015,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",39,Descontaminação e outros serviços de gestão de resíduos,6,21,243,1371,249,1403
+2015,F,Construção,41,Construção de edifícios,8997,17279,327693,869426,340997,897367
+2015,F,Construção,42,Obras de infraestrutura,2079,5217,188936,771577,191797,779844
+2015,F,Construção,43,Serviços especializados para construção,7521,13137,220954,551055,231433,570663
+2015,G,Comércio; reparação de veículos automotores e motocicletas,45,Comércio e reparação de veículos automotores e motocicletas,4926,16861,115423,564925,122522,591393
+2015,G,Comércio; reparação de veículos automotores e motocicletas,46,"Comércio por atacado, exceto veículos automotores e motocicletas",8131,25668,241770,1331196,253167,1370497
+2015,G,Comércio; reparação de veículos automotores e motocicletas,47,Comércio varejista,39918,115893,911378,4157326,968937,4334859
+2015,H,"Transporte, armazenagem e correio",49,Transporte terrestre,6597,17910,280802,1465536,290227,1494548
+2015,H,"Transporte, armazenagem e correio",50,Transporte aquaviário,108,378,8488,42003,8636,42584
+2015,H,"Transporte, armazenagem e correio",51,Transporte aéreo,22,142,11419,67495,11460,67718
+2015,H,"Transporte, armazenagem e correio",52,Armazenamento e atividades auxiliares dos transportes,1882,4541,98570,394086,101275,401515
+2015,H,"Transporte, armazenagem e correio",53,Correio e outras atividades de entrega,806,1771,21401,176564,22451,179107
+2015,I,Alojamento e alimentação,55,Alojamento,2265,8630,62635,273102,65929,287030
+2015,I,Alojamento e alimentação,56,Alimentação,18810,37701,412602,1050563,439673,1107245
+2015,J,Informação e comunicação,58,Edição e edição integrada à impressão,249,1267,6249,72947,6587,74879
+2015,J,Informação e comunicação,59,"Atividades cinematográficas, produção de vídeos e de programas de televisão; gravação de som e edição de música",158,449,6689,22863,6882,23452
+2015,J,Informação e comunicação,60,Atividades de rádio e de televisão,76,1393,4183,77496,4290,79533
+2015,J,Informação e comunicação,61,Telecomunicações,729,1575,21494,175290,22606,177694
+2015,J,Informação e comunicação,62,Atividades dos serviços de tecnologia da informação,1394,4154,70264,337023,72637,344851
+2015,J,Informação e comunicação,63,Atividades de prestação de serviços de informação,524,1224,17926,113084,18734,114993
+2015,K,"Atividades financeiras, de seguros e serviços relacionados",64,Atividades de serviços financeiros,478,1838,21657,612771,22818,620690
+2015,K,"Atividades financeiras, de seguros e serviços relacionados",65,"Seguros, resseguros, previdência complementar e planos de saúde",77,733,4305,207074,4450,210965
+2015,K,"Atividades financeiras, de seguros e serviços relacionados",66,"Atividades auxiliares dos serviços financeiros, seguros, previdência complementar e planos de saúde",426,1552,15898,81870,16658,84745
+2015,L,Atividades imobiliárias,68,Atividades imobiliárias,927,2783,25011,89482,26436,94588
+2015,M,"Atividades profissionais, científicas e técnicas",69,"Atividades jurídicas, de contabilidade e de auditoria",2651,8602,51042,212980,56044,232356
+2015,M,"Atividades profissionais, científicas e técnicas",70,Atividades de sedes de empresas e de consultoria em gestão empresarial,407,956,19188,64601,19777,66440
+2015,M,"Atividades profissionais, científicas e técnicas",71,Serviços de arquitetura e engenharia; testes e análises técnicas,1187,3466,46334,204465,48229,210784
+2015,M,"Atividades profissionais, científicas e técnicas",72,Pesquisa e desenvolvimento científico,25,70,2746,19577,2790,19677
+2015,M,"Atividades profissionais, científicas e técnicas",73,Publicidade e pesquisa de mercado,795,1614,29321,77587,30392,80098
+2015,M,"Atividades profissionais, científicas e técnicas",74,"Outras atividades profissionais, científicas e técnicas",480,1111,16780,57906,17561,59892
+2015,M,"Atividades profissionais, científicas e técnicas",75,Atividades veterinárias,71,158,1201,2903,1385,3308
+2015,N,Atividades administrativas e serviços complementares,77,Aluguéis não-imobiliários e gestão de ativos intangíveis não-financeiros,1921,4742,50607,180191,53341,187424
+2015,N,Atividades administrativas e serviços complementares,78,"Seleção, agenciamento e locação de mão-de-obra",865,2425,105940,625694,107161,629202
+2015,N,Atividades administrativas e serviços complementares,79,"Agências de viagens, operadores turísticos e serviços de reservas",432,1343,13741,46623,14424,48929
+2015,N,Atividades administrativas e serviços complementares,80,"Atividades de vigilância, segurança e investigação",1692,3291,127284,706723,129555,711269
+2015,N,Atividades administrativas e serviços complementares,81,Serviços para edifícios e atividades paisagísticas,4620,7766,291348,1041798,297227,1052277
+2015,N,Atividades administrativas e serviços complementares,82,"Serviços de escritório, de apoio administrativo e outros serviços prestados às empresas",5765,10004,239042,820510,247062,835566
+2015,O,"Administração pública, defesa e seguridade social",84,"Administração pública, defesa e seguridade social",20,93,2982,33342,3004,33397
+2015,P,Educação,85,Educação,7074,23278,175842,841908,188080,886193
+2015,Q,Saúde humana e serviços sociais,86,Atividades de atenção à saúde humana,2076,10245,85937,648769,91520,682064
+2015,Q,Saúde humana e serviços sociais,87,"Atividades de atenção à saúde humana integradas com assistência social, prestadas em residências coletivas e particulares",636,1015,-1,28478,-1,30384
+2015,Q,Saúde humana e serviços sociais,88,Serviços de assistência social sem alojamento,1,5,-1,127,-1,139
+2015,R,"Artes, cultura, esporte e recreação",90,"Atividades artísticas, criativas e de espetáculos",149,321,3611,7498,3824,8013
+2015,R,"Artes, cultura, esporte e recreação",91,Atividades ligadas ao patrimônio cultural e ambiental,9,20,144,855,156,894
+2015,R,"Artes, cultura, esporte e recreação",92,Atividades de exploração de jogos de azar e apostas,-1,4,-1,113,-1,115
+2015,R,"Artes, cultura, esporte e recreação",93,Atividades esportivas e de recreação e lazer,1531,3153,32362,85079,34723,90180
+2015,S,Outras atividades de serviços,94,Atividades de organizações associativas,15,93,617,3447,673,3890
+2015,S,Outras atividades de serviços,95,Reparação e manutenção de equipamentos de informática e comunicação e de objetos pessoais e domésticos,854,2341,21369,68516,22581,72135
+2015,S,Outras atividades de serviços,96,Outras atividades de serviços pessoais,1915,4561,42071,119486,44978,126844
+2015,U,Organismos internacionais e outras instituições extraterritoriais,99,Organismos internacionais e outras instituições extraterritoriais,-1,-1,-1,-1,-1,-1

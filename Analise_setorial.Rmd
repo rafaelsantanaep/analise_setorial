@@ -1,0 +1,791 @@
+---
+title: "Análise setorial da economia brasileira"
+author: "Rafael"
+date: April 07, 2018
+output:
+  html_document:
+    toc: true
+    toc_depth: 3
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,message = FALSE, warning=FALSE, error = FALSE, fig.width = 8, fig.height = 8)
+library(dplyr)
+library(ggplot2)
+library(tidyr)
+library(data.table)
+setwd('/home/rafael/Documents/the_hive/the_hive_test/')
+library(ggthemes)
+theme_set(theme_light())
+library(ggpubr)
+options(scipen = 999, digits = 4)
+```
+
+
+```{r echo=FALSE}
+df <- fread('data/merged.csv')
+```
+
+
+
+# Introdução
+
+Nestee projeto, será realizada uma análise sobre as empresas e sobre o número de empregados assaliarados no Brasil utilizando os dados do CNAE (Classificação Nacional de Atividades Econômicas) e como espaço temporal os anos de 2014 e 2015.
+
+Os dados já foram limpos através da utilização de um script do script `wrangling.py` que está presente nesse mesmo diretório. Os arquivos foram unificados, facilitando assim seu uso para esta análise. Foi possível realizar isso porque as quatro bases de dados possuem os mesmos identificadores: o identificador da seção e o identificador da divisão, sendo importante salientar que eu adicionei dois indicadores para não realizar confusões que poderiam predudicar o estudo, sendo eles a coluna `base_de_dados` que tem dois valores: geral ou alto crescimento e a coluna ano que pode tomar dois valores: 2015 e 2014.
+
+
+Alguns conceitos importantes precisam ser aqui trabalhados para melhorar o entendimento sobre os dados utilizados.
+
+Na primeira base de dados, o IBGE identificou o número de empresas, funcionários assalariados e funcionários totais segmentando em dois: 
+  
+- Empresas com 10 funcionários ou mais que tem até oito anos de idade.
+- Todas empresas com 10 funcionários ou mais.
+
+Dessa forma, a primeira categoria é uma subcategoria da segunda.
+
+Na segunda base de dados, o IBGE realizou o mesmo processo, porém, desta vez, segmentando as empresas
+em dois tipos:
+  
+- Empresas gazelas (Empresas de alto crescimento que tem até oito anos de idade)
+- Empresas de alto crescimento
+
+Dessa forma, vale notar que em ambas bases de dados, existe uma variável que é úm subconjunto da outra. Por exemplo, o número de funcionários das empresas gazelas, são um subconjunto do número de funcionários das empresas de alto crescimento, podendo, dessa forma, se utilizar de proporções para fazer comparações entre setores e divisões. Sendo válido notar que as empresas gazelas então na interseção entre as empresas de alto crescimento e as empresas que tem até oito anos de idade.
+
+# Geral
+
+Como pode ser observado nas estatísticas acima, as variáveis que gostaríamos de análisar: número de empresas, pessoal_ocupado_total e pessoal_ocupado_assalariados, estão no formato correto. Para além disso, nas variáveis pessoal_ocupado_total e pessoal_ocupado_assalariados existem divisões em que as empresas não declararam o número de funcionários.
+
+Antes de começar a identificar esses setores, é importante observar as distribuições dos números de empresas, e do número de funcionários tanto assalariados quanto total segmentados pelo ano, com o objetivo de mensurar se há diferenças grandes nas distribuições por ano.
+
+
+
+### Distribuição cumulativa (Empresas com até oito anos x Geral)
+
+```{r fig.width=8, fig.height=3, echo=FALSE}
+numero_empresas <- ggecdf(data=subset(df, df$base_de_dados == 'geral'), 
+                          x="numero_de_empresas",linetype='dashed', size=1,
+                          color='segmento',
+                          facet.by='year', title='Distribuição cumulativa de empresas',
+                          xlab='número de empresas', ylab='contagem')
+
+numero_funcionários <- ggecdf(data=subset(df, df$base_de_dados == 'geral'),
+                          x='pessoal_ocupado_total', color='segmento',
+                          linetype='dashed', size=1, facet.by='year', 
+                          title='Distribuição cumulativa do numero de funcionários',
+                          xlab='número de funcionários', ylab='contagem')
+
+summary <- df %>% 
+filter(base_de_dados == 'geral') %>% 
+group_by(segmento) %>% 
+summarize(mean_numero_de_empresas = mean(numero_de_empresas),
+         mean_funcionários = mean(pessoal_ocupado_total),
+         median_over_mean_empresas = median(numero_de_empresas) / mean(numero_de_empresas),
+         median_over_mean_funcionários = median(pessoal_ocupado_total) / mean(pessoal_ocupado_total))
+
+numero_empresas
+```
+
+### Distribuição cumulativa do número de funcionários por tipo de empresa e por ano
+
+```{r fig.width=9, fig.height=3, echo=FALSE}
+numero_funcionários
+```
+
+ 
+```{r echo=FALSE}
+summary_ <- df %>%
+  group_by(segmento, year) %>%
+  summarize(
+    empresas_97qt = quantile(numero_de_empresas, 0.975),
+    assalariados_97qt = quantile(pessoal_ocupado_assalariados, 0.975),
+    total_97qt = quantile(pessoal_ocupado_total, 0.975))
+
+print(summary_)
+```
+
+
+
+Como pode ser observado acima, não há muita diferença na distribuição do número de empresas por divisão entre os anos de 2014 e 2015. Por outro lado, quase a totalidade das divisões possuem até 10000 empresas que possuem até oito anos de idade, enquanto quando se analisa o quadro geral, esse valor aumenta para aproximadamente 26009 mil empresas.
+
+Já em relação aos funcionários, essa tendência se intensifica, divisões de empresas com até oito anos de idade, em sua maioria, possuem até 405 mil funcionários e 1.53 milhões de funcionários quando se analisa todas as empresas com 10 funcionários ou mais. Um ponto de destaque aqui é que entre as empresas de crescimento, o valor do 97.5 percentile diminuiu de 430 mil funcionários para 335 mil funcionários.
+
+
+### Variação relativa no número de empresas por setor entre 2014 e 2015 (Geral)
+
+```{r fig.width=12, fig.height=5, echo=FALSE}
+crescimento <- df %>%
+  filter(base_de_dados == 'geral', segmento == 'Geral') %>%
+  group_by(year, seção_descrição) %>%
+  summarize(empresas_por_setor = sum(numero_de_empresas)) %>%
+  spread(year, empresas_por_setor, sep = '_') %>%
+  mutate(crescimento = (year_2015 - year_2014) / year_2014) %>%
+  mutate(crescimento_absoluto = year_2015 - year_2014) 
+
+crescimento %>%
+  drop_na() %>%
+  ggplot(aes(reorder(seção_descrição, crescimento), 100 * crescimento, fill=crescimento_absoluto, label=crescimento_absoluto)) +
+  geom_bar(stat='identity', col='black') + coord_flip() +
+  scale_fill_continuous_tableau(palette = 'Red-Gold') +
+  geom_text(size=4, position = position_stack(vjust=0.5)) +
+  labs(title='10 maiores crescimentos e queda por setor', x='setor', y='queda em %', fill='crescimento absoluto')
+```
+
+```{r echo=FALSE}
+desempregados <- df %>%
+  filter(base_de_dados == 'geral', segmento == 'Geral') %>%
+  group_by(year) %>%
+  summarize(sum(pessoal_ocupado_total)) %>%
+  transpose() %>%
+  mutate(desempregados = V1 -  V2) %>%
+  select(desempregados)
+
+desempregados <- desempregados$desempregados[2]
+
+print(desempregados)
+```
+
+
+Ao analisar dados de crescimento e queda, é importante dar contexto aos dados. Em 2015, o Brasil entrou em recessão, o dólar subiu e muitos funcionários foram demitidos. Segundo os dados, somente entre as empresas com mais de dez funcionários, existe uma diferença de 1.658 milhões de funcionários entre 2014 e 2015.
+
+Um político analisaria esses dados para tentar entender os motivos dessa tendência de queda e pensaria em políticas públicas para atenuar essa tendência, uma vez que essa queda leva a um aumento do desemprego e, consequentemente, diminui a popularidade dos políticos. Um investidor, por outro lado, olharia a situação de cada setor / divisão e, através da análise desses dados, desinvestiria em setores com tendência de queda e investiria em setores com tendência de crescimento.
+
+Em termos percentuais, os setores que tiveram maior variação positiva foram:
+  
+- Administração pública, defesa e seguridade social
+- Eletricidade e Gás
+- Artes, cultura, esporte e recreação
+- Saúde e serviços sociais
+- Educação
+
+Em termos absolutos, os setores que tiveram maior entrada de novas empresas foram:
+  
+- Educação
+- Alojamento e alimentação
+- Saúde humana e serviços sociais
+- Artes, cultura, esporte e recreação
+
+Em termos percentuais, os setores que tiveram maior variação negativa foram:
+  
+- Construção
+- Indústrias Extrativas
+- Indústrias de Transformação
+- Outras atividades e serviços
+- Comércio; Reparação de veículos automotores e motocicletas
+
+Em termos absolutos, os setores que tiveram maior saída de empresas foram:
+  
+- Indústrias de Transformação
+- Comércio; Reparação de veículos automotores e motocicletas
+- Construção
+
+### Variação relativa no número de funcionários por seção entre 2014 e 2015 (Geral)
+
+
+```{r fig.width=12, fig.height=6}
+crescimento_func_total <- df %>%
+  filter(base_de_dados == 'geral', segmento == 'Geral') %>%
+  group_by(year, seção_descrição) %>%
+  summarize(pessoal_por_setor_total = sum(pessoal_ocupado_total)) %>%
+  spread(year, pessoal_por_setor_total, sep='_') %>%
+  select(seção_descrição, year_2014, year_2015)
+
+crescimento_func_assalariados <- df %>%
+  filter(base_de_dados == 'geral', segmento == 'Geral') %>%
+  group_by(year, seção_descrição) %>%
+  summarize(pessoal_por_setor_assalariados = sum(pessoal_ocupado_assalariados)) %>%
+  spread(year, pessoal_por_setor_assalariados, sep = '_') %>%
+  select(seção_descrição, year_2014, year_2015)
+
+joined_df <- crescimento_func_assalariados %>%
+  inner_join(crescimento_func_total, by = 'seção_descrição') 
+
+names(joined_df) <- c('seção_descrição','assalariados_2014','assalariados_2015','total_2014','total_2015')
+
+joined_df %>%
+  mutate(variação_assalariados = (assalariados_2015 - assalariados_2014) / assalariados_2014,
+         variação_total = (total_2015 - total_2014) / total_2014,
+         percentual_assalariados = (assalariados_2015 - assalariados_2014) / (total_2015 - total_2014)) %>%
+  arrange(desc(variação_total)) %>%
+  ggplot(aes(reorder(seção_descrição, variação_total), variação_total * 100, 
+             fill=percentual_assalariados, label=total_2015 - total_2014)) +
+  geom_bar(stat='identity', col='black') + coord_flip() +
+  geom_text(size=3, position = position_stack(vjust=0.5)) +
+  scale_fill_gradient2(low = 'white', high='red') +
+  labs("Variação relativa no número de funcionários por seção entre 2014 e 2015 (Geral)",
+       x='seção', y='variação relativa', fill='salariados / total de funcionários')
+
+```
+
+Observações:
+  
+Em termos de variação percentual, os únicos setores que tiveram variações positivas no número de funcionários foram:
+  
+- Administração pública, defesa e seguridade social
+- Arte, cultura, esporte e recreação
+- Educação
+- Informação e comunicação
+- Saúde humana e serviços sociais
+
+Em termos de variação absoluta, destacam-se, positivamente:
+  
+- Educação: 34 mil funcionários a mais
+- Informação e comunicação: 42 mil funcionários a mais
+- Saúde humana e serviços sociais: 34.5 mil funcionários a mais
+
+
+Em termos de variação absoluta, destacam-se, negativamente:
+  
+- Indústria de transformação: 651 mil funcionários a menos
+- Construção: 484 mil funcionários a menos
+- Comércio; Reparação de veículos automotores e motocicletas: 238 mil funcionários a menos
+- Atividades administrativas e serviços complementares: 190 mil funcionários a menos
+
+Um ponto que chama atenção é que em todos os setores, a relação empregado assalariado / empregados totais é superior a 90%.
+<br>
+
+Levando isso em conta, vamos investigar esses setores, para entender quais divisões foram mais importantes no crescimento e na queda desses setores.
+
+
+
+### Variação relativa no número de empresas nas divisões (Seções que tiveram maiores variações)
+
+```{r fig.width=12, fig.height=5}
+setores <- c("Indústrias de transformação","Indústrias extrativas","Eletricidade e gás","Construção",
+             "Comércio; reparação de veículos automotores e motocicletas","Alojamento e alimentação",
+             "Informação e comunicação","Educação","Saúde humana e serviços sociais","Indústrias de transformação",
+             "Administração pública, defesa e seguridade social","Outras atividades de serviços")
+df %>%
+  filter(seção_descrição %in% setores, base_de_dados == 'geral', segmento == 'Geral') %>%
+  select(seção_descrição, divisão_descrição, year, numero_de_empresas) %>%
+  spread(year, numero_de_empresas, sep='_') %>%
+  mutate(variação = (year_2015 - year_2014) / year_2014,
+         variação_absoluta = (year_2015 - year_2014)) %>%
+  subset(variação_absoluta > 200 | variação_absoluta < -200) %>%
+  ggplot(aes(reorder(divisão_descrição, variação), variação, fill=seção_descrição, label=variação_absoluta)) + 
+  geom_bar(stat='identity', color='black') + coord_flip() +
+  geom_text(size=3, position = position_stack(vjust=0.5)) +
+  scale_fill_brewer(type='qual') +
+  labs(title='Variação relativa no número de empresas nas divisões\n\t\t(seções que tiveram maiores variações)',
+       x='divisão', y='variação relativa', fill='seção')
+```
+
+
+- **Indústria de transformação:** Nesse setor, a divisão que teve a maior queda absoluta foi a divisão de confecção de artigos de vestuário e acessórios; já a maior queda percentual, foi a divisão de preparação de couros. Sendo importante destacar que a maioria dos segmentos desse setor tiveram uma diminuição de pelo menos 200 empresas de 2014 para 2015.
+
+- **Construção:** A queda nesse setor foi puxada pelos segmentos de construção de edíficios, de serviços especializados para construção e obras de infraestrutura.
+
+- **Comércio:** A maior queda absoluta se deu no comércio varejista e a maior queda percentual ocorreu no comércio; reparação de veículos automotores e motocicletas.
+
+- **Alojamento e Alimentação:** O setor teve uma variação positiva decorrente do aumento do número de empresas no segmento de alimentação.  
+
+- **Saúde humana e serviços sociais:** Esse setor teve uma variação positiva influenciado pela abertura de empresas na divisão de Atividades de atenção à saúde humana
+
+- **Educação:** O segmento que influenciou o setor de educação também é chamado de educação.
+
+- **Outros segments:** Os outros segmentos não foram listados porque não tiveram uma variação absoluta superior a 200 empresas ou inferior a 200 empresas.
+
+
+
+### Variação relativa no número de funcionários em cada divisão (seções que tiveram maior variação relativa)
+
+```{r fig.width=11, fig.height=4}
+setores <- c("Indústrias de transformação","Indústrias extrativas","Eletricidade e gás","Construção",
+             "Comércio; reparação de veículos automotores e motocicletas","Alojamento e alimentação",
+             "Informação e comunicação","Educação","Saúde humana e serviços sociais","Indústrias de transformação",
+             "Administração pública, defesa e seguridade social","Outras atividades de serviços")
+
+crescimento_func_total <- df %>%
+  filter(base_de_dados == 'geral', segmento == 'Geral', seção_descrição %in% setores) %>%
+  group_by(year, seção_descrição, divisão_descrição) %>%
+  summarize(pessoal_por_setor_total = sum(pessoal_ocupado_total)) %>%
+  spread(year, pessoal_por_setor_total, sep='_') %>%
+  select(seção_descrição, divisão_descrição,year_2014, year_2015)
+
+
+crescimento_func_assalariados <- df %>%
+  filter(base_de_dados == 'geral', segmento == 'Geral', seção_descrição %in% setores) %>%
+  group_by(year, seção_descrição, divisão_descrição) %>%
+  summarize(pessoal_por_setor_assalariados = sum(pessoal_ocupado_assalariados)) %>%
+  spread(year, pessoal_por_setor_assalariados, sep = '_') %>%
+  select(seção_descrição, divisão_descrição, year_2014, year_2015) 
+
+joined_df <- crescimento_func_assalariados %>%
+  inner_join(crescimento_func_total, by = c('seção_descrição', 'divisão_descrição')) 
+
+names(joined_df) <- c('seção_descrição','divisão_descrição','assalariados_2014','assalariados_2015','total_2014','total_2015')
+
+joined_df %>%
+  mutate(variação_assalariados = (assalariados_2015 - assalariados_2014) / assalariados_2015,
+         variação_total = (total_2015 - total_2014) / total_2014,
+         variação_absoluta = (total_2015 - total_2014),
+         percentual_assalariados = (assalariados_2015 - assalariados_2014) / (total_2015 - total_2014)) %>%
+  subset(variação_absoluta > 40000 | variação_absoluta < -40000) %>%
+  ggplot(aes(reorder(divisão_descrição, -variação_total), variação_total * 100, fill=seção_descrição, label=variação_absoluta)) +
+  geom_bar(stat='identity') + coord_flip() +
+  geom_text(size=3, position = position_stack(vjust=0.5)) +
+  scale_fill_brewer(type='qual') +
+  labs(title='Variação relativa no número de funcionários em cada divisão\n\t\t(seções que tiveram maior variação relativa)',
+       x='divisão', y='valor_relativo',fill='seção')
+```
+
+- Foram consideradas apenas divisões que fazem parte dos segmentos que eu destaquei anteriormente
+- Os dados foram filtrados para manter apenas segmentos que tiveram crescimento ou queda de pelo menos trinta mil funcionários.
+- Como pode ser observado no gráfico acima, nenhum segmento teve crescimento dessa magnitude.
+- Já quando se considera a queda, os segmentos abaixo tiveram uma queda superior a 100.000 funcionários
+  - Construção de edifícios
+  - Obras de Infraestrutura
+  - Comércio varejista
+
+
+### Segmentos em que houve maior diminuição de assalariados em relação ao ano anterior
+
+```{r fig.width=10, fig.height=3}
+df %>%
+  filter(seção_descrição %in% setores, segmento == 'Geral') %>%
+  group_by(divisão_descrição, year) %>%
+  summarise(total_assalariados = sum(pessoal_ocupado_assalariados)) %>%
+  spread(year, total_assalariados, sep='_') %>%
+  mutate(diferença_relativa = (year_2015 - year_2014) / year_2014) %>%
+  mutate(diferença_absoluta = year_2015 - year_2014) %>%
+  filter(diferença_absoluta < -50000) %>%
+  ggplot(aes(reorder(divisão_descrição, -diferença_relativa), diferença_relativa, fill=diferença_absoluta)) + 
+  geom_bar(stat='identity', col='black') + coord_flip() +
+  scale_fill_gradient2() +
+  labs(title='Segmentos x assalariados',
+       x='divisão', y='diferença relativa', fill='diferença absoluta')
+
+```
+
+As divisões que apresentaram as maiores variações relativas são:
+- Obras de infraestrutura
+- Construção de edifícios
+- Fabricação de produtos de metal, exceto máquinas e equipamentos
+
+As divisões abaixo tiveram uma diminuição superior a 200 mil funcionários assalariados:
+- Obras de infraestrutura
+- Construção de edíficios
+
+
+### 10 divisões com maior média de funcionários assalariados
+
+```{r fig.width=13, fig.height=4}
+df %>%
+  filter(segmento == 'Geral', year == '2015') %>%
+  mutate(funcionarios_por_empresa = pessoal_ocupado_assalariados / numero_de_empresas) %>%
+  select(seção_descrição, divisão_descrição, funcionarios_por_empresa) %>%
+  arrange(desc(funcionarios_por_empresa)) %>%
+  head(10) %>%
+  ggplot(aes(reorder(divisão_descrição, funcionarios_por_empresa), funcionarios_por_empresa, fill=seção_descrição)) +
+  geom_bar(stat='identity') + coord_flip() +
+  labs(title='10 divisões com maior média de funcionários assalariados', x='divisão', y='média de assalariados',
+       fill='seção')
+```
+
+
+
+Examinar a média de funcionários por empresa é importante porque essa é uma métrica que facilita a identificação de setores em que há uma concentração em algumas empresas. Na divisão de Fabricação de coque (Indústria de transformação), de produtos derivados do petróleo e de biocombustíveis, por exemplo, há uma média superior a 750 funcionários assalariados.
+
+Quando se olha em um âmbito setorial, um ponto importante é que a maioria desses setores são altamente regulados pelo Estado ou o Estado tem grande presença neles,  através de alvarás ambientais, concessões e empresas estatais / instituições estatais.
+
+
+
+###  10 divisões com maior representação no total de empresas (Geral)
+
+  
+```{r fig.width=16, fig.height=4, echo=FALSE}
+percent_plot <- function(df, segmento_value, title='', x='', y='') {
+
+# Total de empresas em 2014 com mais de 10 funcionários, independente do setor.
+total_empresas <- df %>%
+filter(base_de_dados == 'geral', year == '2014', segmento == 'Geral') %>%
+summarise(total_empresas = sum(numero_de_empresas))
+
+    
+# Criando um plot para identificar 
+plot <- df %>%
+filter(base_de_dados == 'geral', year == '2014', segmento == segmento_value) %>%
+mutate(percentual_total = numero_de_empresas / as.integer(total_empresas)) %>%
+arrange(desc(percentual_total)) %>%
+head(10) %>%
+ggplot(aes(reorder(divisão_descrição, percentual_total),  100 * percentual_total, 
+           fill=seção_descrição)) + geom_bar(stat='identity', col='black') +
+scale_fill_brewer(type='qual') + 
+coord_flip() +
+geom_text(size=5, aes(label=numero_de_empresas), position = position_stack(vjust=0.5)) + 
+labs(title=title, x=x, y=y, fill='número_de_empresas')
+
+return(plot)
+}
+
+plot1 <- percent_plot(df, 'Geral', '10 divisões com maior parcela no total de empresas (Geral)')
+plot2 <- percent_plot(df, 'Até 8 anos de idade', 
+                      '10 divisões com maior parcela no total de empresas (Até oito anos)',
+                      x='divisão', y='percentual do total de empresas')
+
+plot1
+```
+
+Como pode ser observado, quase 60% das empresas estão concentradas nesses 10 segmentos da economia. Dessa forma, qualquer variação positiva ou negativa tem impactos práticos importantes na economia brasileira. 
+
+### 10 divisões com maior parcela no total de empresas (Empresas com até oito anos)
+
+
+```{r fig.height=4, fig.width=16}
+plot2
+```
+
+Observações:
+  
+- A única diferença em relação aos membros dessa categoria, em relação aos dados em âmbito geral é que quando se analisa empresas com até oito anos, serviços de escritório entram para o grupo no lugar do segmento fabricação de produtos alimentícios. O restante dos membros se mantêm.
+
+
+### Parcela representada pelas empresas com até oito anos por setor
+
+```{r fig.width=16, fig.height=6, echo=FALSE, message=FALSE, error=FALSE}
+
+plot1 <- df %>%
+filter(base_de_dados == 'geral') %>%
+group_by(seção_descrição, segmento, year) %>%
+summarize(numero_de_empresas = sum(numero_de_empresas)) %>%
+spread(segmento, numero_de_empresas) %>%
+mutate(perc = `Até 8 anos de idade` / Geral) %>%
+select(c('seção_descrição','year','Até 8 anos de idade','perc')) %>%
+drop_na() %>%
+ggplot(aes(seção_descrição, perc * 100, fill=`Até 8 anos de idade`, label=`Até 8 anos de idade`)) + 
+geom_bar(stat='identity', color='black') +
+facet_wrap(~year) + coord_flip() +
+scale_fill_gradient2() +
+geom_text(size=4, position = position_stack(vjust=0.5)) +
+labs(title='Parcela representada pelas empresas com até oito anos por setor',
+    x='setor', y='% do total de empresas ')
+plot1
+```
+
+Em geral, na maioria dos setores, as empresas que tem mais de oito anos representam menos de 50% das empresas da seção, exceto por dois setores:
+  
+- Construção
+- Atividades administrativas e serviços complementares
+  
+Em termos de participação no setor, não houve um alteração muito grande de 2014 e 2015. Dessa forma, pode-se observar que as empresas com menos de oito anos também sofreram um queda em números. Nesse aspecto, destaca-se a seção de Comércio; reparação de veículos automotores e motocicletas que teve uma variação em números absolutos de 5000 empresas.
+
+
+
+
+### Divisões em que as empresas não declararam o número de funcionários
+  
+
+```{r echo=FALSE}
+todas_empresas <- df %>%
+  filter(segmento == 'Geral') %>%
+  group_by(year) %>%
+  summarise(total_empresas = sum(numero_de_empresas)) %>%
+  spread(year, total_empresas, sep='_')
+
+não_declararam <- df %>%
+  filter(pessoal_ocupado_total == '-1', numero_de_empresas != 0) %>%
+  group_by(segmento, year) %>%
+  summarise(não_declararam = sum(numero_de_empresas)) %>%
+  mutate(total = ifelse(year == 2014, todas_empresas$year_2014, todas_empresas$year_2015)) %>%
+  mutate(percentual = (não_declararam / total)) %>%
+  select(segmento, year, não_declararam, percentual)
+
+print(não_declararam)
+```
+
+```{r fig.width=9, fig.height=3}
+df %>% 
+  filter(segmento == 'Geral') %>%
+  group_by(seção_descrição, divisão_descrição) %>%
+  summarise(total = sum(numero_de_empresas)) %>%
+  arrange(total) %>%
+  head(10) %>%
+  ggplot(aes(reorder(divisão_descrição, total), total, label=total)) + 
+  geom_bar(stat='identity', fill='purple', color='black') + coord_flip() +
+  labs(title='10 Divisões com menor número de empresas', x='divisão') +
+  geom_text(size=4, position = position_stack(vjust=0.5))
+```
+
+As divisões que possuem o menor número de empresas e, dessa forma, são concentrados em algumas empresas são, respectivamente:
+
+1. Organismos internacionais e outras instituições extraterritoriais
+2. Atividades de exploração de jogos de azar e apostas              
+3. Serviços de assistência social sem alojamento                    
+4. Extração de carvão mineral                                       
+5. Descontaminação e outros serviços de gestão de resíduos          
+6. Atividades ligadas ao patrimônio cultural e ambiental            
+7. Extração de petróleo e gás natural                               
+8. Fabricação de produtos do fumo                                   
+9. Pesquisa e desenvolvimento científico                            
+10. Administração pública, defesa e seguridade social                
+
+
+# Empresas de alto crescimento e empresas gazelas
+
+
+- **Empresa de alto crescimento:** Uma empresa de alto crescimento é uma empresa que apresentou um crescimento no número de funcionários de pelo menos 20% nos últimos três anos.
+
+- **Empresa gazela:** Empresa de alto crescimento que tem até oito anos de idade
+
+
+
+### Segmentos com maior parcela de empresas de alto crescimento
+  
+
+```{r fig.width=15, fig.height=3}
+altocrescimento <- df %>%
+  filter(segmento == 'Alto Crescimento', year == 2015) %>%
+  mutate(divisão_descrição = ifelse(numero_de_empresas > 750, divisão_descrição, 'Outros')) %>%
+  group_by(seção_descrição, divisão_descrição) %>%
+  summarise(total_empresas = sum(numero_de_empresas)) %>%
+  ungroup() %>%
+  mutate(percentual = total_empresas / sum(total_empresas)) %>%
+  filter(divisão_descrição != 'Outros')
+
+plot1 <- altocrescimento %>%
+  ggplot(aes(reorder(divisão_descrição, percentual), percentual * 100, fill=seção_descrição, label=total_empresas)) + 
+  geom_bar(stat='identity', color='black') + coord_flip() +
+  geom_text(size=3, position=position_stack(vjust=0.5)) +
+  scale_fill_brewer(type='qual') + 
+  labs(title='Segmentos que concentram maior parcela das empresas de alto crescimento em 2015',
+       x='divisão', y='percentual')
+  
+plot1
+```
+
+Através dos dados acima, pode ser observado que no ano de 2015, 55.5% das empresas consideradas de alto crescimento estão concentrada em sete seções:
+  
+- Alojamento e alimentação
+- Atividades administrativas e serviços complementares      
+- Comércio; reparação de veículos automotores e motocicletas
+- Construção                                             
+- Educação
+- Indústrias de transformação
+- Transporte, armazenagem e correio
+
+A divisão com o maior número de empresas de alto crescimento é o comércio varejista com 4541 empresas.
+
+
+
+### Parcela das empresas de alto crescimento representadas pelas empresas gazelas (por seção)
+  
+
+```{r fig.width=16, fig.height=5, echo=FALSE}
+df %>%
+  filter(base_de_dados == 'altocrescimento') %>%
+  group_by(seção_descrição, segmento, year) %>%
+  summarize(numero_de_empresas = sum(numero_de_empresas)) %>%
+  spread(segmento, numero_de_empresas) %>%
+  mutate(perc = Gazela / `Alto Crescimento`) %>%
+  select(c('seção_descrição','year','Gazela','perc')) %>%
+  drop_na() %>%
+  ggplot(aes(seção_descrição, perc * 100, fill=`Gazela`, label=`Gazela`)) + 
+  geom_bar(stat='identity', color='black') +
+  geom_text(size=4, position = position_stack(vjust=0.5)) +
+  facet_wrap(~year) + coord_flip() +
+  scale_fill_gradient2() +
+  labs(title='Parcela representada pelas empresas gazelas entre as empresas de altocrescimento',
+       x='setor', y='% do total de empresas 10 funcionários ou mais', fill='numero de empresas')
+```
+
+Em termos relativos, nas seguintes seções, as gazelas apresentam uma parcela próximo ou superior a 50% das empresas de alto crescimento, em 2014 e 2015:
+
+- Administração pública
+- Atividades administrativas e serviços complementares
+- Alojamento e alimentação
+- Eletricidade e gás
+- Outras atividades e serviços
+
+Em termos absolutos, cada uma das seções abaixo possui mais de mil empresas:
+- Comércio; reparação de veículos automotores e motocicletas
+- Atividades administrativas e serviços complementares
+- Construção
+- Indústrias de transformação
+
+ 
+
+### Parcela das empresas até oito anos que são de alto crescimento (gazelas)
+
+```{r fig.width=3, fig.height=3}
+df %>%
+  filter(segmento %in% c('Gazela','Até 8 anos de idade','Alto Crescimento')) %>%
+  group_by(segmento, year) %>%
+  summarise(total = sum(numero_de_empresas)) %>%
+  spread(segmento, total) %>%
+  mutate(parcela = Gazela / `Até 8 anos de idade`) %>%
+  ggplot(aes(year, parcela, label=Gazela)) + 
+  geom_bar(stat='identity', color='black', fill='purple') +
+  geom_text(size=3, position = position_stack(vjust=0.5)) +
+  labs(x='Ano', y='%')
+```
+
+Observações:
+  
+- Entre 2014 e 2015, houve uma diminuição no número de empresas de alto crescimento entre as empresas que tem até oito anos. Essa variação foi de, aproximadamente, 1900 empresas.
+- Entre as empresas com até oito anos, aproximadamente, 6% delas são de alto crescimento
+
+
+### Variação relativa no número de empresas de alto crescimento e gazelas entre 2014 e 2015
+
+```{r fig.width=13, fig.height=5}
+df %>%
+  filter(base_de_dados == 'altocrescimento') %>%
+  select(seção_descrição,segmento, year, numero_de_empresas) %>%
+  group_by(seção_descrição, segmento, year) %>%
+  summarise(total = sum(numero_de_empresas)) %>%
+  spread(year, total, sep='_') %>%
+  mutate(diferença = (year_2015 - year_2014) / year_2014,
+         diferença_absoluta = year_2015 - year_2014) %>%
+  arrange(desc(diferença)) %>%
+  ggplot(aes(seção_descrição, diferença * 100, fill=diferença_absoluta)) +
+  geom_bar(stat='identity', col='black') + coord_flip() +
+  scale_y_continuous(breaks = c(-30, -20, -10, 0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100)) +
+  facet_wrap(~segmento) +
+  scale_fill_gradient2() +
+  labs(title='Variação relativa no número de empresas de alto crescimento e gazelas entre 2014 e 2015',
+       x='seção', y='variação relativa', fill='variação absoluta')
+```
+
+ Alto Crescimento 
+
+- Em termos relativos, apenas duas seções tiveram variação positiva e a variação absoluta é pequena. 
+
+Já com relação a variação negativa, os setores se destacam porque tiveram uma variação negativa de, aproximadamente, 20%:
+
+- Alojamento e Alimentação
+- Água, esgoto, atividades de gestão de resíduos e descontaminação
+- Atividades profissionais, científicas e técnicas
+- Construção
+- Atividades imobiliárias
+- Indústrias de transformação
+
+Em termos absolutos, se destacam os setores de:
+
+- Indústrias de transformação
+- Construção
+- Comércio; reparação de veículos automotores e motocicletas
+
+Gazelas
+
+- Em termos relativos, a maioria dos setores passou por uma queda no número de empresas. A maior queda relativa ocorreu na Indústria Extrativa que sofreu uma variação negativa de quase 30%.
+- Em termos absolutos, as maiores quedas ocorreram nos setores de Construção, Indústria de Transformação e Comércio; Reparação de veículos automotores e motocicletas.
+
+### Variação relativa no número de funcionários totais (Alto Crescimento x Gazelas)
+
+```{r fig.width=16, fig.height=5}
+df %>%
+  filter(base_de_dados == 'altocrescimento', pessoal_ocupado_total != -1) %>%
+  select(seção_descrição,segmento, year, pessoal_ocupado_total) %>%
+  group_by(seção_descrição, segmento, year) %>%
+  summarise(total = sum(pessoal_ocupado_total)) %>%
+  spread(year, total, sep='_') %>%
+  mutate(diferença = (year_2015 - year_2014) / year_2014,
+         diferença_absoluta = year_2015 - year_2014) %>%
+  ggplot(aes(seção_descrição, diferença * 100, fill=diferença_absoluta)) + 
+  geom_bar(stat = 'identity', col='black') + coord_flip() + facet_wrap(~segmento) +
+  scale_fill_gradient2() + 
+  labs('Variação relativa no número de funcionários totais (Alto Crescimento x Gazelas)',
+       fill='variação absoluta de funcionários', x='seção', y='variação relativa')
+```
+
+Alto Crescimento
+
+Em termos relativos, esses setores tiveram uma variação negativa de pelo menos 25%:
+
+- Água, esgoto, atividades de gestão de resíduos e descontaminação
+- Construção
+- Alojamento e alimentação
+- Indústrias extrativas
+
+Em termos absolutos, os setores abaixo se destacam porque tiveram uma diminuição de pelo menos 150.000 pessoas:
+- Atividades administrativas e serviços complementares
+- Construção
+- Indústrias de transformação
+- Comércio; reparo de veículos automotores e motocicletas
+
+Gazelas
+
+Entre as empresas gazelas, no setor de Saúde Humana e serviços sociais houve um aumento de quase 150%.
+As maiores quedas no número de funcionários ocorreram nos setores:
+  
+ - Agricultura, pecuária, produção florestal, pesca e aquicultura
+ - Inustrias estrativas
+
+Em termos absolutos, os setores que tiveram a maior queda foram:
+- Construção
+- Indústrias de transformação
+- Comércio; reparo de veículos automotores e motocicletas
+- Atividades administrativas e serviços complementares
+
+
+# Conclusão
+
+Diversas informações importantes foram abordadas aqui nesse documento, porém, na conclusão irei focar nas informações que foram solicitadas a respeito das bases de dados que foram fornencidas.
+
+### Setores em destaque em relação a ocupação dos assalariados
+
+Dentre os fatores que analiso para avaliar as seções e divisões que merecem destaque em relação ao número de funcionários, os mais importantes são:
+- Se há uma relação razão funcionários assalariados / funcionários totais que diferem muito dos outros segmentos.
+- Se houve uma diminuição ou aumento relativo grande de um ano para o outro.
+- Se houve uma diminuição ou aumento absoluto grande de um ano para o outro.
+- Média de funcionários por empresa bem acima da média geral.
+
+Nesse sentido, em relação ao primeiro ponto, não há nenhuma seção ou divisão que se destaca, uma vez que em todos eles, há relação funcionários assalariados / funcionários totais superior a 90%.
+
+Já em relação ao segundo ponto, se destacam as divisões de Obras de infraestrutura (Construção), Construção de edifícios (Construção), Fabricação de peças de metal, exceto máquinas e equipamentos (Indústria de transformação).
+
+As divisões de Obras de infraestrutura e Construção de edifícios também tiveram uma diminuição absoluta de pelo menos 200.000 funcionários.
+
+Entre as divisões que apresentam uma relação uma média de funcionários por empresa bem acima da média, estão em evidência as divisões abaixo tem média superior a 400 funcionários por empresa:
+ 
+- Fabricação de coque, de produtos derivados de petróleo e de biocombustíveis 
+- Captação, tratamento e distribuição de água
+- Extração de minerais metálicos
+- Extração de carvão mineral
+- Administração pública, defesa e seguridade social
+
+
+### Existe concentração de seções/divisões para empresas de alto crescimento?
+
+Através dos dados acima, pode ser observado que no ano de 2015, 55.5% das empresas consideradas de alto crescimento estão concentradas em sete seções:
+  
+- Alojamento e alimentação
+- Atividades administrativas e serviços complementares      
+- Comércio; reparação de veículos automotores e motocicletas
+- Construção                                             
+- Educação
+- Indústrias de transformação
+- Transporte, armazenagem e correio
+
+5 divisões em que concentram uma parcela significativa das empresas de alto crescimento:
+  
+- Educação: 4541 empresas
+- Comércio por atacado, exceto veículos automotores e motocicletas: 1719 empresas
+- Transporte terrestre: 1434 empresas
+- Construção de Edíficios: 1416 empresas
+- Educação: 1336 empresas
+
+### Divisões com menor número de empresas? 
+
+As divisões que possuem o menor número de empresas e, dessa forma, são concentrados em algumas empresas são, respectivamente:
+
+-  Atividades de exploração de jogos de azar e apostas             
+-  Serviços de assistência social sem alojamento
+-  Organismos internacionais e outras instituições extraterritoriais
+-  Extração de carvão mineral                    
+-  Descontaminação e outros serviços de gestão de resíduos  
+-  Atividades ligadas ao patrimônio cultural e ambiental          
+-  Extração de petróleo e gás natural            
+-  Fabricação de produtos do fumo                               
+-  Pesquisa e desenvolvimento científico           
+-  Administração pública, defesa e seguridade social
+
+
+### Percentual de empresas que não possuem número de pessoal (em número absoluto) declarado?
+
+Como os números encontrados na base de dados relativos as empresas de alto crescimento e gazelas são muito pequenas, optei por mensurar somente os percentual de empresas que não declararam que tem até oito anos de idade. O valor para o ano de 2014 é de 0.11% e o valor para o ano de 2015 é de 0.133%.
+
+Nenhuma das empresas quando se leva em conta todas as empresas que tem mais de dez funcionários deixaram de declarar os dados relativos ao número de funcionários totais e assalariados.
+
+

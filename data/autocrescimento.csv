@@ -1,175 +1,175 @@
-level_0,seção_id,seção_descrição,divisão_id,divisão_descrição,numero_de_empresas,pessoal_ocupado_total,pessoal_ocupado_assalariados,alto_crescimento
-2014,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",1,"Agricultura, pecuária e serviços relacionados",3712,313122,303566,Gazela
-2014,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",2,Produção florestal,1231,78834,76387,Gazela
-2014,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",3,Pesca e aquicultura,213,9188,8708,Gazela
-2014,B,Indústrias extrativas,5,Extração de carvão mineral,14,5734,5726,Gazela
-2014,B,Indústrias extrativas,6,Extração de petróleo e gás natural,35,3800,3745,Gazela
-2014,B,Indústrias extrativas,7,Extração de minerais metálicos,176,87496,87168,Gazela
-2014,B,Indústrias extrativas,8,Extração de minerais não-metálicos,1941,78751,74977,Gazela
-2014,B,Indústrias extrativas,9,Atividades de apoio à extração de minerais,119,39041,38945,Gazela
-2014,C,Indústrias de transformação,10,Fabricação de produtos alimentícios,12128,1655200,1634760,Gazela
-2014,C,Indústrias de transformação,11,Fabricação de bebidas,890,171314,169858,Gazela
-2014,C,Indústrias de transformação,12,Fabricação de produtos do fumo,58,16937,16841,Gazela
-2014,C,Indústrias de transformação,13,Fabricação de produtos têxteis,3395,271921,266400,Gazela
-2014,C,Indústrias de transformação,14,Confecção de artigos do vestuário e acessórios,14805,624463,601487,Gazela
-2014,C,Indústrias de transformação,15,"Preparação de couros e fabricação de artefatos de couro, artigos para viagem e calçados",4228,362264,356157,Gazela
-2014,C,Indústrias de transformação,16,Fabricação de produtos de madeira,4412,176528,169472,Gazela
-2014,C,Indústrias de transformação,17,"Fabricação de celulose, papel e produtos de papel",1901,188946,185857,Gazela
-2014,C,Indústrias de transformação,18,Impressão e reprodução de gravações,2310,85758,82023,Gazela
-2014,C,Indústrias de transformação,19,"Fabricação de coque, de produtos derivados do petróleo e de biocombustíveis",278,184250,183788,Gazela
-2014,C,Indústrias de transformação,20,Fabricação de produtos químicos,3212,313392,308184,Gazela
-2014,C,Indústrias de transformação,21,Fabricação de produtos farmoquímicos e farmacêuticos,382,113188,112628,Gazela
-2014,C,Indústrias de transformação,22,Fabricação de produtos de borracha e de material plástico,6335,416082,405751,Gazela
-2014,C,Indústrias de transformação,23,Fabricação de produtos de minerais não-metálicos,9495,440292,424398,Gazela
-2014,C,Indústrias de transformação,24,Metalurgia,1545,249405,246799,Gazela
-2014,C,Indústrias de transformação,25,"Fabricação de produtos de metal, exceto máquinas e equipamentos",10036,463250,446488,Gazela
-2014,C,Indústrias de transformação,26,"Fabricação de equipamentos de informática, produtos eletrônicos e ópticos",1355,162956,160794,Gazela
-2014,C,Indústrias de transformação,27,"Fabricação de máquinas, aparelhos e materiais elétricos",1953,251901,248738,Gazela
-2014,C,Indústrias de transformação,28,Fabricação de máquinas e equipamentos,5775,411098,401390,Gazela
-2014,C,Indústrias de transformação,29,"Fabricação de veículos automotores, reboques e carrocerias",2470,495010,491123,Gazela
-2014,C,Indústrias de transformação,30,"Fabricação de outros equipamentos de transporte, exceto veículos automotores",546,130781,129985,Gazela
-2014,C,Indústrias de transformação,31,Fabricação de móveis,5197,247399,238816,Gazela
-2014,C,Indústrias de transformação,32,Fabricação de produtos diversos,3049,149238,144287,Gazela
-2014,C,Indústrias de transformação,33,"Manutenção, reparação e instalação de máquinas e equipamentos",3504,169901,164381,Gazela
-2014,D,Eletricidade e gás,35,"Eletricidade, gás e outras utilidades",473,123243,122096,Gazela
-2014,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",36,"Captação, tratamento e distribuição de água",179,101244,101010,Gazela
-2014,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",37,Esgoto e atividades relacionadas,212,15278,14985,Gazela
-2014,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",38,"Coleta, tratamento e disposição de resíduos; recuperação de materiais",1503,229644,227410,Gazela
-2014,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",39,Descontaminação e outros serviços de gestão de resíduos,20,1322,1287,Gazela
-2014,F,Construção,41,Construção de edifícios,19429,1127017,1095784,Gazela
-2014,F,Construção,42,Obras de infraestrutura,5604,987444,978383,Gazela
-2014,F,Construção,43,Serviços especializados para construção,14400,618170,596374,Gazela
-2014,G,Comércio; reparação de veículos automotores e motocicletas,45,Comércio e reparação de veículos automotores e motocicletas,17572,645538,617545,Gazela
-2014,G,Comércio; reparação de veículos automotores e motocicletas,46,"Comércio por atacado, exceto veículos automotores e motocicletas",26485,1420859,1379326,Gazela
-2014,G,Comércio; reparação de veículos automotores e motocicletas,47,Comércio varejista,118595,4468958,4281435,Gazela
-2014,H,"Transporte, armazenagem e correio",49,Transporte terrestre,18277,1545592,1515157,Gazela
-2014,H,"Transporte, armazenagem e correio",50,Transporte aquaviário,366,42755,42123,Gazela
-2014,H,"Transporte, armazenagem e correio",51,Transporte aéreo,159,71231,70984,Gazela
-2014,H,"Transporte, armazenagem e correio",52,Armazenamento e atividades auxiliares dos transportes,4578,425004,417273,Gazela
-2014,H,"Transporte, armazenagem e correio",53,Correio e outras atividades de entrega,1831,181968,179274,Gazela
-2014,I,Alojamento e alimentação,55,Alojamento,8576,287929,273694,Gazela
-2014,I,Alojamento e alimentação,56,Alimentação,37452,1142252,1085108,Gazela
-2014,J,Informação e comunicação,58,Edição e edição integrada à impressão,1396,83696,81485,Gazela
-2014,J,Informação e comunicação,59,"Atividades cinematográficas, produção de vídeos e de programas de televisão; gravação de som e edição de música",481,23370,22657,Gazela
-2014,J,Informação e comunicação,60,Atividades de rádio e de televisão,1405,80830,78899,Gazela
-2014,J,Informação e comunicação,61,Telecomunicações,1422,161136,158885,Gazela
-2014,J,Informação e comunicação,62,Atividades dos serviços de tecnologia da informação,4087,338554,330662,Gazela
-2014,J,Informação e comunicação,63,Atividades de prestação de serviços de informação,1259,85528,83490,Gazela
-2014,K,"Atividades financeiras, de seguros e serviços relacionados",64,Atividades de serviços financeiros,1829,636342,628802,Gazela
-2014,K,"Atividades financeiras, de seguros e serviços relacionados",65,"Seguros, resseguros, previdência complementar e planos de saúde",728,204498,200557,Gazela
-2014,K,"Atividades financeiras, de seguros e serviços relacionados",66,"Atividades auxiliares dos serviços financeiros, seguros, previdência complementar e planos de saúde",1475,88794,85971,Gazela
-2014,L,Atividades imobiliárias,68,Atividades imobiliárias,2756,99088,93864,Gazela
-2014,M,"Atividades profissionais, científicas e técnicas",69,"Atividades jurídicas, de contabilidade e de auditoria",8357,225352,206536,Gazela
-2014,M,"Atividades profissionais, científicas e técnicas",70,Atividades de sedes de empresas e de consultoria em gestão empresarial,965,67384,65373,Gazela
-2014,M,"Atividades profissionais, científicas e técnicas",71,Serviços de arquitetura e engenharia; testes e análises técnicas,3730,243446,236524,Gazela
-2014,M,"Atividades profissionais, científicas e técnicas",72,Pesquisa e desenvolvimento científico,66,19508,19389,Gazela
-2014,M,"Atividades profissionais, científicas e técnicas",73,Publicidade e pesquisa de mercado,1608,87684,85139,Gazela
-2014,M,"Atividades profissionais, científicas e técnicas",74,"Outras atividades profissionais, científicas e técnicas",1117,57925,55861,Gazela
-2014,M,"Atividades profissionais, científicas e técnicas",75,Atividades veterinárias,112,2652,2369,Gazela
-2014,N,Atividades administrativas e serviços complementares,77,Aluguéis não-imobiliários e gestão de ativos intangíveis não-financeiros,4978,202478,194610,Gazela
-2014,N,Atividades administrativas e serviços complementares,78,"Seleção, agenciamento e locação de mão-de-obra",2656,676159,672217,Gazela
-2014,N,Atividades administrativas e serviços complementares,79,"Agências de viagens, operadores turísticos e serviços de reservas",1419,52950,50394,Gazela
-2014,N,Atividades administrativas e serviços complementares,80,"Atividades de vigilância, segurança e investigação",3292,738683,733969,Gazela
-2014,N,Atividades administrativas e serviços complementares,81,Serviços para edifícios e atividades paisagísticas,7334,1089928,1079596,Gazela
-2014,N,Atividades administrativas e serviços complementares,82,"Serviços de escritório, de apoio administrativo e outros serviços prestados às empresas",9922,894832,879705,Gazela
-2014,O,"Administração pública, defesa e seguridade social",84,"Administração pública, defesa e seguridade social",86,26128,26079,Gazela
-2014,P,Educação,85,Educação,22678,855335,811410,Gazela
-2014,Q,Saúde humana e serviços sociais,86,Atividades de atenção à saúde humana,9862,651904,620119,Gazela
-2014,Q,Saúde humana e serviços sociais,87,"Atividades de atenção à saúde humana integradas com assistência social, prestadas em residências coletivas e particulares",849,25490,23892,Gazela
-2014,Q,Saúde humana e serviços sociais,88,Serviços de assistência social sem alojamento,7,218,202,Gazela
-2014,R,"Artes, cultura, esporte e recreação",90,"Atividades artísticas, criativas e de espetáculos",341,8100,7517,Gazela
-2014,R,"Artes, cultura, esporte e recreação",91,Atividades ligadas ao patrimônio cultural e ambiental,21,865,817,Gazela
-2014,R,"Artes, cultura, esporte e recreação",92,Atividades de exploração de jogos de azar e apostas,5,119,114,Gazela
-2014,R,"Artes, cultura, esporte e recreação",93,Atividades esportivas e de recreação e lazer,2947,85473,80507,Gazela
-2014,S,Outras atividades de serviços,94,Atividades de organizações associativas,116,4952,4435,Gazela
-2014,S,Outras atividades de serviços,95,Reparação e manutenção de equipamentos de informática e comunicação e de objetos pessoais e domésticos,2480,80444,76495,Gazela
-2014,S,Outras atividades de serviços,96,Outras atividades de serviços pessoais,4628,131064,123333,Gazela
-2014,U,Organismos internacionais e outras instituições extraterritoriais,99,Organismos internacionais e outras instituições extraterritoriais,-1,-1,-1,Gazela
-2014,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",1,"Agricultura, pecuária e serviços relacionados",1486,96868,93955,Gazela
-2014,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",2,Produção florestal,640,26557,25431,Gazela
-2014,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",3,Pesca e aquicultura,83,2412,2237,Gazela
+year,seção_id,seção_descrição,divisão_id,divisão_descrição,numero_de_empresas,pessoal_ocupado_total,pessoal_ocupado_assalariados,alto_crescimento
+2014,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",1,"Agricultura, pecuária e serviços relacionados",228,45258,44733,Alto Crescimento
+2014,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",2,Produção florestal,79,14655,14458,Alto Crescimento
+2014,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",3,Pesca e aquicultura,19,2126,2079,Alto Crescimento
+2014,B,Indústrias extrativas,5,Extração de carvão mineral,1,-1,-1,Alto Crescimento
+2014,B,Indústrias extrativas,6,Extração de petróleo e gás natural,4,-1,-1,Alto Crescimento
+2014,B,Indústrias extrativas,7,Extração de minerais metálicos,23,8356,8315,Alto Crescimento
+2014,B,Indústrias extrativas,8,Extração de minerais não-metálicos,108,6221,6041,Alto Crescimento
+2014,B,Indústrias extrativas,9,Atividades de apoio à extração de minerais,19,13800,13788,Alto Crescimento
+2014,C,Indústrias de transformação,10,Fabricação de produtos alimentícios,903,221576,220128,Alto Crescimento
+2014,C,Indústrias de transformação,11,Fabricação de bebidas,69,52919,52840,Alto Crescimento
+2014,C,Indústrias de transformação,12,Fabricação de produtos do fumo,6,622,612,Alto Crescimento
+2014,C,Indústrias de transformação,13,Fabricação de produtos têxteis,234,24230,23875,Alto Crescimento
+2014,C,Indústrias de transformação,14,Confecção de artigos do vestuário e acessórios,933,82655,81346,Alto Crescimento
+2014,C,Indústrias de transformação,15,"Preparação de couros e fabricação de artefatos de couro, artigos para viagem e calçados",358,44437,43925,Alto Crescimento
+2014,C,Indústrias de transformação,16,Fabricação de produtos de madeira,225,16509,16171,Alto Crescimento
+2014,C,Indústrias de transformação,17,"Fabricação de celulose, papel e produtos de papel",121,16005,15841,Alto Crescimento
+2014,C,Indústrias de transformação,18,Impressão e reprodução de gravações,113,8264,8107,Alto Crescimento
+2014,C,Indústrias de transformação,19,"Fabricação de coque, de produtos derivados do petróleo e de biocombustíveis",24,18353,18325,Alto Crescimento
+2014,C,Indústrias de transformação,20,Fabricação de produtos químicos,238,39597,39212,Alto Crescimento
+2014,C,Indústrias de transformação,21,Fabricação de produtos farmoquímicos e farmacêuticos,30,12348,12312,Alto Crescimento
+2014,C,Indústrias de transformação,22,Fabricação de produtos de borracha e de material plástico,449,46469,45803,Alto Crescimento
+2014,C,Indústrias de transformação,23,Fabricação de produtos de minerais não-metálicos,488,39693,38928,Alto Crescimento
+2014,C,Indústrias de transformação,24,Metalurgia,99,16393,16257,Alto Crescimento
+2014,C,Indústrias de transformação,25,"Fabricação de produtos de metal, exceto máquinas e equipamentos",557,44640,43820,Alto Crescimento
+2014,C,Indústrias de transformação,26,"Fabricação de equipamentos de informática, produtos eletrônicos e ópticos",97,23559,23391,Alto Crescimento
+2014,C,Indústrias de transformação,27,"Fabricação de máquinas, aparelhos e materiais elétricos",131,31305,31097,Alto Crescimento
+2014,C,Indústrias de transformação,28,Fabricação de máquinas e equipamentos,364,40044,39486,Alto Crescimento
+2014,C,Indústrias de transformação,29,"Fabricação de veículos automotores, reboques e carrocerias",136,30164,29963,Alto Crescimento
+2014,C,Indústrias de transformação,30,"Fabricação de outros equipamentos de transporte, exceto veículos automotores",44,33081,33019,Alto Crescimento
+2014,C,Indústrias de transformação,31,Fabricação de móveis,338,25640,25130,Alto Crescimento
+2014,C,Indústrias de transformação,32,Fabricação de produtos diversos,188,14959,14687,Alto Crescimento
+2014,C,Indústrias de transformação,33,"Manutenção, reparação e instalação de máquinas e equipamentos",254,23137,22770,Alto Crescimento
+2014,D,Eletricidade e gás,35,"Eletricidade, gás e outras utilidades",28,-1,-1,Alto Crescimento
+2014,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",36,"Captação, tratamento e distribuição de água",10,-1,-1,Alto Crescimento
+2014,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",37,Esgoto e atividades relacionadas,26,3926,3900,Alto Crescimento
+2014,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",38,"Coleta, tratamento e disposição de resíduos; recuperação de materiais",135,46623,46435,Alto Crescimento
+2014,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",39,Descontaminação e outros serviços de gestão de resíduos,2,-1,-1,Alto Crescimento
+2014,F,Construção,41,Construção de edifícios,1950,262360,259357,Alto Crescimento
+2014,F,Construção,42,Obras de infraestrutura,704,268940,267810,Alto Crescimento
+2014,F,Construção,43,Serviços especializados para construção,1149,111135,109442,Alto Crescimento
+2014,G,Comércio; reparação de veículos automotores e motocicletas,45,Comércio e reparação de veículos automotores e motocicletas,708,53311,52408,Alto Crescimento
+2014,G,Comércio; reparação de veículos automotores e motocicletas,46,"Comércio por atacado, exceto veículos automotores e motocicletas",2119,215771,212654,Alto Crescimento
+2014,G,Comércio; reparação de veículos automotores e motocicletas,47,Comércio varejista,5437,506822,499152,Alto Crescimento
+2014,H,"Transporte, armazenagem e correio",49,Transporte terrestre,1658,220999,218189,Alto Crescimento
+2014,H,"Transporte, armazenagem e correio",50,Transporte aquaviário,43,5922,5868,Alto Crescimento
+2014,H,"Transporte, armazenagem e correio",51,Transporte aéreo,12,11519,11493,Alto Crescimento
+2014,H,"Transporte, armazenagem e correio",52,Armazenamento e atividades auxiliares dos transportes,384,60768,60085,Alto Crescimento
+2014,H,"Transporte, armazenagem e correio",53,Correio e outras atividades de entrega,121,10067,9909,Alto Crescimento
+2014,I,Alojamento e alimentação,55,Alojamento,266,22482,22055,Alto Crescimento
+2014,I,Alojamento e alimentação,56,Alimentação,1457,142125,140027,Alto Crescimento
+2014,J,Informação e comunicação,58,Edição e edição integrada à impressão,53,6181,6095,Alto Crescimento
+2014,J,Informação e comunicação,59,"Atividades cinematográficas, produção de vídeos e de programas de televisão; gravação de som e edição de música",20,3014,2978,Alto Crescimento
+2014,J,Informação e comunicação,60,Atividades de rádio e de televisão,39,5975,5932,Alto Crescimento
+2014,J,Informação e comunicação,61,Telecomunicações,173,40421,40122,Alto Crescimento
+2014,J,Informação e comunicação,62,Atividades dos serviços de tecnologia da informação,505,71698,70716,Alto Crescimento
+2014,J,Informação e comunicação,63,Atividades de prestação de serviços de informação,100,12753,12586,Alto Crescimento
+2014,K,"Atividades financeiras, de seguros e serviços relacionados",64,Atividades de serviços financeiros,205,27329,26160,Alto Crescimento
+2014,K,"Atividades financeiras, de seguros e serviços relacionados",65,"Seguros, resseguros, previdência complementar e planos de saúde",60,24365,24019,Alto Crescimento
+2014,K,"Atividades financeiras, de seguros e serviços relacionados",66,"Atividades auxiliares dos serviços financeiros, seguros, previdência complementar e planos de saúde",106,13021,12767,Alto Crescimento
+2014,L,Atividades imobiliárias,68,Atividades imobiliárias,149,11856,11557,Alto Crescimento
+2014,M,"Atividades profissionais, científicas e técnicas",69,"Atividades jurídicas, de contabilidade e de auditoria",395,20957,19999,Alto Crescimento
+2014,M,"Atividades profissionais, científicas e técnicas",70,Atividades de sedes de empresas e de consultoria em gestão empresarial,93,19545,19327,Alto Crescimento
+2014,M,"Atividades profissionais, científicas e técnicas",71,Serviços de arquitetura e engenharia; testes e análises técnicas,384,47639,46884,Alto Crescimento
+2014,M,"Atividades profissionais, científicas e técnicas",72,Pesquisa e desenvolvimento científico,3,261,256,Alto Crescimento
+2014,M,"Atividades profissionais, científicas e técnicas",73,Publicidade e pesquisa de mercado,105,11815,11631,Alto Crescimento
+2014,M,"Atividades profissionais, científicas e técnicas",74,"Outras atividades profissionais, científicas e técnicas",81,9100,8942,Alto Crescimento
+2014,M,"Atividades profissionais, científicas e técnicas",75,Atividades veterinárias,6,394,386,Alto Crescimento
+2014,N,Atividades administrativas e serviços complementares,77,Aluguéis não-imobiliários e gestão de ativos intangíveis não-financeiros,428,42584,41929,Alto Crescimento
+2014,N,Atividades administrativas e serviços complementares,78,"Seleção, agenciamento e locação de mão-de-obra",379,203079,202537,Alto Crescimento
+2014,N,Atividades administrativas e serviços complementares,79,"Agências de viagens, operadores turísticos e serviços de reservas",98,6875,6702,Alto Crescimento
+2014,N,Atividades administrativas e serviços complementares,80,"Atividades de vigilância, segurança e investigação",475,213068,212428,Alto Crescimento
+2014,N,Atividades administrativas e serviços complementares,81,Serviços para edifícios e atividades paisagísticas,965,254326,253009,Alto Crescimento
+2014,N,Atividades administrativas e serviços complementares,82,"Serviços de escritório, de apoio administrativo e outros serviços prestados às empresas",769,308070,306951,Alto Crescimento
+2014,O,"Administração pública, defesa e seguridade social",84,"Administração pública, defesa e seguridade social",2,-1,-1,Alto Crescimento
+2014,P,Educação,85,Educação,1330,87103,84534,Alto Crescimento
+2014,Q,Saúde humana e serviços sociais,86,Atividades de atenção à saúde humana,615,73564,71388,Alto Crescimento
+2014,Q,Saúde humana e serviços sociais,87,"Atividades de atenção à saúde humana integradas com assistência social, prestadas em residências coletivas e particulares",49,-1,-1,Alto Crescimento
+2014,Q,Saúde humana e serviços sociais,88,Serviços de assistência social sem alojamento,1,-1,-1,Alto Crescimento
+2014,R,"Artes, cultura, esporte e recreação",90,"Atividades artísticas, criativas e de espetáculos",10,453,431,Alto Crescimento
+2014,R,"Artes, cultura, esporte e recreação",91,Atividades ligadas ao patrimônio cultural e ambiental,3,131,125,Alto Crescimento
+2014,R,"Artes, cultura, esporte e recreação",92,Atividades de exploração de jogos de azar e apostas,-1,-1,-1,Alto Crescimento
+2014,R,"Artes, cultura, esporte e recreação",93,Atividades esportivas e de recreação e lazer,136,9566,9371,Alto Crescimento
+2014,S,Outras atividades de serviços,94,Atividades de organizações associativas,8,458,415,Alto Crescimento
+2014,S,Outras atividades de serviços,95,Reparação e manutenção de equipamentos de informática e comunicação e de objetos pessoais e domésticos,173,16202,15955,Alto Crescimento
+2014,S,Outras atividades de serviços,96,Outras atividades de serviços pessoais,216,16614,16282,Alto Crescimento
+2014,U,Organismos internacionais e outras instituições extraterritoriais,99,Organismos internacionais e outras instituições extraterritoriais,-1,-1,-1,Alto Crescimento
+2014,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",1,"Agricultura, pecuária e serviços relacionados",111,26852,26649,Gazela
+2014,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",2,Produção florestal,33,4398,4327,Gazela
+2014,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",3,Pesca e aquicultura,6,408,395,Gazela
 2014,B,Indústrias extrativas,5,Extração de carvão mineral,-1,-1,-1,Gazela
-2014,B,Indústrias extrativas,6,Extração de petróleo e gás natural,18,1713,1700,Gazela
-2014,B,Indústrias extrativas,7,Extração de minerais metálicos,69,10385,10271,Gazela
-2014,B,Indústrias extrativas,8,Extração de minerais não-metálicos,426,11474,10757,Gazela
-2014,B,Indústrias extrativas,9,Atividades de apoio à extração de minerais,61,13362,13312,Gazela
-2014,C,Indústrias de transformação,10,Fabricação de produtos alimentícios,3476,205144,199702,Gazela
-2014,C,Indústrias de transformação,11,Fabricação de bebidas,201,12904,12616,Gazela
-2014,C,Indústrias de transformação,12,Fabricação de produtos do fumo,11,583,554,Gazela
-2014,C,Indústrias de transformação,13,Fabricação de produtos têxteis,1081,39150,37590,Gazela
-2014,C,Indústrias de transformação,14,Confecção de artigos do vestuário e acessórios,6152,191981,183184,Gazela
-2014,C,Indústrias de transformação,15,"Preparação de couros e fabricação de artefatos de couro, artigos para viagem e calçados",1864,74113,71607,Gazela
-2014,C,Indústrias de transformação,16,Fabricação de produtos de madeira,1534,41898,39728,Gazela
-2014,C,Indústrias de transformação,17,"Fabricação de celulose, papel e produtos de papel",541,25188,24407,Gazela
-2014,C,Indústrias de transformação,18,Impressão e reprodução de gravações,662,15713,14753,Gazela
-2014,C,Indústrias de transformação,19,"Fabricação de coque, de produtos derivados do petróleo e de biocombustíveis",78,31996,31904,Gazela
-2014,C,Indústrias de transformação,20,Fabricação de produtos químicos,619,27654,26704,Gazela
-2014,C,Indústrias de transformação,21,Fabricação de produtos farmoquímicos e farmacêuticos,36,3947,3908,Gazela
-2014,C,Indústrias de transformação,22,Fabricação de produtos de borracha e de material plástico,1801,66404,63691,Gazela
-2014,C,Indústrias de transformação,23,Fabricação de produtos de minerais não-metálicos,2981,91729,87161,Gazela
-2014,C,Indústrias de transformação,24,Metalurgia,357,16965,16454,Gazela
-2014,C,Indústrias de transformação,25,"Fabricação de produtos de metal, exceto máquinas e equipamentos",3063,108863,104178,Gazela
-2014,C,Indústrias de transformação,26,"Fabricação de equipamentos de informática, produtos eletrônicos e ópticos",339,24941,24479,Gazela
-2014,C,Indústrias de transformação,27,"Fabricação de máquinas, aparelhos e materiais elétricos",495,29530,28828,Gazela
-2014,C,Indústrias de transformação,28,Fabricação de máquinas e equipamentos,1293,41333,39385,Gazela
-2014,C,Indústrias de transformação,29,"Fabricação de veículos automotores, reboques e carrocerias",586,33790,32899,Gazela
-2014,C,Indústrias de transformação,30,"Fabricação de outros equipamentos de transporte, exceto veículos automotores",171,37295,37070,Gazela
-2014,C,Indústrias de transformação,31,Fabricação de móveis,1679,51711,49167,Gazela
-2014,C,Indústrias de transformação,32,Fabricação de produtos diversos,921,24529,23151,Gazela
-2014,C,Indústrias de transformação,33,"Manutenção, reparação e instalação de máquinas e equipamentos",1849,56934,54180,Gazela
-2014,D,Eletricidade e gás,35,"Eletricidade, gás e outras utilidades",152,13157,12782,Gazela
-2014,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",36,"Captação, tratamento e distribuição de água",66,4134,4059,Gazela
-2014,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",37,Esgoto e atividades relacionadas,72,5804,5715,Gazela
-2014,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",38,"Coleta, tratamento e disposição de resíduos; recuperação de materiais",671,42968,42002,Gazela
-2014,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",39,Descontaminação e outros serviços de gestão de resíduos,8,262,250,Gazela
-2014,F,Construção,41,Construção de edifícios,10498,450871,435318,Gazela
-2014,F,Construção,42,Obras de infraestrutura,2318,250204,246899,Gazela
-2014,F,Construção,43,Serviços especializados para construção,8512,266739,254679,Gazela
-2014,G,Comércio; reparação de veículos automotores e motocicletas,45,Comércio e reparação de veículos automotores e motocicletas,5512,148166,140085,Gazela
-2014,G,Comércio; reparação de veículos automotores e motocicletas,46,"Comércio por atacado, exceto veículos automotores e motocicletas",8973,283431,270173,Gazela
-2014,G,Comércio; reparação de veículos automotores e motocicletas,47,Comércio varejista,43068,1064897,999807,Gazela
-2014,H,"Transporte, armazenagem e correio",49,Transporte terrestre,7107,300182,289691,Gazela
-2014,H,"Transporte, armazenagem e correio",50,Transporte aquaviário,111,10918,10718,Gazela
-2014,H,"Transporte, armazenagem e correio",51,Transporte aéreo,30,11516,11458,Gazela
-2014,H,"Transporte, armazenagem e correio",52,Armazenamento e atividades auxiliares dos transportes,1950,104850,101921,Gazela
-2014,H,"Transporte, armazenagem e correio",53,Correio e outras atividades de entrega,861,27208,26041,Gazela
-2014,I,Alojamento e alimentação,55,Alojamento,2314,64132,60677,Gazela
-2014,I,Alojamento e alimentação,56,Alimentação,18843,448682,421048,Gazela
-2014,J,Informação e comunicação,58,Edição e edição integrada à impressão,298,7786,7356,Gazela
-2014,J,Informação e comunicação,59,"Atividades cinematográficas, produção de vídeos e de programas de televisão; gravação de som e edição de música",186,6567,6308,Gazela
-2014,J,Informação e comunicação,60,Atividades de rádio e de televisão,75,4350,4240,Gazela
-2014,J,Informação e comunicação,61,Telecomunicações,677,22455,21374,Gazela
-2014,J,Informação e comunicação,62,Atividades dos serviços de tecnologia da informação,1417,68971,66505,Gazela
-2014,J,Informação e comunicação,63,Atividades de prestação de serviços de informação,583,18964,18031,Gazela
-2014,K,"Atividades financeiras, de seguros e serviços relacionados",64,Atividades de serviços financeiros,514,27572,26316,Gazela
-2014,K,"Atividades financeiras, de seguros e serviços relacionados",65,"Seguros, resseguros, previdência complementar e planos de saúde",66,5174,5029,Gazela
-2014,K,"Atividades financeiras, de seguros e serviços relacionados",66,"Atividades auxiliares dos serviços financeiros, seguros, previdência complementar e planos de saúde",431,18805,18004,Gazela
-2014,L,Atividades imobiliárias,68,Atividades imobiliárias,919,28550,27096,Gazela
-2014,M,"Atividades profissionais, científicas e técnicas",69,"Atividades jurídicas, de contabilidade e de auditoria",2756,58177,52962,Gazela
-2014,M,"Atividades profissionais, científicas e técnicas",70,Atividades de sedes de empresas e de consultoria em gestão empresarial,439,21369,20635,Gazela
-2014,M,"Atividades profissionais, científicas e técnicas",71,Serviços de arquitetura e engenharia; testes e análises técnicas,1324,61528,59357,Gazela
-2014,M,"Atividades profissionais, científicas e técnicas",72,Pesquisa e desenvolvimento científico,26,2495,2440,Gazela
-2014,M,"Atividades profissionais, científicas e técnicas",73,Publicidade e pesquisa de mercado,751,28799,27787,Gazela
-2014,M,"Atividades profissionais, científicas e técnicas",74,"Outras atividades profissionais, científicas e técnicas",499,18293,17497,Gazela
-2014,M,"Atividades profissionais, científicas e técnicas",75,Atividades veterinárias,42,912,796,Gazela
-2014,N,Atividades administrativas e serviços complementares,77,Aluguéis não-imobiliários e gestão de ativos intangíveis não-financeiros,2120,60661,57527,Gazela
-2014,N,Atividades administrativas e serviços complementares,78,"Seleção, agenciamento e locação de mão-de-obra",1019,134612,133083,Gazela
-2014,N,Atividades administrativas e serviços complementares,79,"Agências de viagens, operadores turísticos e serviços de reservas",474,15686,14897,Gazela
-2014,N,Atividades administrativas e serviços complementares,80,"Atividades de vigilância, segurança e investigação",1756,141437,139008,Gazela
-2014,N,Atividades administrativas e serviços complementares,81,Serviços para edifícios e atividades paisagísticas,4336,301534,295614,Gazela
-2014,N,Atividades administrativas e serviços complementares,82,"Serviços de escritório, de apoio administrativo e outros serviços prestados às empresas",5808,292606,284291,Gazela
-2014,O,"Administração pública, defesa e seguridade social",84,"Administração pública, defesa e seguridade social",20,2505,2493,Gazela
-2014,P,Educação,85,Educação,7168,192127,179355,Gazela
-2014,Q,Saúde humana e serviços sociais,86,Atividades de atenção à saúde humana,1995,83452,78122,Gazela
-2014,Q,Saúde humana e serviços sociais,87,"Atividades de atenção à saúde humana integradas com assistência social, prestadas em residências coletivas e particulares",530,-1,-1,Gazela
-2014,Q,Saúde humana e serviços sociais,88,Serviços de assistência social sem alojamento,2,-1,-1,Gazela
-2014,R,"Artes, cultura, esporte e recreação",90,"Atividades artísticas, criativas e de espetáculos",157,3702,3437,Gazela
-2014,R,"Artes, cultura, esporte e recreação",91,Atividades ligadas ao patrimônio cultural e ambiental,10,-1,-1,Gazela
-2014,R,"Artes, cultura, esporte e recreação",92,Atividades de exploração de jogos de azar e apostas,1,-1,-1,Gazela
-2014,R,"Artes, cultura, esporte e recreação",93,Atividades esportivas e de recreação e lazer,1399,32754,30496,Gazela
-2014,S,Outras atividades de serviços,94,Atividades de organizações associativas,24,991,904,Gazela
-2014,S,Outras atividades de serviços,95,Reparação e manutenção de equipamentos de informática e comunicação e de objetos pessoais e domésticos,998,27038,25543,Gazela
-2014,S,Outras atividades de serviços,96,Outras atividades de serviços pessoais,1962,47307,44224,Gazela
+2014,B,Indústrias extrativas,6,Extração de petróleo e gás natural,3,197,197,Gazela
+2014,B,Indústrias extrativas,7,Extração de minerais metálicos,12,2625,2608,Gazela
+2014,B,Indústrias extrativas,8,Extração de minerais não-metálicos,23,1117,1064,Gazela
+2014,B,Indústrias extrativas,9,Atividades de apoio à extração de minerais,12,8676,8666,Gazela
+2014,C,Indústrias de transformação,10,Fabricação de produtos alimentícios,282,34686,34287,Gazela
+2014,C,Indústrias de transformação,11,Fabricação de bebidas,18,2033,2013,Gazela
+2014,C,Indústrias de transformação,12,Fabricação de produtos do fumo,2,-1,-1,Gazela
+2014,C,Indústrias de transformação,13,Fabricação de produtos têxteis,98,6797,6669,Gazela
+2014,C,Indústrias de transformação,14,Confecção de artigos do vestuário e acessórios,443,31467,30900,Gazela
+2014,C,Indústrias de transformação,15,"Preparação de couros e fabricação de artefatos de couro, artigos para viagem e calçados",165,13593,13381,Gazela
+2014,C,Indústrias de transformação,16,Fabricação de produtos de madeira,85,4501,4384,Gazela
+2014,C,Indústrias de transformação,17,"Fabricação de celulose, papel e produtos de papel",39,2715,2669,Gazela
+2014,C,Indústrias de transformação,18,Impressão e reprodução de gravações,39,2249,2193,Gazela
+2014,C,Indústrias de transformação,19,"Fabricação de coque, de produtos derivados do petróleo e de biocombustíveis",9,9847,9837,Gazela
+2014,C,Indústrias de transformação,20,Fabricação de produtos químicos,61,7161,7074,Gazela
+2014,C,Indústrias de transformação,21,Fabricação de produtos farmoquímicos e farmacêuticos,3,-1,-1,Gazela
+2014,C,Indústrias de transformação,22,Fabricação de produtos de borracha e de material plástico,175,13038,12766,Gazela
+2014,C,Indústrias de transformação,23,Fabricação de produtos de minerais não-metálicos,201,11672,11381,Gazela
+2014,C,Indústrias de transformação,24,Metalurgia,35,2762,2721,Gazela
+2014,C,Indústrias de transformação,25,"Fabricação de produtos de metal, exceto máquinas e equipamentos",215,15486,15204,Gazela
+2014,C,Indústrias de transformação,26,"Fabricação de equipamentos de informática, produtos eletrônicos e ópticos",37,7416,7361,Gazela
+2014,C,Indústrias de transformação,27,"Fabricação de máquinas, aparelhos e materiais elétricos",44,9311,9238,Gazela
+2014,C,Indústrias de transformação,28,Fabricação de máquinas e equipamentos,91,6604,6463,Gazela
+2014,C,Indústrias de transformação,29,"Fabricação de veículos automotores, reboques e carrocerias",44,8718,8628,Gazela
+2014,C,Indústrias de transformação,30,"Fabricação de outros equipamentos de transporte, exceto veículos automotores",21,25253,25221,Gazela
+2014,C,Indústrias de transformação,31,Fabricação de móveis,134,6924,6731,Gazela
+2014,C,Indústrias de transformação,32,Fabricação de produtos diversos,72,3756,3653,Gazela
+2014,C,Indústrias de transformação,33,"Manutenção, reparação e instalação de máquinas e equipamentos",127,7319,7132,Gazela
+2014,D,Eletricidade e gás,35,"Eletricidade, gás e outras utilidades",16,2295,2248,Gazela
+2014,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",36,"Captação, tratamento e distribuição de água",3,446,444,Gazela
+2014,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",37,Esgoto e atividades relacionadas,4,959,959,Gazela
+2014,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",38,"Coleta, tratamento e disposição de resíduos; recuperação de materiais",55,4879,4799,Gazela
+2014,E,"Água, esgoto, atividades de gestão de resíduos e descontaminação",39,Descontaminação e outros serviços de gestão de resíduos,-1,-1,-1,Gazela
+2014,F,Construção,41,Construção de edifícios,824,75428,74264,Gazela
+2014,F,Construção,42,Obras de infraestrutura,213,80043,79745,Gazela
+2014,F,Construção,43,Serviços especializados para construção,553,40130,39332,Gazela
+2014,G,Comércio; reparação de veículos automotores e motocicletas,45,Comércio e reparação de veículos automotores e motocicletas,283,18691,18355,Gazela
+2014,G,Comércio; reparação de veículos automotores e motocicletas,46,"Comércio por atacado, exceto veículos automotores e motocicletas",732,51258,50282,Gazela
+2014,G,Comércio; reparação de veículos automotores e motocicletas,47,Comércio varejista,2098,136221,133363,Gazela
+2014,H,"Transporte, armazenagem e correio",49,Transporte terrestre,589,55422,54534,Gazela
+2014,H,"Transporte, armazenagem e correio",50,Transporte aquaviário,15,2412,2394,Gazela
+2014,H,"Transporte, armazenagem e correio",51,Transporte aéreo,4,10731,10723,Gazela
+2014,H,"Transporte, armazenagem e correio",52,Armazenamento e atividades auxiliares dos transportes,175,20229,19976,Gazela
+2014,H,"Transporte, armazenagem e correio",53,Correio e outras atividades de entrega,75,5624,5527,Gazela
+2014,I,Alojamento e alimentação,55,Alojamento,84,6308,6193,Gazela
+2014,I,Alojamento e alimentação,56,Alimentação,758,55018,53979,Gazela
+2014,J,Informação e comunicação,58,Edição e edição integrada à impressão,14,1148,1132,Gazela
+2014,J,Informação e comunicação,59,"Atividades cinematográficas, produção de vídeos e de programas de televisão; gravação de som e edição de música",7,1737,1730,Gazela
+2014,J,Informação e comunicação,60,Atividades de rádio e de televisão,4,2716,2711,Gazela
+2014,J,Informação e comunicação,61,Telecomunicações,65,5920,5812,Gazela
+2014,J,Informação e comunicação,62,Atividades dos serviços de tecnologia da informação,162,17666,17379,Gazela
+2014,J,Informação e comunicação,63,Atividades de prestação de serviços de informação,41,2699,2623,Gazela
+2014,K,"Atividades financeiras, de seguros e serviços relacionados",64,Atividades de serviços financeiros,51,5551,5368,Gazela
+2014,K,"Atividades financeiras, de seguros e serviços relacionados",65,"Seguros, resseguros, previdência complementar e planos de saúde",6,368,354,Gazela
+2014,K,"Atividades financeiras, de seguros e serviços relacionados",66,"Atividades auxiliares dos serviços financeiros, seguros, previdência complementar e planos de saúde",41,4149,4042,Gazela
+2014,L,Atividades imobiliárias,68,Atividades imobiliárias,49,3457,3367,Gazela
+2014,M,"Atividades profissionais, científicas e técnicas",69,"Atividades jurídicas, de contabilidade e de auditoria",117,4472,4225,Gazela
+2014,M,"Atividades profissionais, científicas e técnicas",70,Atividades de sedes de empresas e de consultoria em gestão empresarial,41,6107,6037,Gazela
+2014,M,"Atividades profissionais, científicas e técnicas",71,Serviços de arquitetura e engenharia; testes e análises técnicas,127,13150,12919,Gazela
+2014,M,"Atividades profissionais, científicas e técnicas",72,Pesquisa e desenvolvimento científico,1,-1,-1,Gazela
+2014,M,"Atividades profissionais, científicas e técnicas",73,Publicidade e pesquisa de mercado,54,4382,4304,Gazela
+2014,M,"Atividades profissionais, científicas e técnicas",74,"Outras atividades profissionais, científicas e técnicas",27,4703,4656,Gazela
+2014,M,"Atividades profissionais, científicas e técnicas",75,Atividades veterinárias,2,-1,-1,Gazela
+2014,N,Atividades administrativas e serviços complementares,77,Aluguéis não-imobiliários e gestão de ativos intangíveis não-financeiros,172,11269,11009,Gazela
+2014,N,Atividades administrativas e serviços complementares,78,"Seleção, agenciamento e locação de mão-de-obra",149,51409,51185,Gazela
+2014,N,Atividades administrativas e serviços complementares,79,"Agências de viagens, operadores turísticos e serviços de reservas",35,2327,2270,Gazela
+2014,N,Atividades administrativas e serviços complementares,80,"Atividades de vigilância, segurança e investigação",275,52601,52253,Gazela
+2014,N,Atividades administrativas e serviços complementares,81,Serviços para edifícios e atividades paisagísticas,568,97076,96300,Gazela
+2014,N,Atividades administrativas e serviços complementares,82,"Serviços de escritório, de apoio administrativo e outros serviços prestados às empresas",437,99761,99169,Gazela
+2014,O,"Administração pública, defesa e seguridade social",84,"Administração pública, defesa e seguridade social",1,-1,-1,Gazela
+2014,P,Educação,85,Educação,468,23925,23046,Gazela
+2014,Q,Saúde humana e serviços sociais,86,Atividades de atenção à saúde humana,139,11542,11118,Gazela
+2014,Q,Saúde humana e serviços sociais,87,"Atividades de atenção à saúde humana integradas com assistência social, prestadas em residências coletivas e particulares",23,1539,1462,Gazela
+2014,Q,Saúde humana e serviços sociais,88,Serviços de assistência social sem alojamento,-1,-1,-1,Gazela
+2014,R,"Artes, cultura, esporte e recreação",90,"Atividades artísticas, criativas e de espetáculos",4,141,132,Gazela
+2014,R,"Artes, cultura, esporte e recreação",91,Atividades ligadas ao patrimônio cultural e ambiental,2,-1,-1,Gazela
+2014,R,"Artes, cultura, esporte e recreação",92,Atividades de exploração de jogos de azar e apostas,-1,-1,-1,Gazela
+2014,R,"Artes, cultura, esporte e recreação",93,Atividades esportivas e de recreação e lazer,64,3821,3763,Gazela
+2014,S,Outras atividades de serviços,94,Atividades de organizações associativas,4,148,132,Gazela
+2014,S,Outras atividades de serviços,95,Reparação e manutenção de equipamentos de informática e comunicação e de objetos pessoais e domésticos,69,5164,5063,Gazela
+2014,S,Outras atividades de serviços,96,Outras atividades de serviços pessoais,105,7129,6985,Gazela
 2014,U,Organismos internacionais e outras instituições extraterritoriais,99,Organismos internacionais e outras instituições extraterritoriais,-1,-1,-1,Gazela
 2015,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",1,"Agricultura, pecuária e serviços relacionados",265,36581,35978,Alto Crescimento
 2015,A,"Agricultura, pecuária, produção florestal, pesca e aquicultura",2,Produção florestal,57,11508,11354,Alto Crescimento
